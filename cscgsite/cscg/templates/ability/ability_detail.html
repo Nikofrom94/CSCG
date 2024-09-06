@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Ability: " %}{{ ability.name }}{% endblock %}
+{% block content %}
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-10">
+            <b>{% translate "Ability: " %}{{ ability.name }}</b>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1">{% translate "Stat cost" %}</div>
+        <div class="col-sm-4">{{ ability.stat_cost }}</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1">{% translate "Statistic" %}</div>
+        <div class="col-sm-4">{{ ability.stat }}</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1">{% translate "Description" %}</div>
+        <div class="col-sm-4">{{ ability.description }}</div>
+    </div>
+</div>
+{% endblock %}

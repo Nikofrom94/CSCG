@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-05 17:42+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cscg/templates/ability/detail.html:2 cscg/templates/ability/detail.html:7
+msgid "Ability: "
+msgstr ""
+
+#: cscg/templates/ability/detail.html:11
+msgid "Stat cost"
+msgstr ""
+
+#: cscg/templates/ability/detail.html:15
+msgid "Statistic"
+msgstr ""
+
+#: cscg/templates/ability/detail.html:19
+msgid "Description"
+msgstr ""
+
+#: cscg/templates/base.html:13
+msgid "Cypher System Character Generator"
+msgstr ""
+
+#: cscg/templates/base.html:19
+msgid "Home Page"
+msgstr ""
+
+#: cscg/templates/base.html:20
+msgid "Abilities"
+msgstr ""
+
+#: cscg/templates/type/detail.html:2 cscg/templates/type/detail.html:7
+msgid "Type: "
+msgstr ""
+
+#: cscg/templates/type/detail.html:11
+msgid "Name"
+msgstr ""

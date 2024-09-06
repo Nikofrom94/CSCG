@@ -1,0 +1,15 @@
+{% extends base_template %}
+{% block title %}{% translate "Type: " %}{{ type.name }}{% endblock %}
+{% block content %}
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-10">
+            <b>{% translate "Type: " %}{{ type.name }}</b>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1">{% translate "Name" %}</div>
+        <div class="col-sm-4">{{ type.name }}</div>
+    </div>
+</div>
+{% endblock %}

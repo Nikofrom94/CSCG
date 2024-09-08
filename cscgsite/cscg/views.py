@@ -16,3 +16,22 @@ class AbilityDetail(DetailView):
     template_name = 'ability/ability_detail.html'
     model=Ability
     context_object_name='ability'
+
+class CharacterTypeList(ListView):
+    template_name='charactertype/charactertype_list.html'
+    model=CharacterType
+
+class CharacterTypeDetail(DetailView):
+    template_name = 'charactertype/charactertype_detail.html'
+    model=CharacterType
+    context_object_name='charactertype_list'
+
+class FlavorList(ListView):
+    template_name='flavor/flavor_list.html'
+    model=Flavor
+
+class FlavorDetail(DetailView):
+    template_name = 'flavor/flavor_detail.html'
+    model=Flavor
+    context_object_name='flavor'
+

@@ -1,0 +1,217 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}Type: {{ type.name }}{% endblock %}
+{% block content %}
+<style>
+tbody {
+  font-size: 80%;
+}
+</style>
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-10">
+            <b>Type: {{ type.name }}</b>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1">Nom</div>
+        <div class="col-sm-4">{{ object.name }}</div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10">Valeurs Initiales des Réserves</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Stat</th>
+                        <th>Réserve initiale</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Puissance</td>
+                        <td>{{ object.might_start }}</td>
+                    </tr>
+                    <tr>
+                        <td>Célérité</td>
+                        <td>{{ object.speed_start }}</td>
+                    </tr>
+                    <tr>
+                        <td>Intellect</td>
+                        <td>{{ object.intellect_start }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2">Valeur Initiale de l'Avantage</div>
+        <div class="col-sm-8">{% if object.might_edge_start == 1 and object.speed_edge_start == 1 %}Puissance=1 ou Célérité=1{% elif object.might_edge_start == 1 %}Puissance=1{% elif object.speed_edge_start == 1 %}Célérité=1{% elif object.intellect_edge_start == 1 %}Intellect=1{% endif %}</div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2">Nombre maximum de cyphers</div>
+        <div class="col-sm-8">{{ object.cyphers_start }}</div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>Capacités de rang 1</div><h2></h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ability in object.abilities_tier1.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>Capacités de rang 2</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ability in object.abilities_tier2.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>Capacités de rang 3</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ability in object.abilities_tier3.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>Capacités de rang 4</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ability in object.abilities_tier4.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>Capacités de rang 5</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody >
+                    {% for ability in object.abilities_tier5.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>Capacités de rang 6</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ability in object.abilities_tier6.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

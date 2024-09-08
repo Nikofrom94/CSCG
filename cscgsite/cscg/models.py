@@ -83,6 +83,7 @@ class CharacterType(CSModelGeneric):
 class Flavor(CSModelGeneric):
     objects=CSModelGenericManager()
     name = models.CharField(max_length=50)
+    description = models.TextField()
     abilities_tier1 = models.ManyToManyField(
         "Ability",
         related_name="flavor_ab_1s",

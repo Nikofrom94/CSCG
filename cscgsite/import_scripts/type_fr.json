@@ -1,0 +1,781 @@
+[
+    {
+    "name":"Guerrier",
+    "might_start":10,
+    "speed_start":10,
+    "intellect_start":8,
+    "might_edge_start":1,
+    "speed_edge_start":1,
+    "intellect_edge_start":0,
+    "cyphers_start":2,
+    "abilities_tier1":[
+        {
+            "name":"Avantage de Stat Amélioré"
+        },
+        {
+            "name":"Choc"
+        },
+        {
+            "name":"Claque"
+        },
+        {
+            "name":"Compétences physiques"
+        },
+        {
+            "name":"Contrôler le terrain"
+        },
+        {
+            "name":"Entraîné sans armure"
+        },
+        {
+            "name":"Lancer rapide"
+        },
+        {
+            "name":"Pas besoin d'armes"
+        },
+        {
+            "name":"Pratique des armures"
+        },
+        {
+            "name":"Prouesses au combat"
+        },
+        {
+            "name":"Tir d'Opportunité"
+        }
+    ],
+    "abilities_tier2":[
+        {
+            "name":"Attaque successive"
+        },
+        {
+            "name":"Compétence avec les attaques"
+        },
+        {
+            "name":"Compétence en défense"
+        },
+        {
+            "name":"Coup écrasant"
+        },
+        {
+            "name":"Hémorragie"
+        },
+        {
+            "name":"Recharger"
+        }
+    ],
+    "abilities_tier3":[
+        {
+            "name":"Découpe"
+        },
+        {
+            "name":"Expérimenté en armure"
+        },
+        {
+            "name":"Fureur"
+        },
+        {
+            "name":"Pulvérisation"
+        },
+        {
+            "name":"Réaction"
+        },
+        {
+            "name":"Résistance énergétique"
+        },
+        {
+            "name":"Saisissez l'instant"
+        },
+        {
+            "name":"Se Fendre"
+        },
+        {
+            "name":"Tir Double"
+        },
+        {
+            "name":"Utilisation experte des cyphers"
+        },
+        {
+            "name":"Vigilance"
+        },
+        {
+            "name":"Visée mortelle"
+        }
+    ],
+    "abilities_tier4":[   
+        {
+            "name":"Défenseur expérimenté"
+        },
+        {
+            "name":"Dur comme du Bois"
+        },
+        {
+            "name":"Effets accrus"
+        },
+        {
+            "name":"Effort incroyable"
+        },
+        {
+            "name":"Feinte"
+        },
+        {
+            "name":"Guerrier Capable"
+        },
+        {
+            "name":"Momentum"
+        },
+        {
+            "name":"Percer les Défenses"
+        },
+        {
+            "name":"Tir Précis"
+        }
+    ],
+    "abilities_tier5":[
+        {
+            "name":"Attaque sautée"
+        },
+        {
+            "name":"Maîtrise de la défense"
+        },
+        {
+            "name":"Maîtrise en Armure"
+        },
+        {
+            "name":"Maîtrise des attaques"
+        },
+        {
+            "name":"Parade"
+        },
+        {
+            "name":"Succès amélioré"
+        },
+        {
+            "name":"Tirs en éventail"
+        },
+        {
+            "name":"Utilisation adroite des cyphers"
+        }
+    ],
+    "abilities_tier6":[
+        {
+            "name":"Arme et corps"
+        },
+        {
+            "name":"Attaque Tournoyante"
+        },
+        {
+            "name":"Coup final"
+        },
+        {
+            "name":"Encore et encore"
+        },
+        {
+            "name":"Meurtrier"
+        },
+        {
+            "name":"Moment magnifique"
+        }
+    ]
+},
+{
+    "name":"Adepte",
+    "might_start":7,
+    "speed_start":9,
+    "intellect_start":12,
+    "might_edge_start":0,
+    "speed_edge_start":0,
+    "intellect_edge_start":1,
+    "cyphers_start":3,
+    "abilities_tier1":[
+        {
+            "name":"Assaut Magique"
+        },
+        {
+            "name":"Briser"
+        },
+        {
+            "name":"Champ de résonance"
+        },
+        {
+            "name":"Distorsion"
+        },
+        {
+            "name":"Effacer les souvenirs"
+        },
+        {
+            "name":"Formation magique"
+        },
+        {
+            "name":"Grand Pas"
+        },
+        {
+            "name":"Magie Prosaïque"
+        },
+        {
+            "name":"Poussée"
+        },
+        {
+            "name":"Protection"
+        },
+        {
+            "name":"Coup écrasant"
+        }
+    ],
+    "abilities_tier2":[
+        {
+            "name":"Adaptation"
+        },
+        {
+            "name":"Lecture mentale"
+        },
+        {
+            "name":"Lumière coupante"
+        },
+        {
+            "name":"Récupérer des souvenirs"
+        },
+        {
+            "name":"Révèle"
+        },
+        {
+            "name":"Stase"
+        },
+        {
+            "name":"Survol"
+        }
+    ],
+    "abilities_tier3":[
+        {
+            "name":"Barrière de champ de force"
+        },
+        {
+            "name":"Capteur"
+        },
+        {
+            "name":"Contre-mesures"
+        },
+        {
+            "name":"Feu et Glace"
+        },
+        {
+            "name":"Oeil pour Cibler"
+        },
+        {
+            "name":"Protection énergétique"
+        },
+        {
+            "name":"Utilisation adroite des cyphers"
+        }
+    ],
+    "abilities_tier4":[
+        {
+            "name":"Contrôle mental"
+        },
+        {
+            "name":"Exil"
+        },
+        {
+            "name":"Invisibilité"
+        },
+        {
+            "name":"Nuage de matière"
+        },
+        {
+            "name":"Projection"
+        },
+        {
+            "name":"Régénérer"
+        },
+        {
+            "name":"Remodeler"
+        },
+        {
+            "name":"Toucher Mortel"
+        },
+        {
+            "name":"Traitement rapide"
+        },
+        {
+            "name":"Trou de ver"
+        }
+    ],
+    "abilities_tier5":[
+        {
+            "name":"Absorber l'énergie"
+        },
+        {
+            "name":"Concussion"
+        },
+        {
+            "name":"Conjuration"
+        },
+        {
+            "name":"Connaître l'inconnu"
+        },
+        {
+            "name":"Créer"
+        },
+        {
+            "name":"Maîtrise dans l' Utilisation des Cyphers:"
+        },
+        {
+            "name":"Poussière Retourne à la Poussière"
+        },
+        {
+            "name":"Téléportation"
+        },
+        {
+            "name":"Véritables sens"
+        }
+    ],
+    "abilities_tier6":[
+        {
+            "name":"Contrôle de la météo"
+        },
+        {
+            "name":"Déplacer des montagnes"
+        },
+        {
+            "name":"Traversez les mondes"
+        },
+        {
+            "name":"Tremblement de terre"
+        },
+        {
+            "name":"Usurpation de Cypher"
+        }
+    ]
+},
+{
+    "name":"Explorateur",
+    "might_start":10,
+    "speed_start":9,
+    "intellect_start":9,
+    "might_edge_start":1,
+    "speed_edge_start":0,
+    "intellect_edge_start":0,
+    "cyphers_start":2,
+    "abilities_tier1":[
+        {
+            "name":"Avantage de Stat Amélioré"
+        },
+        {
+            "name":"Bloquer"
+        },
+        {
+            "name":"Compétences en Connaissances"
+        },
+        {
+            "name":"Compétences physiques"
+        },
+        {
+            "name":"Déchiffrer"
+        },
+        {
+            "name":"Endurance"
+        },
+        {
+            "name":"Entraîné sans armure"
+        },
+        {
+            "name":"Muscles de fer"
+        },
+        {
+            "name":"Pas besoin d'armes"
+        },
+        {
+            "name":"Pied Léger"
+        },
+        {
+            "name":"Pratique de toutes les armes"
+        },
+        {
+            "name":"Pratique des armures"
+        },
+        {
+            "name":"Sens du Danger"
+        },
+        {
+            "name":"Sursaut de confiance"
+        },
+        {
+            "name":"Trouver le chemin"
+        }
+    ],
+    "abilities_tier2":[
+        {
+            "name":"Activer les autres"
+        },
+        {
+            "name":"Augmentation de la portée"
+        },
+        {
+            "name":"Compétence en défense"
+        },
+        {
+            "name":"Compétences d'enquête"
+        },
+        {
+            "name":"Compétences de voyage"
+        },
+        {
+            "name":"Coordination Main-Oeil"
+        },
+        {
+            "name":"Curieux"
+        },
+        {
+            "name":"Déjouer le Danger"
+        },
+        {
+            "name":"Epave"
+        },
+        {
+            "name":"Evasion"
+        },
+        {
+            "name":"Instinct de Danger"
+        },
+        {
+            "name":"Oeil pour les détails"
+        },
+        {
+            "name":"Récupération rapide"
+        },
+        {
+            "name":"Rester en Alerte"
+        }
+    ],
+    "abilities_tier3":[
+        {
+            "name":"Briseur de Pierre"
+        },
+        {
+            "name":"Chute contrôlée"
+        },
+        {
+            "name":"Compétence avec les attaques"
+        },
+        {
+            "name":"Courir et combattre"
+        },
+        {
+            "name":"Course d'obstacles"
+        },
+        {
+            "name":"Expérimenté en armure"
+        },
+        {
+            "name":"Extraire du hasard"
+        },
+        {
+            "name":"Ignorez la Douleur"
+        },
+        {
+            "name":"Pensez à votre sortie"
+        },
+        {
+            "name":"Résilience"
+        },
+        {
+            "name":"Saisissez l'instant"
+        },
+        {
+            "name":"Trouver les Pièges"
+        },
+        {
+            "name":"Utilisation experte des cyphers"
+        }
+    ],
+    "abilities_tier4":[
+        {
+            "name":"Compétence d'expert"
+        },
+        {
+            "name":"Coureur"
+        },
+        {
+            "name":"Dur comme du Bois"
+        },
+        {
+            "name":"Effets accrus"
+        },
+        {
+            "name":"Guerrier Capable"
+        },
+        {
+            "name":"Lire les signes"
+        },
+        {
+            "name":"Pas subtiles"
+        }
+    ],
+    "abilities_tier5":[
+        {
+            "name":"Amitié de groupe"
+        },
+        {
+            "name":"Attaque sautée"
+        },
+        {
+            "name":"Difficile à tuer"
+        },
+        {
+            "name":"Libre de se déplacer"
+        },
+        {
+            "name":"Maîtrise de la défense"
+        },
+        {
+            "name":"Parade"
+        },
+        {
+            "name":"Physiquement doué"
+        },
+        {
+            "name":"Prendre le commandement"
+        },
+        {
+            "name":"Utilisation adroite des cyphers"
+        },
+        {
+            "name":"Vigilant"
+        }
+    ],
+    "abilities_tier6":[
+        {
+            "name":"Encore et encore"
+        },
+        {
+            "name":"Inspire des actions coordonnées"
+        },
+        {
+            "name":"Maîtrise en Armure"
+        },
+        {
+            "name":"Maîtrise des attaques"
+        },
+        {
+            "name":"Annuler le danger"
+        },
+        {
+            "name":"Partager la défense"
+        },
+        {
+            "name":"Attaque Tournoyante"
+        },
+        {
+            "name":"Vitalité sauvage"
+        }
+    ]
+
+},
+{
+    "name":"Emissaire",
+    "might_start":8,
+    "speed_start":9,
+    "intellect_start":11,
+    "might_edge_start":0,
+    "speed_edge_start":0,
+    "intellect_edge_start":1,
+    "cyphers_start":2,
+    "abilities_tier1":[
+        {
+            "name":"Anecdote"
+        },
+        {
+            "name":"Attitude de commandement"
+        },
+        {
+            "name":"Babel"
+        },
+        {
+            "name":"Changement d'Identité"
+        },
+        {
+            "name":"Compétences d'interaction"
+        },
+        {
+            "name":"Compréhension"
+        },
+        {
+            "name":"Effacer les souvenirs"
+        },
+        {
+            "name":"Encouragement"
+        },
+        {
+            "name":"Envoûtement"
+        },
+        {
+            "name":"Embrouiller"
+        },
+        {
+            "name":"Inspire l'Agression"
+        },
+        {
+            "name":"Présence terrifiante"
+        },
+        {
+            "name":"Pratique des armes moyennes"
+        }
+    ],
+    "abilities_tier2":[
+        {
+            "name":"Calmer un Etranger"
+        },
+        {
+            "name":"Compétences d'interaction"
+        },
+        {
+            "name":"Compétence en défense"
+        },
+        {
+            "name":"Démotiver"
+        },
+        {
+            "name":"Facilité Inspirante"
+        },
+        {
+            "name":"Pratique des armures"
+        },
+        {
+            "name":"Recueillir des renseignements"
+        },
+        {
+            "name":"Récupération Rapide d'un autre"
+        },
+        {
+            "name":"Suivant de base"
+        },
+        {
+            "name":"Trahison inattendue"
+        },
+        {
+            "name":"Transmettre un idéal"
+        }
+    ],
+    "abilities_tier3":[
+        {
+            "name":"Accélérer"
+        },
+        {
+            "name":"Dire les Choses"
+        },
+        {
+            "name":"Disciple expert"
+        },
+        {
+            "name":"Esprit perspicace"
+        },
+        {
+            "name":"Grande Déception"
+        },
+        {
+            "name":"Lecture mentale"
+        },
+        {
+            "name":"Mené par l'enquête"
+        },
+        {
+            "name":"Parfait Inconnu"
+        },
+        {
+            "name":"Se fondre dans le décor"
+        },
+        {
+            "name":"Talent Oratoire"
+        },
+        {
+            "name":"Utilisation experte des cyphers"
+        },
+        {
+            "name":"Vif d'esprit"
+        }
+    ],
+    "abilities_tier4":[
+        {
+            "name":"Anticipation de l'attaque"
+        },
+        {
+            "name":"Compétences accrues"
+        },
+        {
+            "name":"Elaborer une stratégie"
+        },
+        {
+            "name":"Feinte"
+        },
+        {
+            "name":"Lire les signes"
+        },
+        {
+            "name":"Moqueries confondantes"
+        },
+        {
+            "name":"Psychose"
+        },
+        {
+            "name":"Stimuler l'effort"
+        },
+        {
+            "name":"Suggestion"
+        }
+    ],
+    "abilities_tier5":[
+        {
+            "name":"Aura fétide"
+        },
+        {
+            "name":"Compétence avec les attaques"
+        },
+        {
+            "name":"Connaître l'inconnu"
+        },
+        {
+            "name":"Discipline de vigilance"
+        },
+        {
+            "name":"Expérimenté en armure"
+        },
+        {
+            "name":"Fuir"
+        },
+        {
+            "name":"Régénérer"
+        },
+        {
+            "name":"Stimuler"
+        },
+        {
+            "name":"Utilisation adroite des cyphers"
+        }
+    ],
+    "abilities_tier6":[
+        {
+            "name":"Assumer le contrôle"
+        },
+        {
+            "name":"Brise Esprit"
+        },
+        {
+            "name":"Contrôle des foules"
+        },
+        {
+            "name":"Gestion de bataille"
+        },
+        {
+            "name":"Mot de commandement"
+        },
+        {
+            "name":"Recruter un adjoint"
+        },
+        {
+            "name":"Succès inspirant"
+        },
+        {
+            "name":"Véritables sens"
+        }
+    ]
+}
+]

@@ -1,0 +1,461 @@
+[
+    {
+    "name":"Furtivité",
+    "description":"Les personnages avec la Préférence de Furtivité sont doués pour la discrétion, l'infiltration dans les endroits protégés, et la tromperie. Ils utilisent ces capacités de façon variée, dont le combat. Un Explorateur avec un préférence en furtivité pourrait être un voleur, tandis qu'un Guerrier avec préférence de furtivité serait un assassin. Un Explorateur avec un préférence en furtivité dans une campgne de super-héros pourrait être un justicier qui rôde dans les rues la nuit.",
+    "abilities_tier1":[
+        {
+            "name":"Aiguillon"
+        },
+        {
+            "name":"Compétences furtives"
+        },
+        {
+            "name":"Opportuniste"
+        },
+        {
+            "name":"Prestidigitation"
+        },
+        {
+            "name":"Sens du Danger"
+        }
+    ],
+    "abilities_tier2":[
+        {
+            "name":"Attaque surprise"
+        },
+        {
+            "name":"Contortionist"
+        },
+        {
+            "name":"Eloignez-vous"
+        },
+        {
+            "name":"Sentir une Embuscade"
+        },
+        {
+            "name":"Trouver une ouverture"
+        },
+        {
+            "name":"Recharger"
+        }
+    ],
+    "abilities_tier3":[
+        {
+            "name":"Chanceux-Malchanceux"
+        },
+        {
+            "name":"Courir et combattre"
+        },
+        {
+            "name":"Défense intérieure"
+        },
+        {
+            "name":"Depuis les Ombres"
+        },
+        {
+            "name":"Détournement"
+        },
+        {
+            "name":"Evanescence"
+        },
+        {
+            "name":"Saisissez l'instant"
+        }
+    ],
+    "abilities_tier4":[   
+        {
+            "name":"Déjouer Intelligemment"
+        },
+        {
+            "name":"Embuscade"
+        },
+        {
+            "name":"Frappe débilitante"
+        },
+        {
+            "name":"Mouvements de culbute"
+        },
+        {
+            "name":"Sens surnaturels"
+        }
+    ],
+    "abilities_tier5":[
+        {
+            "name":"Chance Etonnante"
+        },
+        {
+            "name":"Frappe d'Assassin"
+        },
+        {
+            "name":"Masque"
+        },
+        {
+            "name":"Retour à l'expéditeur"
+        }
+    ],
+    "abilities_tier6":[
+        {
+            "name":"Exploiter l'Avantage"
+        },
+        {
+            "name":"La chance du voleur"
+        },
+        {
+            "name":"Saut de Côté"
+        },
+        {
+            "name":"Un coup du Destin"
+        }
+    ]
+},
+{
+    "name":"Technologie",
+    "description":"Les personnages ayant une Préférence de technologie sont généralement issus d'un cadre de campagne de science-fiction ou du moins des temps modernes (même si tout est possible). Ils excellent dans l’utilisation, la manipulation et la construction de machines. Un explorateur doté d'une Préférence technologique pourrait être un pilote de vaisseau spatial, et un orateur doté d'une Préférence technologique pourrait être un techno-prêtre. Certaines des capacités les moins orientées vers l'ordinateur pourraient convenir à un personnage steampunk, tandis qu'un personnage moderne pourrait utiliser certaines des capacités qui n'impliquent pas de vaisseaux spatiaux ou d'ultratechnologie.",
+    "abilities_tier1":[
+        {
+            "name":"Bricoleur"
+        },
+        {
+            "name":"Brouiller une Machine"
+        },
+        {
+            "name":"Compétences techniques"
+        },
+        {
+            "name":"Datajack"
+        },
+        {
+            "name":"Hacker"
+        },
+        {
+            "name":"Interface Machine"
+        }
+    ],
+    "abilities_tier2":[
+        {
+            "name":"Efficacité de la machine"
+        },
+        {
+            "name":"Interface distante"
+        },
+        {
+            "name":"Maîtrise des outils"
+        },
+        {
+            "name":"Serv-0"
+        },
+        {
+            "name":"Serv-0 Defenseur"
+        },
+        {
+            "name":"Serv-0 Reparateur"
+        },
+        {
+            "name":"Surcharge de Machine"
+        }
+    ],
+    "abilities_tier3":[
+        {
+            "name":"A l’Aise à Bord"
+        },
+        {
+            "name":"Ordonner au Vaisseau"
+        },
+        {
+            "name":"Pulvérisation"
+        },
+        {
+            "name":"Serv-0 Scanner"
+        },
+        {
+            "name":"Télépathie mécanique"
+        }
+    ],
+    "abilities_tier4":[
+        {
+            "name":"Combattant de Robot"
+        },
+        {
+            "name":"Liaison machine"
+        },
+        {
+            "name":"Serv-0 Visuer"
+        },
+        {
+            "name":"Serv-0 Bagarreur"
+        },
+        {
+            "name":"Serv-0 Espion"
+        }
+    ],
+    "abilities_tier5":[
+        {
+            "name":"Contrôle de Machine"
+        },
+        {
+            "name":"Comme McGyver"
+        },
+        {
+            "name":"Compagnon machine"
+        }
+    ],
+    "abilities_tier6":[
+        {
+            "name":"Collecte d'informations"
+        },
+        {
+            "name":"Maîtrise des Machines"
+        }
+    ]
+},
+{
+    "name":"Magie",
+    "description":"Vous connaissez un peu la magie. Vous n'êtes peut-être pas un sorcier, mais vous connaissez les bases : comment cela fonctionne et comment accomplir quelques choses merveilleuses. Bien sûr, dans votre environnement, « magie » peut en fait signifier des pouvoirs psychiques, des capacités mutantes, une technologie extraterrestre étrange ou tout autre chose qui produit des effets intéressants et utiles. Un explorateur à la Préférence magique pourrait être un chasseur de sorciers, et un orateur à la Préférence magique pourrait être un barde sorcier. Bien qu'un Adepte aromatisé à la magie reste un Adepte, vous constaterez peut-être qu'échanger certaines des capacités de base du type avec celles données ici permet d'adapter le personnage de manière souhaitable.",
+    "abilities_tier1":[
+        {
+            "name":"Bénédiction des Dieux"
+        },
+        {
+            "name":"Esprit fermé"
+        },
+        {
+            "name":"Force enchevêtrante"
+        },
+        {
+            "name":"Formation magique"
+        },
+        {
+            "name":"Lien mental"
+        },
+        {
+            "name":"Magie Prosaïque"
+        },
+        {
+            "name":"Prémonition"
+        }
+    ],
+    "abilities_tier2":[
+        {
+            "name":"Champ de force"
+        },
+        {
+            "name":"Explosion commotionnelle"
+        },
+        {
+            "name":"Récupérer"
+        },
+        {
+            "name":"Réparer la chair"
+        },
+        {
+            "name":"Verrouiller un Serrure"
+        }
+    ],
+    "abilities_tier3":[
+        {
+            "name":"Cube de flammes"
+        },
+        {
+            "name":"Force à distance"
+        },
+        {
+            "name":"Invoquer une araignée géante"
+        },
+        {
+            "name":"Lancer"
+        },
+        {
+            "name":"Visualisation à distance"
+        }
+    ],
+    "abilities_tier4":[
+        {
+            "name":"Allumage"
+        },
+        {
+            "name":"Protection élémentaire"
+        },
+        {
+            "name":"Percer les Défenses"
+        }
+    ],
+    "abilities_tier5":[
+        {
+            "name":"Créer"
+        },
+        {
+            "name":"Intervention divine"
+        },
+        {
+            "name":"Gueule de Dragon"
+        },
+        {
+            "name":"Véritables sens"
+        },
+        {
+            "name":"Voyage rapide"
+        }
+    ],
+    "abilities_tier6":[
+        {
+            "name":"Relocaliser"
+        },
+        {
+            "name":"Invoquer un démon"
+        },
+        {
+            "name":"Mot de mort"
+        },
+        {
+            "name":"Traversez les mondes"
+        }
+    ]
+
+},
+{
+    "name":"Combat",
+    "description":"La Préférence de combat rend un personnage plus martial. Un Orateur avec une Préférence de combat dans un décor fantastique serait un barde de combat. Un explorateur avec Préférence de combat dans un jeu historique pourrait être un pirate. Un Adepte passionné de combat dans un décor de science-fiction pourrait être un vétéran de mille guerres psychiques.",
+    "abilities_tier1":[
+        {
+            "name":"Sens du Danger"
+        },
+        {
+            "name":"Pratique des armes moyennes"
+        },
+        {
+            "name":"Pratique des armures"
+        }
+    ],
+    "abilities_tier2":[
+        {
+            "name":"Entraîné sans armure"
+        },
+        {
+            "name":"Soif de sang"
+        },
+        {
+            "name":"Prouesses au combat"
+        }
+    ],
+    "abilities_tier3":[
+        {
+            "name":"Attaque successive"
+        },
+        {
+            "name":"Compétence avec les attaques"
+        },
+        {
+            "name":"Compétence en défense"
+        },
+        {
+            "name":"Pratique de toutes les armes"
+        }
+    ],
+    "abilities_tier4":[
+        {
+            "name":"Détournement"
+        },
+        {
+            "name":"Fureur"
+        },
+        {
+            "name":"Guerrier Capable"
+        },
+        {
+            "name":"Pulvérisation"
+        },
+        {
+            "name":"Visée mortelle"
+        }
+    ],
+    "abilities_tier5":[
+        {
+            "name":"Cible difficile"
+        },
+        {
+            "name":"Défenseur expérimenté"
+        },
+        {
+            "name":"Parade"
+        }
+    ],
+    "abilities_tier6":[
+        {
+            "name":"Compétence en Attaque Supérieure"
+        },
+        {
+            "name":"Maîtrise de la défense"
+        },
+        {
+            "name":"Maîtrise en Armure"
+        }
+    ]
+},
+{
+    "name":"Compétences et de Savoir",
+    "description":"Cette Préférence est destinée aux personnages occupant des rôles qui nécessitent plus de connaissances et une plus grande application des talents dans le monde réel. C'est moins tape-à-l'œil et dramatique que les pouvoirs surnaturels ou la capacité de diviser plusieurs ennemis, mais parfois l'expertise oule savoir-faire est la véritable solution à un problème. Un guerrier doté de compétences et de connaissances pourrait être un ingénieur militaire. Un explorateur doté de compétences et de connaissances pourrait être un scientifique de terrain. Un orateur avec cette Préférence pourrait être un enseignant.",
+    "abilities_tier1":[
+        {
+            "name":"Compétences d'enquête"
+        },
+        {
+            "name":"Compétences d'interaction"
+        },
+        {
+            "name":"Compétences en Connaissances"
+        },
+        {
+            "name":"Compétences physiques"
+        },
+        {
+            "name":"Compétences de voyage"
+        }
+    ],
+    "abilities_tier2":[
+        {
+            "name":"Compétence supplémentaire"
+        },
+        {
+            "name":"Compréhension"
+        },
+        {
+            "name":"Maîtrise des outils"
+        }
+    ],
+    "abilities_tier3":[
+        {
+            "name":"Compétences en Prêt"
+        },
+        {
+            "name":"Improviser"
+        }
+    ],
+    "abilities_tier4":[
+        {
+            "name":"Compétences multiples"
+        },
+        {
+            "name":"Spécialisation de tâche"
+        },
+        {
+            "name":"Vif d'esprit"
+        }
+    ],
+    "abilities_tier5":[
+        {
+            "name":"Lire les signes"
+        },
+        {
+            "name":"Pratique des armes moyennes"
+        }
+    ],
+    "abilities_tier6":[
+        {
+            "name":"Compétence avec les Attaques"
+        },
+        {
+            "name":"Compétence en défense"
+        }
+    ]
+}
+]

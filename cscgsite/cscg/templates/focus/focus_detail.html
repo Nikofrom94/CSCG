@@ -1,0 +1,182 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}Focus: {{ focus.name }}{% endblock %}
+{% block content %}
+<style>
+tbody {
+  font-size: 80%;
+}
+</style>
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-10">
+            <b>Type: {{ focus.name }}</b>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1">Nom</div>
+        <div class="col-sm-4">{{ focus.name }}</div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-1">Description</div>
+        <div class="col-sm-9">{{ focus.description }}</div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>Capacités de rang 1</div><h2></h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ability in focus.abilities_tier1.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>Capacités de rang 2</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ability in focus.abilities_tier2.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>Capacités de rang 3</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ability in focus.abilities_tier3.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>Capacités de rang 4</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ability in focus.abilities_tier4.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>Capacités de rang 5</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody >
+                    {% for ability in focus.abilities_tier5.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>Capacités de rang 6</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ability in focus.abilities_tier6.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

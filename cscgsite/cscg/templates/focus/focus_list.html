@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Foci" %}{% endblock %}
+{% block content %}
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-10">
+            <b>{% translate "Focus List" %}</b>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for focus in focus_list %}
+                    <tr>
+                        <td><a href="{{ focus.id }}/">{{ focus.name }}</a></td>
+                        <td>{{ focus.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

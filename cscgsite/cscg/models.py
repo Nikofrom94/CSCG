@@ -112,6 +112,7 @@ class Flavor(CSModelGeneric):
 class Focus(CSModelGeneric):
     objects=CSModelGenericManager()
     name = models.CharField(max_length=50)
+    description = models.TextField()
     abilities_tier1 = models.ManyToManyField(
         "Ability",
         related_name="focus_ab_1s",

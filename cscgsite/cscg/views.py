@@ -35,3 +35,13 @@ class FlavorDetail(DetailView):
     model=Flavor
     context_object_name='flavor'
 
+
+class FocusList(ListView):
+    template_name='focus/focus_list.html'
+    model=Focus
+    context_object_name='focus_list'
+
+class FocusDetail(DetailView):
+    template_name = 'focus/focus_detail.html'
+    model=Focus
+    context_object_name='focus'

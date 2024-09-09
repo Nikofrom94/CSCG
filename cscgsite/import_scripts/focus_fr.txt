@@ -1,0 +1,1767 @@
+### A des Ascendants Nobles
+
+Descendant de la richesse et du pouvoir, vous portez un titre noble et les capacités conférées par une éducation privilégiée.
+
+**Option d'échange de type:** Suite de Servants
+
+* Rang 1: Noblesse privilégiée
+* Rang 2: Interlocuteur qualifié
+* Rang 3: Commandement avancé ou Courage du noble
+* Rang 4: Disciple expert
+* Rang 5: Affirmer votre privilège
+* Rang 6: Assistance compétente ou Esprit de leader
+
+**Intrusions de la MJ:** Les dettes contractées par une famille sont dues par le personnage. Un frère perdu depuis longtemps cherche à déshériter ses rivaux. Un assassin retrouve le personnage.
+
+-----
+
+### A le Droit de Porter une Arme à Feu
+
+Vous portez une arme à feu et vous savez comment l'utiliser lors d'un combat.
+
+{{< hint info >}}
+Bien que Is Licensed to Carry soit conçu pour les armes à feu modernes, il pourrait s'appliquer aux armes à silex, aux blasters laser futuristes ou à d'autres armes à distance.
+{{< /hint >}}
+
+* Rang 1: Tireur
+* Rang 1: Pratique des armes à feu
+* Rang 2: Tir prudent
+* Rang 3: Tireur entraîné ou Augmente les dommages
+* Rang 4: Tir Rapide
+* Rang 5: Tirs en éventail
+* Rang 6: Tir Spécial ou Dégâts mortels
+
+**Intrusions de la MJ:** Ratés ou confiture ! L'attaque échoue et l'action est perdue, et une action supplémentaire est nécessaire pour résoudre le problème.
+-----
+
+### A été Choisi(e)
+
+Vous êtes « l’élu » et la prophétie, la prédiction, le pronostic ou toute autre méthode de détermination attend de vous de grandes choses un jour.
+
+* Rang 1: Compétences d'interaction
+* Rang 1: Connaître
+* Rang 2: Destiné à la grandeur
+* Rang 3: Surmontez tous les obstacles ou  Résilience durement gagnée
+* Rang 4: Centre d'attention
+* Rang 5: Montrez-leur le chemin
+* Rang 6: Comme le prédit la prophétie ou Potentiel amélioré supérieur
+
+**Intrusions de la MJ:**Un ennemi décrit dans la prophétie apparaît. Les incroyants menacent de gâcher ce moment. Le personnage acquiert une réputation de fraudeur dans les cercles extérieurs.
+
+-----
+
+### A Joué à Trop de Jeux
+
+Les leçons, les réflexes et les stratégies que vous avez appris en jouant à trop de jeux ont des applications dans le monde réel, où les gens qui ne jouent pas assez travaillent dur et vivent leur vie morne.
+
+* Rang 1: Leçons de jeu
+* Rang 1: Joueur
+* Rang 2: Voir dans le Noir
+* Rang 2: Résoudre des Enigmes
+* Rang 3: Objectif du tireur d'élite ou Avantage de Célérité Amélioré
+* Rang 4: Jeux d'esprit
+* Rang 4: Intellect améliorée
+* Rang 5: Endurance du joueur
+* Rang 6: Sursaut mental ou Dieu du jeu
+
+**Intrusions de la MJ:** Les attaques manquées touchent la mauvaise cible. Le matériel tombe en panne. Parfois, les gens réagissent négativement à quelqu’un qui a vécu la majeure partie de sa vie dans des mondes de jeu imaginaires.
+
+-----
+
+### A Navigué sous Pavillon Pirate
+
+Vous avez navigué avec un équipage de redoutables pirates, mais vous avez décidé de mettre fin à vos jours de pirate et de rejoindre une autre cause. La question est : votre passé vous laissera-t-il partir si facilement ?
+
+* Rang 1: Ignorez la Douleur
+* Rang 1: Marin
+* Rang 2: Prendre l'avantage
+* Rang 2: Réputation redoutable
+* Rang 3: Compétence avec les attaques ou Compétence en Défense Supérieure
+* Rang 4: Le pied marin
+* Rang 4: Habiletés motrices
+* Rang 5: Perdu dans le chaos
+* Rang 6: Duel à mort ou Attaque successive
+
+**Intrusions de la MJ:** Les dangers de la haute mer sont nombreux, notamment les tempêtes violentes et les maladies. D'autres pirates s'en sortent parfois grâce à la trahison. Un pirate retrouve d'anciens compagnons de navigation pour trouver un trésor caché.
+
+-----
+
+### A un Millier de Visages
+
+Vous pouvez changer votre apparence pour ressembler à n’importe qui d’autre.
+
+* Rang 1: Changement de Visage
+* Rang 1: Compétences d'interaction
+* Rang 2: Altération corporelle
+* Rang 2: Chair de guerre
+* Rang 3: Déguiser un autre ou Résilience
+* Rang 4: Sans âge
+* Rang 4: Pensez à votre sortie
+* Rang 5: La mémoire devient une action
+* Rang 6: Divisez votre esprit ou Déduire des pensées
+
+**Intrusions de la MJ:** Une partie du déguisement glisse. Un PNJ pense que le personnage déguisé est quelqu'un qu'il connaît très bien.
+
+-----
+
+### Absorbe l'Energie
+
+Vous pouvez exploiter l’énergie cinétique et la transformer en d’autres types d’énergie.
+
+* Rang 1: Absorber l'énergie cinétique
+* Rang 1: Libération d'énergie
+* Rang 2: Dynamiser un objet
+* Rang 3: Absorber l'énergie pure ou Absorption d'énergie cinétique améliorée
+* Rang 4: Surcharge d'énergie
+* Rang 5: Energiser la créature
+* Rang 6: Energiser la foule ou Surcharge d'Appareil
+
+**Intrusions de la MJ:** L'énergie va au sol de manière destructrice. Certains prédateurs se nourrissent directement d’énergie. Un élément involontaire est vidé de son énergie.
+
+-----
+
+### Accompli des Prouesses de Force
+
+Prodige en musculature, vous pouvez transporter un poids incroyable, projeter votre corps dans les airs et percer des portes.
+
+* Rang 1: Athlète
+* Rang 1: Avantage de Puissance Amélioré
+* Rang 2: Tour de force
+* Rang 3: Poing de Fer ou Lancer
+* Rang 4: Puissance améliorée supérieure
+* Rang 5: Coup brutal
+* Rang 6: Puissance améliorée supérieure ou Attaque sautée
+
+**Intrusions de la MJ:** Il est facile de briser des objets délicats en blessant quelqu'un accidentellement.
+
+-----
+
+### Aide ses Amis
+
+Vous aimez vos amis et les aidez à sortir de toute difficulté, quoi qu'il arrive.
+
+**Option d'échange de type:** Conseils d'un ami
+
+* Rang 1: Aide amicale
+* Rang 1: Courageux
+* Rang 2: Faites face aux vicissitudes
+* Rang 3: Copain ou Compétence avec les attaques
+* Rang 4: En Danger
+* Rang 4: Physique amélioré
+* Rang 5: Inspirer l'action
+* Rang 6: Considération approfondie ou Compétence en défense
+
+**Intrusions de la MJ:** D’autres ont parfois des arrière-pensées. La loi s’y intéresse indûment. Même lorsque tout se passe bien, les répercussions s’ensuivent.
+
+-----
+
+### Aime le Vide
+
+Lorsqu'il n'y a que vous, votre combinaison spatiale et le panorama d'étoiles qui défilent pour toujours et à jamais, vous êtes en paix.
+
+**Option d'échange de type:** Ayez une Combinaison Spatiale, Vous Voyagerez
+
+* Rang 1: Compétences sous Vide Spatial
+* Rang 1: Adepte de la microgravité
+* Rang 2: Avantage de Célérité Amélioré
+* Rang 2: Physique amélioré
+* Rang 3: Combat spatial ou Armure Corporelle
+* Rang 4: Silencieux comme l'espace
+* Rang 4: Sauter en Microgravité
+* Rang 5: Evitement par microgravité
+* Rang 6: Tir en apesanteur ou Champ réactif
+
+**Intrusions de la MJ:** Les combinaisons spatiales développent des problèmes. Les cartouches de recharge d’air indiquent parfois mal leur capacité. Les micrométéorites sont courantes dans l'espace.
+
+-----
+
+### Apprend Rapidement
+
+Vous faites face aux mauvaises situations au fur et à mesure qu’elles surviennent, apprenant à chaque fois de nouvelles leçons.
+
+* Rang 1: Intellect améliorée
+* Rang 1: Voilà votre problème
+* Rang 2: Etude rapide
+* Rang 3: Difficile à distraire
+* Rang 3: Avantage d'Intellect amélioré ou Compétences en Prêt
+* Rang 4: Passer l'information au suivant
+* Rang 5: Intellect améliorée
+* Rang 5: Appris des trucs
+* Rang 6: Deux choses à la fois ou Compétence en Défense Supérieure
+
+**Intrusions de la MJ:** Les accidents et les erreurs sont de grands professeurs.
+
+-----
+
+### Assassine
+
+Vous êtes un assassin, que ce soit par métier, par inclination, ou parce que vous vouliez vous faire tuer. (Quelqu'un qui Assassine peut disposer d'un équipement supplémentaire, notamment trois doses d'un poison de lame de niveau 2 qui inflige 5 points de dégâts.)
+
+* Rang 1: Attaque surprise
+* Rang 1: Assassin Skills
+* Rang 2: Mort rapide
+* Rang 2: Infiltrateur
+* Rang 3: Conscience ou Artisan de Poisons
+* Rang 4: Attaque surprise Améliorée
+* Rang 5: Augmente les dommages
+* Rang 6: Plan d'évasion ou Meurtrier
+
+**Intrusions de la MJ:** La plupart des gens ne réagissent pas bien face à un tueur professionnel.
+
+-----
+
+### Bouge comme un Chat
+
+Souple, flexible et gracieux, vous vous déplacez rapidement et en douceur, et ne semblez jamais être là où se trouve le danger.
+
+* Rang 1: Célérité améliorée supérieure
+* Rang 1: Equilibre
+* Rang 2: Habiletés motrices
+* Rang 2: Chute en toute sécurité
+* Rang 3: Difficile à toucher
+* Rang 3: Avantage de Célérité Amélioré ou Célérité améliorée supérieure
+* Rang 4: Frappe rapide
+* Rang 5: Glissant
+* Rang 6: Sursaut de Célérité Parfait ou Célérité améliorée supérieure
+
+**Intrusions de la MJ:** Même un chat peut être maladroit. Un saut n’est pas aussi facile qu’il y paraît. Un mouvement d'évasion est tellement excessif qu'il met le personnage en danger.
+
+-----
+
+### Brandit un Bouclier Exotique
+
+Vous déployez un incroyable bouclier de force pure qui offre une protection et des options offensives.
+
+* Rang 1: Bouclier de Champ de Force
+* Rang 1: Frappe de Force
+* Rang 2: Bouclier enveloppant
+* Rang 3: Pulsation de Guérison ou Lancer un bouclier de force
+* Rang 4: Bouclier énergisé
+* Rang 5: Mur de Force
+* Rang 6: Bouclier rebondissant ou Bouclier Explosif
+
+**Intrusions de la MJ:** Le bouclier est temporairement perdu. Un ennemi se retrouve temporairement avec le bouclier.
+
+-----
+
+### Calcule l'Incalculable
+
+Des capacités mathématiques impressionnantes vous permettent de modéliser le monde en temps réel, vous donnant ainsi un avantage sur tout le monde.
+
+* Rang 1: Equation prédictive
+* Rang 1: Mathématiques supérieures
+* Rang 2: Modèle prédictif
+* Rang 3: Défense subconsciente ou Intellect améliorée
+* Rang 4: Diagramme de combat
+* Rang 5: Intellect Améliorée Supérieure
+* Rang 5: Mathématiques Complémentaires
+* Rang 6: Connaître l'inconnu ou Intellect Améliorée Supérieure
+
+**Intrusions de la MJ:** Trop de résultats prédits menacent de submerger et d’étourdir le personnage. Un résultat indique un désastre imminent.
+
+-----
+
+### Canalise les Bénédictions Divines
+
+Fervent disciple d’un être divin, vous canalisez une partie du pouvoir de votre divinité pour réaliser des merveilles.
+
+* Rang 1: Bénédiction des Dieux
+* Rang 2: Intellect améliorée
+* Rang 3: Radiance divine ou Cube de flammes
+* Rang 4: Explosion Divine
+* Rang 5: Intervention divine
+* Rang 6: Symbole divin ou Invoquer un démon
+
+**Intrusions de la MJ:** Un démon enquête sur l'utilisation de la magie divine. Une secte rivale est opposée aux enseignements du personnage.
+
+-----
+
+### Chasse
+
+Vous êtes un chasseur traquant qui excelle à abattre la proie que vous avez choisie.
+
+* Rang 1: Attaque avec style
+* Rang 1: Pisteur
+* Rang 2: Proie
+* Rang 2: Furtif
+* Rang 3: Combats de Horde ou Court et Attrape
+* Rang 4: Attaque surprise
+* Rang 5: Volonté du Chasseur
+* Rang 6: Compétence en Attaque Supérieure ou Multiples Proies
+
+**Intrusions de la MJ:** La Proie remarque le personnage. La carrière n'est pas aussi vulnérable qu'il y paraît.
+
+-----
+
+### Cherche les Ennuis
+
+Vous êtes un bagarreur et aimez les bons combats.
+
+* Rang 1: Poings de fureur
+* Rang 1: Premier Soins
+* Rang 2: Protecteur
+* Rang 2: Simple et Direct
+* Rang 3: Compétence avec les attaques ou Potentiel amélioré supérieur
+* Rang 4: Knock Out
+* Rang 5: Maîtrise des attaques
+* Rang 6: Puissance améliorée supérieure ou Dégâts mortels
+
+**Intrusions de la MJ:** Les armes se brisent ou s'envolent même sous la poigne la plus forte. Les bagarreurs trébuchent et tombent. Même le champ de bataille peut jouer contre vous avec des objets qui tombent ou s'effondrent.
+
+-----
+
+### Combat avec Panache
+
+Vous êtes un casse-cou audacieux qui se bat avec un style flamboyant et amusant à regarder.
+
+* Rang 1: Attaque avec style
+* Rang 2: Blocage rapide
+* Rang 3: Attaque acrobatique ou Vantardise flamboyante
+* Rang 4: Bloquer pour un autre
+* Rang 4: Meurtre Rapide
+* Rang 5: Utilisation de l'environnement
+* Rang 6: Esprit Agile ou Retour à l'expéditeur
+
+**Intrusions de la MJ:** La démonstration semble ridicule, maladroite ou peu spectaculaire.
+
+-----
+
+### Combat les Robots
+
+Vous excellez dans la lutte contre les robots, les automates et les entités machines.
+
+* Rang 1: Vulnérabilités des machines
+* Rang 1: Compétences techniques
+* Rang 2: Défense contre les robots
+* Rang 2: Chasse aux machines
+* Rang 3: Mécanismes de désactivation ou Attaque surprise
+* Rang 4: Combattant de Robot
+* Rang 5: Drain de puissance
+* Rang 6: Désactiver les mécanismes ou Dégâts mortels
+
+**Intrusions de la MJ:** Le robot explose lors de sa défaite. D'autres robots s'en prennent au personnage pour se venger.
+
+-----
+
+### Commande aux pouvoirs Mentaux
+
+Vous avez perfectionné le pouvoir de votre esprit pour accomplir des actes psychiques incroyables.
+
+* Rang 1: Télépathique
+* Rang 2: Lecture mentale
+* Rang 3: Projection Psychique ou Suggestion Psychique
+* Rang 4: Use Senses of Others
+* Rang 5: Précognition
+* Rang 6: Contrôle mental ou Réseau télépathique 
+
+**Intrusions de la MJ:** Quelque chose aperçu dans l’esprit de la cible est horrible. Une boucle de rétroaction permet à la cible de lire dans les pensées du personnage.
+
+-----
+
+### Concentre l'Esprit sur la Matière
+
+Vous pouvez déplacer des objets par télékinésie avec votre esprit sans les toucher physiquement.
+
+* Rang 1: Détourner les attaques
+* Rang 2: Télékinésie
+* Rang 3: Manteau d'opportunité ou Améliorer la force
+* Rang 4: Ramener
+* Rang 5: Attaque psychokinétique
+* Rang 6: Ramener amélioré ou Remodeler
+
+**Intrusions de la MJ:** Une pensée qui dérape et les objets en mouvement tombent ou les objets fragiles se brisent. Parfois, le mauvais objet bouge, tombe ou se casse.
+
+-----
+
+### Conduit comme un Dingue
+
+Qu'il s'agisse d'être en équilibre sur deux roues, de sauter un autre véhicule ou de conduire de front vers une voiture ennemie venant en sens inverse, vous ne pensez pas aux risques lorsque vous êtes au volant.
+
+(Quelqu'un qui Conduit comme un Dingue doit avoir accès à un véhicule.)
+
+* Rang 1: Chauffeur
+* Rang 1: Conduite Dangereuse
+* Rang 2: Surfeur de voiture
+* Rang 2: Regarde les en Face
+* Rang 3: Chauffeur expert ou Avantage de Célérité Amélioré
+* Rang 4: Oeil perçant
+* Rang 4: Célérité améliorée
+* Rang 5: Quelque chose sur la route
+* Rang 6: As du Volant ou Dégâts mortels
+
+**Intrusions de la MJ:** Le moteur a des à-coup. Le pont sur la route est levé. Le pare-brise se brise. Quelqu’un court inopinément devant le véhicule.
+
+-----
+
+### Construit des Robots
+
+Vos créations robotiques font ce qu'on leur commande.
+
+{{< hint info >}}
+Le mot « robot » est utilisé dans cette Motivation, bien que le robot que vous créez puisse être très différent de celui créé par quelqu'un d'autre, selon le genre. Les robots Steampunk, les robots organiques ou même les golems magiques sont tous des « robots » réalisables.
+{{< /hint >}}
+
+* Rang 1: Assistant Robot
+* Rang 1: Constructeur de robots
+* Rang 2: Contrôle du robot
+* Rang 3: Disciple expert ou Compétence en Défense Supérieure
+* Rang 4: Mise à niveau du robot
+* Rang 5: Flotte de robots
+* Rang 6: Robot Evolution ou Mise à niveau du robot
+
+**Intrusions de la MJ:** Le robot est piraté, acquiert son propre esprit ou explose de manière inattendue.
+
+-----
+
+### Contourne le Système
+
+Vous pouvez exploiter les failles des systèmes artificiels, y compris, mais sans s'y limiter, le code informatique.
+
+* Rang 1: Hackez l'impossible
+* Rang 1: Programmation informatique
+* Rang 2: Connecté
+* Rang 3: Artiste de la confiance ou Compétence avec les attaques
+* Rang 4: Confondre l'ennemi
+* Rang 5: Entretenir l'amitié
+* Rang 6: Demande d'une faveur ou Potentiel amélioré supérieur
+
+**Intrusions de la MJ:** Les contacts ont parfois des arrière-pensées. Les appareils ont parfois des sécurités ou même des pièges.
+
+-----
+
+### Contrôle la Gravité
+
+Vous pouvez influencer l’attraction de la gravité elle-même.
+
+**Option d'échange de type:** Lourd
+
+* Rang 1: Survol
+* Rang 2: Avantage de Célérité Amélioré
+* Rang 3: Définir le bas ou Gravité Coupante
+* Rang 4: Champ de gravité
+* Rang 5: Vol
+* Rang 6: Gravité Coupante Améliorée ou Poids du monde
+
+**Intrusions de la MJ:** Les spectateurs réagissent avec une peur irraisonnée. Une interaction étrange envoie un allié ou un objet s'envoler dans le ciel.
+
+-----
+
+### Contrôle le Magnétisme
+
+Vous maîtrisez le métal et le pouvoir du magnétisme.
+
+* Rang 1: Déplacer le métal
+* Rang 2: Repousser le métal
+* Rang 3: Détruire le métal ou Tir Guidé
+* Rang 4: Champ magnétique
+* Rang 5: Commander le Métal
+* Rang 6: Diamagnétisme ou Lancer Objet en Fer
+
+**Intrusions de la MJ:** Le métal se tord, se plie ou produit des éclats d'obus. Un manque de concentration peut faire glisser ou tomber quelque chose au mauvais moment.
+
+-----
+
+### Contrôle les Bêtes Sauvages
+
+Votre capacité à communiquer et à diriger des bêtes est surnaturelle.
+
+* Rang 1: Une Bête comme Compagnon
+* Rang 2: Apaiser la Bête Sauvage
+* Rang 2: Communication
+* Rang 3: Monture ou Plus forts ensemble
+* Rang 4: Yeux de bête
+* Rang 4: Compagnon amélioré
+* Rang 5: Appel de Bête
+* Rang 6: Comme s'il n'y a qu'une seule créature ou Contrôler le sauvage
+
+**Intrusions de la MJ:** La communauté est réticente à accueillir des animaux dangereux. Les bêtes incontrôlables deviennent un véritable danger.
+
+-----
+
+### Contrôle une Force Invisible
+
+Vous pliez la lumière et manipulez des faisceaux de force pour l’attaque et la défense.
+
+* Rang 1: Disparaître
+* Rang 2: Force enchevêtrante
+* Rang 2: Sens aiguisés
+* Rang 3: Barrière de champ de force ou Invisibilité Multiple
+* Rang 4: Invisibilité
+* Rang 5: Champ défensif
+* Rang 6: Concussion ou Générer un champ de force
+
+**Intrusions de la MJ:** L’invisibilité s’estompe partiellement, révélant la présence du personnage. Un champ de force est transpercé par une attaque inhabituelle ou inattendue.
+-----
+
+### Construit et Répare
+
+Vous tirez une grande satisfaction d'un travail bien fait, qu'il s'agisse de coder, de construire des maisons ou d'exploiter des astéroïdes.
+
+* Rang 1: Travaux Manuels
+* Rang 2: Muscles de fer
+* Rang 3: Oeil pour les détails ou Improvise
+* Rang 4: Puissance Améliorée
+* Rang 4: Tenez bon
+* Rang 5: Compétence d'expert
+* Rang 6: Potentiel amélioré supérieur ou  Résilience durement gagnée
+
+**Intrusions de la MJ:** Les réparations échouent parfois. Le câblage peut être difficile à déchiffrer tout en portant une charge électrique. Certaines personnes sont impolis envers ceux qui travaillent pour gagner leur vie.
+
+-----
+
+### Copie des Superpouvoirs
+
+Vous pouvez copier les compétences, les capacités et les super pouvoirs des autres.
+
+* Rang 1: Compétences en Prêt
+* Rang 1: Compétences en Prêt
+* Rang 2: Pouvoir de copie
+* Rang 3: Voler le pouvoir ou Pouvoirs génériques
+* Rang 4: Copie Améliorée
+* Rang 5: Mémoire de Pouvoir Copié
+* Rang 6: Copie étonnante ou Multiple
+
+**Copying GM Intrusions:** Un pouvoir copié se termine de manière inattendue ou devient incontrôlable. Un pouvoir copié n’apporte pas de pouvoirs secondaires (comme gagner une super vitesse sans protection contre la friction de l’air, ou ne pas être immunisé contre la chaleur de vos propres éclairs de feu).
+
+-----
+
+### Déchire les Murs du Monde
+
+La vitesse et le phasage vous donnent une capacité unique à échapper au danger et à infliger simultanément des dégâts.
+
+* Rang 1: Sprint de Phase
+* Rang 1: Toucher perturbateur
+* Rang 2: Rayer l'Existence
+* Rang 3: Invisibilité de Phase ou Traverser les murs
+* Rang 4: Détonation de phase
+* Rang 5: Très long sprint
+* Rang 6: Déchirer L'Existence ou Intouchable en mouvement
+
+**Intrusions de la MJ:** Se déplacer si rapidement en sprintant conduit parfois à trébucher sur des obstacles inattendus et exotiques.
+
+-----
+
+### Défend les Faibles
+
+Vous défendez les impuissants, les faibles et ceux qui ne sont pas protégés.
+
+* Rang 1: Courageux
+* Rang 1: Bouclier de protection
+* Rang 2: Véritable défenseur
+* Rang 2: Perspicacité
+* Rang 3: Double protection ou Véritable Gardien
+* Rang 4: Défi de combat
+* Rang 5: Sacrifice volontaire
+* Rang 6: Réanimer ou Véritable défenseur
+
+**Intrusions de la MJ:** Un personnage soucieux de protéger les autres peut périodiquement se rendre vulnérable aux attaques.
+
+-----
+
+### Demeure dans la pierre
+
+Votre chair est constituée de minéraux durs, ce qui fait de vous un humanoïde imposant et difficile à blesser.
+
+* Rang 1: Corps de Golem
+* Rang 1: Guérison du Golem
+* Rang 2: Prise de Golem
+* Rang 3: Cogneur Entraîné
+* Rang 3: Piétinement de Golem ou Armement
+* Rang 4: Réserves Partagées
+* Rang 5: Cogneur Spécialisé
+* Rang 5: Toujours comme une statue
+* Rang 6: Ultra amélioration ou Sursaut mental
+
+**Intrusions de la MJ:** Les créatures de pierre oublient parfois leur propre force ou leur propre poids. Une statue ambulante peut terrifier les gens ordinaires.
+
+-----
+
+### Dirige
+
+Votre capacité naturelle de leadership vous permet de commander aux autres, y compris à un groupe de fidèles.
+
+* Rang 1: Charisme naturel
+* Rang 1: Bon conseil
+* Rang 2: Potentiel amélioré
+* Rang 2: Suivant de base
+* Rang 3: Commandement avancé ou Disciple expert
+* Rang 4: Captiver ou Inspirer
+* Rang 5: Potentiel amélioré supérieur
+* Rang 6: Bande de suivants ou Esprit de leader
+
+**Intrusions de la MJ:** Les adeptes échouent, trahissent, mentent, se corrompent, se font kidnapper ou meurent.
+
+-----
+
+### Dispose d'un Allié Magique
+
+Une créature magique alliée liée à un objet (comme un djinn mineur dans une lampe, ou un fantôme dans une pipe) est votre ami, votre Protecteur et votre arme.
+
+* Rang 1: Créature magique liée
+* Rang 2: Lien d'objet
+* Rang 2: Placard caché
+* Rang 3: Souhait mineur ou Monture
+* Rang 4: Lien d'Objet Amélioré
+* Rang 5: Souhait modéré
+* Rang 6: Maîtrise des liens d'objet ou Faites confiance à la chance
+
+**Intrusions de la MJ:** La créature disparaît de manière inattendue dans son objet lié. L'objet lié se fissure. La créature n'est pas d'accord et ne fait pas ce qui lui est demandé. La créature dit qu'elle s'en va à moins qu'une tâche ne soit accomplie pour elle.
+
+-----
+
+### Divertit
+
+Vous vous donnez en spectacle principalement pour divertir les autres.
+
+* Rang 1: Légèreté
+* Rang 2: Facilité Inspirante
+* Rang 3: Compétences en Connaissances ou Potentiel amélioré supérieur
+* Rang 4: Calme
+* Rang 5: Assistance compétente
+* Rang 6: Maître du spectacle ou Performance vindicative
+
+**Intrusions de la MJ:** Le public est agacé ou offensé. Les instruments de musique se cassent. Les peintures sèchent dans leurs pots. Les paroles d'un poème ou d'une chanson sont oubliées.
+
+-----
+
+### Est Idolatré par Millions
+
+Vous êtes une célébrité et la plupart des gens vous adorent.
+
+* Rang 1: Entourage
+* Rang 1: Talent de célébrité
+* Rang 2: Avantages de la célébrité
+* Rang 3: Santé incroyable ou Compétence avec les attaques
+* Rang 4: Captiver avec Eclat
+* Rang 4: Disciple expert
+* Rang 5: Est-ce que tu sais qui je suis?
+* Rang 6: Transcendez le scénario ou Compagnon amélioré
+
+**Intrusions de la MJ:** Les fans sont mis en danger ou blessés à votre place. Quelqu'un dans votre entourage vous trahit. Votre spectacle, tournée, contrat, ou autre événement est annulé. Les médias publient des photos de vous dans une situation embarrassante.
+
+-----
+
+### Est Recherché par la Loi
+
+Des affiches "WANTED, DEAD or ALIVE" (ou leur équivalent) sont apparues avec votre visage. C'est à vous de décider si c'est une erreur qui est devenue incontrôlable ou si vous tueriez quelqu'un juste pour un regard.
+
+* Rang 1: Célérité améliorée
+* Rang 1: Sens du Danger
+* Rang 2: Attaque surprise
+* Rang 3: Réputation de hors-la-loi ou Attaque successive
+* Rang 4: Meurtre Rapide
+* Rang 5: Bande de Desperados
+* Rang 6: Pas encore mort ou Dégâts mortels
+
+**Intrusions de la MJ:** La plupart des gens n’aiment pas découvrir parmi eux un hors-la-loi recherché.
+
+-----
+
+### Est sorti de l'Obélisque
+
+Votre corps, dur comme du cristal, vous confère une suite de capacités uniques, acquises après une interaction avec un obélisque cristallin flottant.
+
+* Rang 1: Corps de Cristal
+* Rang 2: Survol
+* Rang 3: Habiter le cristal ou Immobile
+* Rang 4: Lentille Cristalline
+* Rang 5: Fréquence de résonance
+* Rang 6: Tremblement de résonance ou Retour à l'Obélisque
+
+**Intrusions de la MJ:** Les cyphers et les artefacts réagissent de manière inattendue entre les mains du personnage.
+
+-----
+
+### Est un Récupérateur
+
+Lorsque vous ne courez pas et ne vous cachez pas, vous fouillez les ruines de la civilisation à la recherche de vestiges utiles pour assurer votre survie.
+
+* Rang 1: Survivant post-apocalyptique
+* Rang 1: Connaissance des ruines
+* Rang 2: De Déchet à Objet
+* Rang 3: Prendre l'avantage ou Santé incroyable
+* Rang 4: Sachez où chercher
+* Rang 5: Cyphers recyclés
+* Rang 6: Pilleur d'artifact ou Champ réactif
+
+**Intrusions de la MJ:** Un objet fabriqué à partir de déchets recyclés se casse. Quelqu'un se présente en prétendant que l'objet ou le morceau de ferraille récupéré lui appartient. Un cypher recyclé explose.
+
+-----
+
+### Existe en Deux Endroits en Même Temps
+
+Vous existez en deux endroits en même Ttemps.
+
+* Rang 1: Duplicata
+* Rang 2: Partager les sens
+* Rang 3: Duplication Supérieure ou Duplicata résilient
+* Rang 4: Transfert de dégâts
+* Rang 5: Effort coordonné
+* Rang 6: Multiplicité ou Duplicata résilient
+
+**Intrusions de la MJ:** Percevoir le monde à partir de deux endroits différents désoriente le personnage, provoquant des vertiges momentanés, des nausées ou une confusion.
+
+-----
+
+### Existe Partiellement Hors de Phase
+
+Un peu translucide, vous êtes légèrement déphasé et pouvez vous déplacer à travers des objets solides.
+
+* Rang 1: Traverser les murs
+* Rang 2: Phase défensive
+* Rang 3: Attaque de Phase ou Porte de phase
+* Rang 4: Fantôme
+* Rang 5: Intouchable
+* Rang 6: Attaque de Phase Améliorée ou Mettre un Ennemi en Phase
+
+**Intrusions de la MJ:** Le personnage est envoyé dans une dimension inattendue. Le personnage se perd dans un grand objet solide.
+
+-----
+
+### Explore des Endroits Sombres
+
+Vous êtes l'archétype du chasseur de trésors, du charognard et du chercheur d'objets perdus.
+
+* Rang 1: Explorateur Confirmé
+* Rang 2: Infiltrateur Confirmé
+* Rang 2: Yeux ajustés
+* Rang 3: Frappe nocturne ou Client Fuyant
+* Rang 4: Résilience durement gagnée
+* Rang 5: Explorateur des ténèbres
+* Rang 6: Attaque aveuglante ou Fussionne avec les Ténèbres
+
+**Intrusions de la MJ:** Les biens tombent des poches ou des sacs dans le noir ; les cartes se perdent ; les informations obtenues n’incluent pas un détail important.
+
+-----
+
+### Façonne des Illusions
+
+Vous façonnez des images à partir de la lumière qui sont si parfaites qu’elles semblent réelles.
+
+* Rang 1: Illusion mineure
+* Rang 2: Déguisement illusoire
+* Rang 3: Lancer Illusion ou Illusion majeure
+* Rang 4: Image Miroir
+* Rang 5: Image terrifiante
+* Rang 6: Illusion grandiose ou Illusion permanente
+
+**Intrusions de la MJ:** L'illusion n'est pas crédible. L’illusion est percée au mauvais moment.
+
+-----
+
+### Façonne des Objets Uniques
+
+Vous êtes un inventeur d'objets étranges et utiles.
+
+* Rang 1: Artisan
+* Rang 1: Maîtrise de l'Identification des appareils
+* Rang 2: Bricoleur d'artefacts
+* Rang 2: Travail rapide
+* Rang 3: Maître artisan ou Armes intégrées
+* Rang 4: Maîtrise des Cyphers
+* Rang 5: Innovateur
+* Rang 6: Inventeur ou Armure Corporelle
+
+**Intrusions de la MJ:** L'objet fonctionne mal, se casse, ou subit une panne catastrophique ou inattendue.
+
+{{< hint info >}}
+Maîtrise des Cyphers fonctionne uniquement dans un contexte où les chiffres sont des objets physiques. Si ce n'est pas le cas, cette capacité devrait probablement être remplacée par quelque chose qui s'apparente à Percée scientifique étrange de le Focus Poursuit des Sciences Etranges.
+{{< /hint >}}
+
+-----
+
+### Façonne la Foudre
+
+Vous créez et déchargez de l’énergie électrique.
+
+* Rang 1: Choc Electrique
+* Rang 1: Charge
+* Rang 2: Comme l'éclair
+* Rang 3: Armure électrique ou Charge Drainante
+* Rang 4: Eclairs de puissance
+* Rang 5: Vol électrique
+* Rang 6: Aussi Rapide que l'Eclair ou Mur de foudre
+
+**Intrusions de la MJ:** Les cibles autres que celles prévues sont choquées. Les objets explosent.
+
+-----
+
+### Fait des Miracles
+
+Vous pouvez guérir les autres d’un simple toucher, modifier le temps pour aider les autres et êtes généralement aimé de tous.
+
+* Rang 1: Main Guérisseuse
+* Rang 2: Soulager
+* Rang 3: Source de guérison ou Santé miraculeuse
+* Rang 4: Inspirer l'action
+* Rang 5: Annuler
+* Rang 6: Main Guérisseuse Supérieure ou Restaurer la vie
+
+**Intrusions de la MJ:** Les tentatives de guérison pourraient plutôt causer du tort. Une communauté ou un individu a si désespérément besoin d'un guérisseur qu'il en a un contre son gré.
+
+-----
+
+### Fait Résonner le Tonnerre
+
+Vous émettez un son destructeur et manipulez les paysages sonores.
+
+* Rang 1: Faisceau de Tonnerre
+* Rang 2: Barrière de conversion sonore
+* Rang 3: Annuler le son ou Echolocation
+* Rang 4: Cri fracassant
+* Rang 5: Grondement subsonique
+* Rang 5: Amplifier les sons
+* Rang 6: Tremblement de terre ou Vibration mortelle
+
+**Intrusions de la MJ:** Les bruits forts attirent l’attention.
+
+-----
+
+### Fussionne l'Esprit et la Machine
+
+Les aides électroniques implantées dans votre cerveau font de vous une surpuissance cérébrale.
+
+* Rang 1: Intellect améliorée
+* Rang 1: Compétences en Connaissances
+* Rang 2: Une information dans le réseau
+* Rang 3: Processeur d'action ou Télépathie machine
+* Rang 4: Intellect Améliorée Supérieure
+* Rang 4: Compétences en Connaissances
+* Rang 5: Voir l'avenir
+* Rang 6: Amélioration de la machine ou Sursaut mental
+
+**Intrusions de la MJ:** Les machines fonctionnent mal et s'arrêtent. De puissantes intelligences artificielles peuvent prendre le contrôle de machines moins pensantes. Certaines personnes ne font pas confiance à une personne qui n’est pas entièrement biologique.
+
+-----
+
+### Fusionne la Chair et l'Acier
+
+Votre corps est en partie une machine.
+
+* Rang 1: Corps amélioré
+* Rang 2: Interface
+* Rang 3: Ensemble de détection ou Armement
+* Rang 4: Fusion
+* Rang 5: Réserves Partagées
+* Rang 6: Sursaut mental ou Ultra amélioration
+
+**Intrusions de la MJ:** Dans la plupart des sociétés, les gens ont peur de quelqu'un qui possède des pièces mécaniques.
+
+-----
+
+### Garde le Passage
+
+Tout le monde veut que vous soyez à ses côtés lorsqu’il s’agit d’un combat, car rien ne vous échappe.
+
+* Rang 1: Position fortifiée
+* Rang 1: Ralliez-vous à moi
+* Rang 2: Esprit de puissance
+* Rang 3: Constructeur de fortifications ou Détourner les attaques
+* Rang 4: Puissance améliorée supérieure
+* Rang 5: Champ de renforcement
+* Rang 6: Générer un champ de force ou Attaque Etourdissante
+
+**Intrusions de la MJ:** Une structure d'importance stratégique s’effondre. L'ennemi attaque depuis une direction inattendue.
+
+-----
+
+### Grandit Jusqu'au Ciel
+
+Pendant de brèves périodes, vous pouvez grandir et, avec suffisamment d'expérience, atteindre des hauteurs imposantes.
+
+* Rang 1: Agrandir
+* Rang 1: Agrandissement Efrayant
+* Rang 2: Plus grand
+* Rang 2: Avantages d'être grand
+* Rang 3: Enorme ou Lancer
+* Rang 4: Saisir
+* Rang 5: Gargantuesque
+* Rang 6: Colossal ou Dégâts mortels
+
+**Intrusions de la MJ:** Une croissance rapide renverse les meubles, brise les plafonds ou les luminaires suspendus. Un personnage agrandi perce le sol.
+
+-----
+
+### Guide la Communauté
+
+Vous gardez le lieu où vous vivez à l'abri de tout danger.
+
+* Rang 1: Connaissance de la communauté
+* Rang 1: Activiste communautaire
+* Rang 2: Compétence avec les attaques
+* Rang 3: Fureur du berger ou Compétence en Défense Supérieure
+* Rang 4: Potentiel amélioré supérieur
+* Rang 5: Evasion
+* Rang 6: Compétence en Attaque Supérieure ou Mur de protection
+
+**Intrusions de la MJ:** Les membres de la communauté comprennent mal les motivations du personnage. Les rivaux tentent d'évincer le personnage.
+
+-----
+
+### Guide les Esprits
+
+Les âmes errantes, les esprits de la nature et les êtres élémentaires vous aident et vous soutiennent.
+
+(Dans certains contextes, le Focus Guide les Esprits s’applique à un seul type d’esprit, comme les esprits des défunts, les esprits de la nature, etc.)
+
+* Rang 1: Interrogez les esprits
+* Rang 2: Esprit Complice
+* Rang 3: Commander un Esprit ou Sens surnaturels
+* Rang 4: Esprit Protecteur
+* Rang 5: Appeler l'esprit d'un mort
+* Rang 6: Appeler un esprit d'un autre monde ou Absorber l'Esprit
+
+**Intrusions de la MJ:** Certaines personnes ne font pas confiance à ceux qui s'occupent des esprits. Parfois, les morts ne veulent pas de berger.
+
+-----
+
+### Hurle à la Lune
+
+Pendant de brèves périodes, vous devenez une créature redoutable et puissante avec des problèmes de contrôle.
+
+* Rang 1: Forme animale
+* Rang 2: Contrôle du Changement de Forme
+* Rang 3: Forme de bête plus grande ou Forme de bête Supérieure
+* Rang 4: Changement contrôlé Supérieur
+* Rang 5: Forme de bête améliorée
+* Rang 6: Dégâts mortels ou Contrôle parfait
+
+**Intrusions de la MJ:** Le changement se produit de manière incontrôlée. Les gens ont peur des monstres.
+
+-----
+
+### Ignore les Distances Physiques
+
+Vous pouvez vous téléporter d'un endroit à un autre en traversant brièvement une dimension parallèle.
+
+* Rang 1: Compression dimensionnelle
+* Rang 2: Opportuniste
+* Rang 3: Clignotement défensif ou Sauts de Téléportation
+* Rang 4: Téléportation courte
+* Rang 5: Téléportation moyenne
+* Rang 6: Téléportation ou Blessure de téléportation
+
+**Intrusions de la MJ:** Une téléportation tourne mal et le personnage se retrouve dans un endroit dangereux. L'inertie (comme une chute) continue pendant la téléportation, blessant le personnage.
+
+-----
+
+### Illumine avec Eclat
+
+Vous pouvez créer de la lumière, la sculpter, la détourner de vous ou la rassembler pour l'utiliser comme une arme.
+
+* Rang 1: Eclairé
+* Rang 1: Toucher lumineux
+* Rang 2: Couleurs Eblouissantes
+* Rang 3: Lumière brûlante ou Compétence en Défense Supérieure
+* Rang 4: Lumière du soleil
+* Rang 5: Disparaître
+* Rang 6: Lumière vivante ou Champ défensif
+
+**Intrusions de la MJ:** Les alliés sont accidentellement éblouis ou aveuglés. Des éclairs lumineux attirent les gardes.
+
+-----
+
+### Interprète la Loi
+
+Vous excellez à convaincre les autres de partager vos opinions.
+
+* Rang 1: Persuasion et Tromperie
+* Rang 1: Connaissance de la loi
+* Rang 2: Débat
+* Rang 3: Assistance compétente ou Avantage d'Intellect amélioré
+* Rang 4: Fustiger
+* Rang 5: Personne ne sait mieux
+* Rang 6: Potentiel amélioré supérieur ou Stagiaire juridique
+
+**Intrusions de la MJ:** Les spectateurs réagissent mal à un je-sais-tout. Une distraction ou une interruption fait dérailler l’argumentation du personnage.
+
+-----
+
+### Invoque la Tempète
+
+Vous pouvez invoquer des tempêtes ou les briser.
+
+* Rang 1: Survol
+* Rang 2: Armure de vent
+* Rang 3: Eclairs de puissance ou Graine de Tempête
+* Rang 4: Surfeur des Vents
+* Rang 5: Explosion de froid
+* Rang 6: Contrôle de la météo ou Chariot à vent
+
+**Intrusions de la MJ:** Un allié est accidentellement frappé par une fourchette de foudre. Un effet d'échouement inattendu inflige des dégâts. Le temps est influencé par un effet beaucoup plus faible et une tempête devient incontrôlable.
+
+-----
+
+### Lance avec une Précision Mortelle
+
+Tout ce qui quitte votre main va exactement là où vous souhaitez qu'il aille et à la portée et à la vitesse nécessaires pour produire l'impact parfait.
+
+* Rang 1: Précision
+* Rang 2: Visée prudente
+* Rang 3: Lancer rapide ou Compétence en Défense Supérieure
+* Rang 4: Tout est une arme
+* Rang 4: Lanceur spécialisé
+* Rang 5: Tourbillon de lancers
+* Rang 6: Dégâts mortels ou Maîtrise de la défense
+
+**Intrusions de la MJ:** Les attaques manquées touchent la mauvaise cible. Les ricochets peuvent être dangereux. Les armes improvisées se brisent.
+
+-----
+
+### Maîtrise l'Armement
+
+Vous êtes un maître d'arme d'un type particulier d'arme, qu'il s'agisse d'une épée, d'un fouet, d'un poignard, d'un pistolet ou autre.
+
+(Quelqu’un qui Maîtrise l'Armement peut disposer d’un équipement supplémentaire, notamment une arme de haute qualité.)
+
+* Rang 1: Maître d'Arme
+* Rang 1: Fabricant d'armes
+* Rang 2: Défense avec Arme
+* Rang 3: Attaque rapide ou Frappe désarmante
+* Rang 4: Ne jamais échouer
+* Rang 5: Maîtrise extrême
+* Rang 6: Meurtrier ou Frappe mortelle
+
+**Intrusions de la MJ:** Les armes se brisent. Les armes peuvent être volées. Les armes peuvent être lâchées ou arrachées de votre main.
+
+-----
+
+### Maîtrise l'Essaim
+
+Insectes. Rats. Chauves-souris. Même les oiseaux. Vous maîtrisez un type de petite créature qui vous obéit.
+
+* Rang 1: Influence d'Essaim
+* Rang 2: Contrôle de l'Essaim
+* Rang 3: Armure vivante ou Compétence avec les attaques
+* Rang 4: Appeller un essaim
+* Rang 5: Gagner un compagnon inhabituel
+* Rang 6: Essaim mortel ou Compétence en Défense Supérieure
+
+**Intrusions de la MJ:** Une commande est mal comprise. Le contrôle est irrégulier ou est perdu. Les morsures et les piqûres ne sont pas rares chez les maîtres de l'essaim.
+
+-----
+
+### Maîtrise la Défense
+
+Vous utilisez un équipement de protection et des techniques pratiquées pour éviter de vous blesser lors d'un combat.
+
+* Rang 1: Maîtrise du Bouclier
+* Rang 2: Robuste
+* Rang 2: Pratique des armures
+* Rang 3: Esquive et résistance ou Esquiver et répondre
+* Rang 4: Tour de Volonté
+* Rang 4: Expérimenté en armure
+* Rang 5: Rien que Défendre
+* Rang 6: Maître de la défense ou Portez-la bien
+
+**Intrusions de la MJ:** Les boucliers se brisent lorsqu'ils sont touchés, tout comme les armes utilisées pour parer. Les sangles d'armure se brisent.
+
+-----
+
+### Maîtrise les Sortilèges
+
+En vous spécialisant dans le lancement de sortilèges et en tenant un livre de sorts, vous pouvez rapidement lancer des sorts d'arc de foudre, de feu roulant, d'ombre rampante et d'invocation.
+
+* Rang 1: Tir Arcanique
+* Rang 2: Rayon de confusion
+* Rang 3: Cube de flammes ou Invoquer une araignée géante
+* Rang 4: Interrogation de l'âme
+* Rang 5: Mur de Granit
+* Rang 6: Invoquer un démon ou Mot de mort
+
+**Intrusions de la MJ:** Le sort tourne mal. La créature invoquée se retourne contre le lanceur. Un lanceur de sorts rival est attiré par l'utilisation de la magie.
+
+-----
+
+### Manipule la Matière Noire
+
+Vous pouvez manipuler l'ombre et la matière « noire ».
+
+* Rang 1: Rubans de matière noire
+* Rang 2: Ailes du Aime le Vide
+* Rang 3: Manteau de matière noire ou Frappe de matière noire
+* Rang 4: Coquille de matière noire
+* Rang 5: Surfeur de Matière Noire
+* Rang 6: Structure de matière noire ou Embrassez la nuit
+
+**Intrusions de la MJ:** La matière noire s'éloigne comme si elle était possédée par son propre esprit.
+
+-----
+
+### Marche dans Les Forêts Primaires
+
+Un adepte de la magie de la nature qui s'appuie sur le pouvoir et la force des arbres.
+
+* Rang 1: Vie en pleine nature
+* Rang 1: Récupération du patient
+* Rang 2: Corps en bois
+* Rang 3: Compagnon Arbre ou Sensibilisation à la nature sauvage
+* Rang 4: Voyage dans les arbres
+* Rang 5: Grand arbre
+* Rang 6: Forêt Terrifiante ou Floraison réparatrice
+
+**Intrusions de la MJ:** Un personnage ou une créature en bois prend feu. Un coup sauvage d'une branche d'arbre frappe ou fait trébucher un allié. Certains arbres ont un mauvais cœur et détestent toutes les choses qui marchent.
+
+-----
+
+### N'a pas Besoin d'Arme
+
+Des coups de poing, de pied, de coude, des genoux et des mouvements complets du corps sont toutes les armes dont vous avez besoin.
+
+* Rang 1: Poings de fureur
+* Rang 1: Chair de Pierre
+* Rang 2: Avantage par Désavantage
+* Rang 2: Style de combat à mains nues
+* Rang 3: Se déplacer comme l'eau ou Potentiel amélioré supérieur
+* Rang 4: Détourner les attaques
+* Rang 5: Attaque Etourdissante
+* Rang 6: Maître du style de combat à mains nues ou Dégâts mortels
+
+**Intrusions de la MJ:** Frapper certains ennemis vous fait autant de mal qu'à eux. Les adversaires armés ont une plus grande portée. Des mouvements d'arts martiaux compliqués peuvent vous faire perdre l'équilibre.
+
+-----
+
+### Ne Fait pas Grand Chose
+
+Vous êtes un fainéant, mais vous en savez un peu sur beaucoup de choses.
+
+* Rang 1: Leçons de vie
+* Rang 2: Totalement Chill
+* Rang 3: Compétence avec les attaques ou Improvise
+* Rang 4: Leçons de vie
+* Rang 4: Compétence en Défense Supérieure
+* Rang 5: Potentiel amélioré supérieur
+* Rang 6: S'appuyer sur les expériences de la vie ou Vif d'esprit
+
+**Intrusions de la MJ:** Les nouvelles situations sont déroutantes et stressantes. Les actions (ou inactions) passées reviennent hanter le personnage.
+
+-----
+
+### Ne S'Avoue Jamais Vaincu
+
+Vous n’abandonnez jamais, vous pouvez ignorer les coups et revenir toujours pour vous battre.
+
+* Rang 1: Récupération améliorée
+* Rang 1: Passer à travers
+* Rang 2: Ignorez la Douleur
+* Rang 3: Fièvre sanguinolente ou Réserves cachées
+* Rang 4: Détermination croissante ou Survivre à l'ennemi
+* Rang 5: Pas encore mort
+* Rang 6: Défi final ou Ignorer l'Affliction
+
+**Intrusions de la MJ:** Parfois, ce sont les équipements ou les armes qui lâchent.
+
+-----
+
+### Opère sous Couverture
+
+Sous l’apparence de quelqu’un d’autre, vous cherchez à trouver des réponses que les puissants ne veulent pas divulguer.
+
+(Quelqu'un qui Opère sous Couverture pourrait avoir un équipement supplémentaire comprenant un kit de déguisement.)
+
+* Rang 1: Enquêter
+* Rang 2: Déguisement
+* Rang 3: Agent Provocateur ou Courir et combattre
+* Rang 4: Rapide Tromperie
+* Rang 5: Utiliser ce qui est disponible
+* Rang 6: Faites confiance à la chance ou Frappe mortelle
+
+**Intrusions de la MJ:** La malchance peut ruiner les meilleurs projets. Les déguisements échouent. Les alliés se révèlent également être des agents.
+
+-----
+
+### Parle au Nom de la Terre
+
+Votre connexion spirituelle avec la nature et l’environnement vous confère des capacités mystiques.
+
+* Rang 1: Graines de fureur
+* Rang 1: Connaissances en milieu sauvage
+* Rang 2: Feuillage agrippant
+* Rang 3: Apaiser la Bête Sauvage ou Communication
+* Rang 4: Carnivore sous la Lune
+* Rang 5: Eruption d'insectes
+* Rang 6: Appeler la tempête ou Tremblement de terre
+
+**Intrusions de la MJ:** Une créature naturelle (mais dangereuse) blessée est découverte. Quelqu'un braconne des animaux sauvages pour leur peau, laissant les carcasses pourrir. Un arbre tombe dans la forêt, un des derniers sureaux.
+
+-----
+
+### Parle aux Machines
+
+Vous utilisez votre cerveau organique comme un ordinateur, en interface « sans fil » avec n’importe quel appareil électronique. Vous pouvez les contrôler et les influencer d’une manière que d’autres ne peuvent pas.
+
+* Rang 1: Affinité machine
+* Rang 1: Interface distante
+* Rang 2: Puissance d'attraction
+* Rang 2: Charmer une Machine
+* Rang 3: Interface intelligente ou Commander une Machine
+* Rang 4: Compagnon machine
+* Rang 4: Combattant de Robot
+* Rang 5: Collecte d'informations
+* Rang 6: Contrôle de Machine ou Compagnon Machine Amélioré
+
+**Intrusions de la MJ:** La machine fonctionne mal ou agit de manière imprévisible.
+
+-----
+
+### Peut Séparer son Esprit de son Corps
+
+Vous pouvez projeter votre esprit hors de votre corps pour voir des endroits lointains et découvrir des secrets qui autrement resteraient cachés.
+
+* Rang 1: Troisième œil
+* Rang 2: Esprit ouvert
+* Rang 2: Sens aiguisés
+* Rang 3: Troisième œil itinérant ou Trouver ce qui est caché
+* Rang 4: Capteur
+* Rang 5: Passager psychique
+* Rang 6: Projection mentale ou Capteur amélioré
+
+**Intrusions de la MJ:** Réunir l’esprit et le corps peut parfois être désorientant et nécessiter qu’un personnage passe quelques instants pour se repérer.
+
+-----
+
+### Pilote un Vaisseau Spatial
+
+Vous êtes un excellent pilote de vaisseau.
+
+* Rang 1: Pilote
+* Rang 1: Connaissances en Prêt
+* Rang 2: Récupération et confort
+* Rang 2: Mentalement résistant
+* Rang 3: Pilote Expert
+* Rang 3: A l'Aise à Bord ou Compagnon machine
+* Rang 4: Réseau de capteurs
+* Rang 4: Célérité améliorée
+* Rang 5: Comme le dos de votre main
+* Rang 6: Pilote Incomparable
+* Rang 6: Télécommande ou Compétence avec les attaques
+
+**Intrusions de la MJ:** Un vaisseau spatial se perd, tombe en panne et est attaqué dans l'espace. Un passager clandestin extraterrestre est retrouvé.
+
+-----
+
+### Porte un Eclat de Glace
+
+Vous maîtrisez la puissance hivernale du froid et de la glace.
+
+* Rang 1: Armure de Glace
+* Rang 2: Toucher  Glacial
+* Rang 3: Toucher de Froid Paralysant ou Création de Glace
+* Rang 4: Armure de glace résiliente
+* Rang 5: Explosion de froid
+* Rang 6: Tempête de Glace ou Gantelets d'hiver
+
+**Intrusions de la MJ:** La glace rend les surfaces glissantes. Un froid extrême provoque la fissuration et la rupture des objets.
+
+-----
+
+### Porte une Arme Enchantée
+
+Vous possédez une arme aux capacités étranges, et votre connaissance de ses pouvoirs vous a permis de créer avec elle un style de combat unique.
+
+* Rang 1: Arme enchantée
+* Rang 1: Pouvoir inné 
+* Rang 1: Arme Electrique
+* Rang 2: Frappe Explosive
+* Rang 3: Attaque rapide ou Lancer une arme enchantée
+* Rang 4: Arme de défense
+* Rang 5: Mouvement enchanté
+* Rang 6: Frappe mortelle ou Attaque Tournoyante
+
+**Intrusions de la MJ:** Une arme se brise ou tombe. Le personnage perd sa connexion avec l'arme jusqu'à ce qu'il utilise une action pour rétablir l'harmonisation. L’énergie de l’arme se décharge de manière inattendue.
+
+-----
+
+### Porte une Armure Mécanique
+
+* Rang 1: Armure motorisée
+* Rang 1: Puissance Améliorée
+* Rang 2: Affichage Tête Haute
+* Rang 3: Armure Corporelle ou Santé incroyable
+* Rang 4: Explosion de Force
+* Rang 5: Armure Renforcée par Champs de Force
+* Rang 6: Modification magistrale de l'armure (Vol assisté par réacteur) ou Modification magistrale de l'armure (Cypher Pod)
+
+**Intrusions de la MJ:** L'armure ne s'enlève pas. L'armure agit par ses propres moyens. L'armure subit une perte de puissance momentanée. Les PNJ ont peur de l'armure assistée.
+
+-----
+
+### Poursuit des Sciences Etranges
+
+Votre perspicacité et vos capacités surnaturelles font de vous un scientifique capable de prouesses incroyables.
+
+* Rang 1: Analyse en laboratoire
+* Rang 1: Compétences en Connaissances
+* Rang 2: Modifier l'appareil
+* Rang 3: Mieux vivre grâce à la chimie ou Santé incroyable
+* Rang 4: Compétences en Connaissances
+* Rang 4: Juste un peu fou
+* Rang 5: Percée scientifique étrange
+* Rang 6: Incroyable exploit scientifique
+* Rang 6: Inventeur ou Champ défensif
+
+**Intrusions de la MJ:** Les créations deviennent incontrôlables. Les effets secondaires ne sont pas toujours prévisibles. Les sciences étranges terrifient les gens et peuvent attirer l’attention des médias. Lorsqu'un appareil créé ou modifié par une science étrange est épuisé, il explose.
+
+-----
+
+### Préfèrerait Lire
+
+Les livres sont vos amis. Qu'y a-t-il de plus important que la connaissance ? Rien.
+
+* Rang 1: La connaissance, c'est le pouvoir
+* Rang 2: Intellect Améliorée Supérieure
+* Rang 3: Appliquer vos connaissances ou Compétences en Prêt
+* Rang 4: La connaissance, c'est le pouvoir
+* Rang 4: Connaître l'inconn
+* Rang 5: Intellect Améliorée Supérieure
+* Rang 6: La connaissance, c'est le pouvoir
+* Rang 6: Tour de l'Intellectou Lire les signes
+
+**Intrusions de la MJ:** Les livres brûlent, sont mouillés ou se perdent. Les ordinateurs tombent en panne ou perdent de la puissance. Les verres se cassent.
+
+### Prend une Forme Animale
+
+Vous pouvez vous transformer en animal.
+
+* Rang 1: Forme animale
+* Rang 2: Communication
+* Rang 2: Apaiser la Bête Sauvage
+* Rang 3: Forme animale plus grande ou Forme de bête Supérieure
+* Rang 4: Analyse d'animal
+* Rang 5: Difficile à tuer
+* Rang 6: Célérité flou ou Prêter une forme animale
+
+**Intrusions de la MJ:** Le personnage change de forme de manière inattendue. Un PNJ est effrayé par votre agressivité envers le métamorphe. La transformation prend plus de temps que prévu.
+
+{{< hint info >}}
+Forme de bête Supérieure s'applique en utilisant Forme animale.
+{{< /hint >}}
+
+-----
+
+### Rend la Justice
+
+Vous redressez les torts, protégez les innocents et punissez les coupables.
+
+* Rang 1: Porter un jugement
+* Rang 1: Désignation
+* Rang 2: Défendre les innocents
+* Rang 2: Désignation Améliorée
+* Rang 3: Défendre tous les innocents ou Punir le coupable
+* Rang 4: Trouver le coupable
+* Rang 4: Désignation supérieure
+* Rang 5: Punir tous les coupables
+* Rang 6: Au diable les coupables ou Inspirez les innocents
+
+**Intrusions de la MJ:** La culpabilité ou l'innocence peuvent être compliquées. Certaines personnes sont mécontentes de la présomption d'un juge autoproclamé. Porter un jugement fait des ennemis.
+
+-----
+
+### Résout des Mystères
+
+Vous maîtrisez la déduction et utilisez des faits et des indices pour trouver la réponse.
+
+* Rang 1: Enquêteur
+* Rang 1: Détective
+* Rang 2: Hors de danger
+* Rang 3: Vous avez étudié ou Compétence avec les attaques
+* Rang 4: Tirer une conclusion
+* Rang 5: Désamorcer la situation
+* Rang 6: Prendre l'initiative ou Compétence en Défense Supérieure
+
+**Intrusions de la MJ:** Les preuves disparaissent, les fausses pistes confondent et les témoins mentent. La recherche initiale peut être erronée.
+
+-----
+
+### Réveille les rêves
+
+Vous pouvez extraire des images de rêves et leur donner vie dans le monde éveillé.
+
+* Rang 1: Artisanat des Rêves
+* Rang 1: Science du Sommeil
+* Rang 2: Voleur de rêves
+* Rang 3: Le rêve devient réalité ou Intellect améliorée
+* Rang 4: Rêverie
+* Rang 5: Cauchemar
+* Rang 6: Chambre des rêves ou Champ réactif
+
+**Intrusions de la MJ:** Un épisode de somnambulisme inattendu met le personnage dans une situation dangereuse. Un cauchemar se libère d'un rêve.
+
+-----
+
+### Résiste Comme une Citadelle
+
+Votre armure, ainsi que votre taille, votre force, votre entraînement incroyable ou l'amélioration de votre machine, vous rendent difficile à déplacer ou à blesser.
+
+{{< hint info >}}
+Certains personnages qui Résiste Comme une Citadelle sont peut-être déjà des experts en armure. Ils peuvent choisir une capacité de Rang 1 différente au lieu de Pratique des armures.
+{{< /hint >}}
+
+* Rang 1: Pratique des armures
+* Rang 1: Défenseur expérimenté
+* Rang 2: Résistez aux éléments
+* Rang 3: Inamovible
+* Rang 3: Puissance améliorée supérieure ou Pratique de toutes les armes
+* Rang 4: Mur vivant
+* Rang 5: Robustesse
+* Rang 5: Maîtrise en Armure
+* Rang 6: Dégâts mortels ou Entraînement au bouclier
+
+**Intrusions de la MJ:** L'armure est endommagée. Les ennemis de moindre taille conspirent de manière ingénieuse.
+
+-----
+
+### Rôde dans les Bas Quartiers
+
+Vous avancez sans être vu, volant les riches pour parvenir à vos fins.
+
+* Rang 1: Compétences furtives
+* Rang 2: Contacts avec la pègre
+* Rang 3: Rapide Tromperie ou Entraînement de guilde
+* Rang 4: Maître voleur
+* Rang 5: Combattant Hors-la-loi
+* Rang 6: Rat des Allées ou Mettre le paquet
+
+**Intrusions de la MJ:** Les voleurs sont jetés en prison. De puissants ennemis se font.
+
+-----
+
+### S'Associe avec les Morts
+
+Les morts répondent à vos questions, et leurs cadavres réanimés vous servent.
+
+* Rang 1: Orateur pour les morts
+* Rang 2: Nécromancie
+* Rang 3: Esprit parle moi d'ici ou Réparer la chair
+* Rang 4: Réparer la chair
+* Rang 5: Regard terrifiant
+* Rang 6: Véritable Nécromancie ou Mot de mort
+
+**Intrusions de la MJ:** La réputation nécromantique du personnage les précède. Un cadavre cherche à se venger d'avoir été réanimé.
+
+-----
+
+### S'enfuit
+
+Votre premier réflexe est de fuir le danger, et vous y êtes devenu très fort.
+
+* Rang 1: Devenez défensif
+* Rang 2: Célérité améliorée
+* Rang 2: Rapide à fuir
+* Rang 3: Vitesse de course incroyable ou Célérité améliorée supérieure
+* Rang 4: Détermination croissante
+* Rang 4: Vif d'esprit
+* Rang 5: Aller au sol
+* Rang 6: Bouquet d'évasion ou Compétence en Défense Supérieure
+
+**Intrusions de la MJ:** Des mouvements rapides entraînent parfois des chutes d'objets, des glissements sur un sol irrégulier ou une mauvaise direction par accident.
+
+-----
+
+### S'Envole Grâce à ses Ailes
+
+De nombreux super-héros peuvent voler et certains ont même des ailes. Vous pouvez utiliser vos ailes pour vous déplacer, attaquer et vous défendre.
+
+* Rang 1: Survol
+* Rang 1: Vol Court
+* Rang 2: Ailes comme Arme
+* Rang 3: Attaque acrobatique ou Compagnon volant
+* Rang 4: Difficile à toucher
+* Rang 5: Accélérer
+* Rang 6: Cible difficile ou Maître de la défense
+
+**Intrusions de la MJ:** Une aile est blessée ou retenue, provoquant la chute du personnage. Voler haut fait du personnage une cible évidente pour un ennemi inattendu.
+
+-----
+
+### S'Etire
+
+Votre corps est élastique et caoutchouteux, capable de s’étirer sur de grandes longueurs et de se comprimer lorsqu’il est frappé.
+
+* Rang 1: Contorsionniste
+* Rang 1: Grand Pas
+* Rang 2: Poignée élastique
+* Rang 2: Chute en toute sécurité
+* Rang 3: Contourner la barrière ou Détournement
+* Rang 4: Résilience
+* Rang 5: Libre de se déplacer
+* Rang 6: Briser les rangs ou Pas encore mort
+
+**Intrusions de la MJ:** Une attaque ou un effet perturbe l’élasticité du personnage. Un membre étiré devient trop sollicité et faible.
+
+-----
+
+### Sculpte la Lumière Solide
+
+Vous créez des objets physiques à partir d’une lumière solide que vous pouvez utiliser à des fins offensives et défensives.
+
+* Rang 1: Lueur automatique
+* Rang 1: Lumière temporaire
+* Rang 2: Force enchevêtrante
+* Rang 3: Lumière plus Forte ou Lumière sculptée
+* Rang 4: Intellect Améliorée Supérieure
+* Rang 5: Lumière sculptée améliorée
+* Rang 6: Champ défensif ou Vol
+
+**Intrusions de la MJ:** Un objet à lumière solide disparaît prématurément. Un objet à lumière solide ne peut pas affecter une certaine créature ou couleur.
+
+-----
+
+### Se Bat avec Deux Armes à la fois
+
+Vous portez de l'acier dans chaque main, prêt à affronter n'importe quel ennemi.
+
+* Rang 1: Deux Armes Légères
+* Rang 2: Double frappe
+* Rang 2: Infiltrateur
+* Rang 3: Deux Armes Moyennes ou Coupe Précise
+* Rang 4: Double défense
+* Rang 5: Double Distraction
+* Rang 6: Attaque de désarmement ou Attaque Tournoyante
+
+**Intrusions de la MJ:** Une lame se brise en deux ou une arme se détache de la poigne de son porteur.
+
+-----
+
+### Se Bat Sans Respecter de Règle
+
+Vous ferez n'importe quoi pour gagner un combat : mordre, gratter, donner un coup de pied, tromper et pire encore.
+
+* Rang 1: Pisteur
+* Rang 1: Traqueur
+* Rang 2: Furtif
+* Rang 2: Proie
+* Rang 3: Trahison ou Attaque surprise
+* Rang 4: Jeux d'esprit
+* Rang 4: Guerrier Capable
+* Rang 5: Utilisation de l'environnement
+* Rang 6: Torsion du couteau ou Meurtrier
+
+**Intrusions de la MJ:** Les gens voient mal ceux qui trichent ou se battent sans honneur. Parfois, un sale tour se retourne contre vous.
+
+-----
+
+### Se Cache dans les Ombres
+
+La subtilité, la ruse et la furtivité vous permettent d'accéder là où les autres ne peuvent pas aller.
+
+* Rang 1: Compétences furtives
+* Rang 1: Sentir les Attitudes
+* Rang 2: Usurper l'identité
+* Rang 2: Evitement
+* Rang 3: Conscience ou Compétence avec les attaques
+* Rang 4: Invisibilité
+* Rang 5: Esquive
+* Rang 6: Lavage de cerveau ou Saut de Côté
+
+**Intrusions de la MJ:** Les espions sont traités durement lorsqu’ils sont capturés. Les alliés désavouent les infiltrés qui se font prendre. Il vaut mieux laisser certains secrets inconnus.
+
+-----
+
+### Se Met en Rage
+
+Quand vous devenez fou, tout le monde vous craint.
+
+* Rang 1: Frénésie
+* Rang 2: Puissance améliorée supérieure
+* Rang 2: Habiletés motrices
+* Rang 3: Frappe Renversante ou Combattant sans armure:
+* Rang 4: Frénésie supérieure
+* Rang 5: Attaquez et attaquez encore
+* Rang 6: Potentiel amélioré supérieur ou Dégâts mortels
+
+**Intrusions de la MJ:** Il est facile pour un berserker de perdre le contrôle et d'attaquer ses amis comme ses ennemis.
+
+-----
+
+### Se Réduit à une Taille Infime
+
+Vous pouvez réduire à la taille d'un bug et, avec suffisamment d'expérience, encore plus petit.
+
+* Rang 1: Rétrécir
+* Rang 1: Sans être remarqué
+* Rang 2: Plus petit
+* Rang 2: Avantages d'être petit
+* Rang 3: Agrandir ou Changements Rapides
+* Rang 4: Petit vol
+* Rang 5: Rétrécir les autres
+* Rang 6: Plus grand ou Tiny
+
+**Intrusions de la MJ:** Une créature pense que le petit personnage est de la nourriture potentielle. Le petit personnage se retrouve coincé dans un espace minuscule ou sous un objet qui tombe.
+
+{{< hint info >}}
+Un personnage qui Se Réduit à une Taille Infime et qui choisit d'apprendre des capacités comme Agrandir ne sera jamais aussi grand que celui qui Grandit Jusqu'au Ciel, mais il peut profiter des Avantages d'être grand ou petit selon ses besoins.
+{{< /hint >}}
+
+-----
+
+### Se Revêt d'un Halo de Feu
+
+Vous pouvez envelopper votre corps de flammes, ce qui vous protège et nuit à vos ennemis.
+
+* Rang 1: Manteau de flammes
+* Rang 2: Lancement de flammes
+* Rang 3: Ailes de Feu ou Main ardente du destin
+* Rang 4: Lame de Feu
+* Rang 5: Vrilles de feu
+* Rang 6: Serviteur du Feu ou Piste Infernale
+
+**Intrusions de la MJ:** Le feu brûle des matières inflammables. Le feu se propage de manière incontrôlable. Les créatures primitives craignent le feu et attaquent souvent ce qu'elles craignent.
+
+-----
+
+### Siphonne les Pouvoirs
+
+Vous aspirez le pouvoir des machines et des créatures afin de vous donner du pouvoir.
+
+{{< hint info >}}
+Les robots et autres machines vivantes doivent être traités comme des créatures, et non comme des machines, dans le but d’en siphonner l’énergie.
+{{< /hint >}}
+
+* Rang 1: Drain de Machine
+* Rang 2: Drain de Créature
+* Rang 3: Drain à distance ou Draîner la vie
+* Rang 4: Stocker l'énergie
+* Rang 5: Partagez le pouvoir
+* Rang 6: Libération explosive ou Siphon solaire
+
+**Intrusions de la MJ:** Le pouvoir drainé transmet également quelque chose de indésirable : des contraintes, des afflictions ou des pensées étrangères. La puissance siphonnée peut surcharger le personnage, provoquant une réaction.
+
+-----
+
+### Tue les Monstres
+
+Vous tuez des monstres.
+
+{{< hint info >}}
+Bien que manier une épée dans un environnement où les gens ne portent généralement pas de telles armes soit acceptable, vous pouvez modifier les capacités liées à l'épée de Tue les Monstres pour utiliser une arme différente, comme un pistolet à balles d'argent.
+{{< /hint >}}
+
+* Rang 1: Pratique des épées
+* Rang 1: Fléau des Monstres
+* Rang 1: Connaissance des monstres
+* Rang 2: Volonté de Légende
+* Rang 3: Epéiste entraîné
+* Rang 3: Fléau des Monstres Amélioré ou Détournement
+* Rang 4: Continuez le combat
+* Rang 5: Compétence en Attaque Supérieure (épées)
+* Rang 6: Meurtrier ou Fléau des Monstres Géants
+
+**Intrusions de la MJ:** Le monstre a tendu un piège ou tendu une embuscade. Le monstre a des capacités jusqu'alors inconnues. La mère du monstre jure de se venger.
+
+-----
+
+### Va Comme le Vent
+
+Vous pouvez vous déplacer si vite que vous devenez flou.
+
+* Rang 1: Célérité améliorée supérieure
+* Rang 1: Pied Léger
+* Rang 2: Difficile à toucher
+* Rang 3: Sursaut de Célérité ou Célérité améliorée supérieure
+* Rang 4: En un Clin d'oeil
+* Rang 5: Difficile à voir
+* Rang 6: Sursaut de Célérité Parfait ou Vitesse de course incroyable
+
+**Intrusions de la MJ:** Les surfaces peuvent être glissantes ou présenter des obstacles cachés. Le mouvement des autres créatures peut être imprévisible et le personnage peut les rencontrer.
+
+-----
+
+### Vit dans la Nature Sauvage
+
+Vous pouvez survivre dans des étendues sauvages où d'autres périssent.
+
+* Rang 1: Vie en pleine nature
+* Rang 1: Puissance Amélioré
+* Rang 2: Vivre de la terre
+* Rang 2: Explorateur de la Nature
+* Rang 3: Sens et sensibilités animales ou Encouragement de la Nature
+* Rang 4: Sensibilisation à la nature sauvage
+* Rang 5: La nature est de votre côté
+* Rang 6: Faire Corps avec la Nature ou Camouflage sauvage
+
+**Intrusions de la MJ:** Les habitants des villes et des villages dénigrent parfois ceux qui ont l'air (et sentent) comme s'ils vivaient dans la nature, comme s'ils étaient ignorants ou barbares.
+
+-----
+
+### Voit Au-Delà
+
+Vous avez un sens psychique qui vous permet de voir ce que les autres ne peuvent pas voir.
+
+* Rang 1: Voir l'invisible
+* Rang 2: Voir à travers la matière
+* Rang 3: Trouver ce qui est caché ou Capteur
+* Rang 4: Visualisation à distance
+* Rang 5: Voir à travers le temps
+* Rang 6: Projection mentale ou Conscience totale
+
+**Intrusions de la MJ:** Certains secrets sont trop terribles pour être connus.
+
+-----
+
+### Vole Plus Vite qu'une Balle
+
+Vous pouvez voler et vous êtes super fort, difficile à blesser et rapide aussi. Y a-t-il quelque chose que vous ne pouvez pas faire ?
+
+* Rang 1: Survol
+* Rang 2: Potentiel amélioré supérieur
+* Rang 3: Réserves cachées ou Voir à travers la matière
+* Rang 4: En un Clin d'oeil
+* Rang 4: Accélérer
+* Rang 5: Pas encore mort
+* Rang 6: Lumière brûlante ou Ignorer l'Affliction
+
+**Intrusions de la MJ:** Un ennemi trouve le personnage. Un matériau étrange est découvert pour annuler les capacités du personnage.
+
+-----
+
+### Voyage à Travers le Temps
+
+Vous pouvez voir à travers le temps, essayer de le traverser et éventuellement même le parcourir.
+
+{{< hint info >}}
+Bien que tous les choix de personnages soient soumis à l'approbation du MJ, Voyage à Travers le Temps est un sujet sur lequel le MJ et le joueur devraient probablement avoir une longue conversation à l'avance, afin que le joueur connaisse les règles du voyage dans le temps (le cas échéant) qui existent dans le réglage du MJ. Un personnage avec cette concentration peut modifier radicalement un décor, si les règles du voyage dans le temps le permettent.
+{{< /hint >}}
+
+* Rang 1: Anticipation
+* Rang 2: Voir Historique
+* Rang 3: Accélération temporelle ou Boucle temporelle
+* Rang 4: Dislocation temporelle
+* Rang 5: Doppelganger Temporel
+* Rang 6: Appel à travers le temps ou Voyage dans le temps
+
+**Intrusions de la MJ:** Des paradoxes se créent. D’autres se souviennent différemment des événements passés.
+
+-----
+
+### Utilise la Magie Sauvage
+
+Lanceur de sorts qui apprend une variété de sorts au lieu de se concentrer sur un seul type de magie.
+
+* Rang 1: Répertoire magique
+* Rang 1: Lancement de Cypher
+* Rang 2: Répertoire étendu
+* Rang 3: Sursaut de Cypher ou Magie Sauvage plus rapide
+* Rang 4: Répertoire étendu
+* Rang 5: Entraînement magique
+* Rang 6: Maximiser le Cypher ou Instinct de Magie Sauvage
+
+**Intrusions de la MJ:** Un sort s'exécute de manière erratique ou rebondit sur le lanceur. Quelque chose interfère avec la préparation des sorts. Le lancement de sorts attire l'attention d'une créature puissante ou d'un rival potentiel. Le sort de chiffre lancé est remplacé par celui d'un chiffre aléatoire.
+
+-----
+
+### Utilise la Magie Sauvage
+
+Lanceur de sorts qui apprend une variété de sorts au lieu de se concentrer sur un seul type de magie.
+
+* Rang 1: Répertoire magique
+* Rang 1: Lancement de Cypher
+* Rang 2: Répertoire étendu
+* Rang 3: Sursaut de Cypher ou Magie Sauvage plus rapide
+* Rang 4: Répertoire étendu
+* Rang 5: Entraînement magique
+* Rang 6: Maximiser le Cypher ou Instinct de Magie Sauvage
+
+**Intrusions de la MJ:** Un sort s'exécute de manière erratique ou rebondit sur le lanceur. Quelque chose interfère avec la préparation des sorts. Le lancement de sorts attire l'attention d'une créature puissante ou d'un rival potentiel. Le sort de chiffre lancé est remplacé par celui d'un chiffre aléatoire.
+
+-----

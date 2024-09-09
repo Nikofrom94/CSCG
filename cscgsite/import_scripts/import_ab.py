@@ -33,7 +33,7 @@ def import_ab(filename,country_code):
     with open(filename,'r') as ability_file:
         current_ab = None
         for line in ability_file:
-            if line.startswith("##"):
+            if line.startswith("###"):
                 if current_ab != None:
                     newab = current_ab.create_Ability()
                     current_ab = None

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Ability " %}{% endblock %}
+{% block content %}
+<div clas="container">
+    <form action="/cscg/ability/{% if ability.id %}{{ ability.id }}/{% endif %}" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Submit"><a href="/cscg/abilities/{% if ability.id %}{{ ability.id }}/{% endif %}">Annuler</a>
+
+    </form>
+</div>
+{% endblock %}

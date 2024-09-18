@@ -2,6 +2,7 @@ from django.db import models
 from django.core.validators import MinValueValidator,MaxValueValidator
 from django.utils import timezone
 from django.utils.translation import gettext
+from django.urls import reverse
 
 STAT_CHOICES={
     0B100:"Might",
@@ -32,14 +33,19 @@ class CSModelGeneric(models.Model):
 
 class Ability(CSModelGeneric):
     objects=CSModelGenericManager()
-    name = models.CharField(max_length=50)
-    stat_cost = models.CharField(max_length=10,null=True)
-    stat = models.CharField(max_length=15,null=True)
+    name = models.CharField(max_length=50,db_index=True)
+    name_en = models.CharField(max_length=50,default='',db_index=True)
+    stat_cost = models.CharField(max_length=50,null=True)
+    stat = models.CharField(max_length=50,null=True,blank=True)
     description = models.TextField()
+    cs_page = models.CharField(default='',max_length=20)
 
+    def get_absolute_url(self):
+        return reverse("ability-detail", kwargs={"pk": self.pk})
+    
     def __str__(self):
-        if self.stat_cost != None:
-            stat_info = ' ('+self.stat_cost+' '+self.stat+')'
+        if self.stat != None:
+            stat_info = ' ('+self.stat+')'
         else:
             stat_info = ''
         return self.name+stat_info+':'+self.description

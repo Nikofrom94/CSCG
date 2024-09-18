@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{{ character.name }}{% endblock %}
+{% block content %}
+<style>
+tbody {
+  font-size: 80%;
+}
+</style>
+<div clas="container">
+    <form action="{% url 'cscg:character' character.id %}" method="post">
+        {% csrf_token %}
+        <div class="row">
+            <label for="name" class="form-label col-sm-1">Nom</label>
+            <input type="text" class="form-control col-sm-9" id="name" placeholder="Taper un nom de personnage" name="name" value="{{ character.name }}"></input>
+        </div>
+
+        <input type="submit" value="Submit">
+
+        <div class="row">
+            <div class="col-sm-10">Statistiques</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Stat</th>
+                            <th>Réserve</th>
+                            <th>Avantage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <label for="might" class="form-label col-sm-1">Puissance</label>
+                            <input type="number" id="might" name="might" min="1" value="{{ character.might }}"/>
+                            <input type="might_edge" id="might_edge" name="might_edge" min="1" value="{{ character.might_edge }}"/>
+                        </tr>
+                        <tr>
+                            <label for="speed" class="form-label col-sm-1">Célérité</label>
+                            <input type="speed" id="speed" name="speed" min="1" value="{{ character.speed }}"/>
+                            <input type="speed_edge" id="speed_edge" name="speed_edge" min="1" value="{{ character.speed_edge }}"/>
+                        </tr>
+                        <tr>
+                            <label for="intellect" class="form-label col-sm-1">Intellect</label>
+                            <input type="intellect" id="intellect" name="intellect" min="1" value="{{ character.intellect }}"/>
+                            <input type="intellect_edge" id="intellect_edge" name="intellect_edge" min="1" value="{{ character.intellect_edge }}"/>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-2">Nombre maximum de cyphers</div>
+            <div class="col-sm-8">{{ character.cyphers }}</div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-10"><h2>Capacités</h2></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>{% translate "Name" %}</th>
+                            <th>{% translate "Stat used" %}</th>
+                            <th>{% translate "Description" %}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for ability in character.abilities_tier1.all %}
+                        <tr>
+                            <td>{{ ability.name }}</td>
+                            <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                            <td>{{ ability.description }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-10"><h4>Compétences</h4></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>{% translate "Name" %}</th>
+                            <th>{% translate "Level" %}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for characterskill in character.skills.all %}
+                        <tr>
+                            <td>{{ characterskill.skill.name }}</td>
+                            <td>{{ characterskill.level }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}

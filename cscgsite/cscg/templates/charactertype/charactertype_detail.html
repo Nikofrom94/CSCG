@@ -150,7 +150,7 @@ tbody {
                     </tr>
                 </thead>
                 <tbody>
-                    {% for ability in object.abilities_tier4.all %}
+                    {% for ability in object.abilities.all %}
                     <tr>
                         <td>{{ ability.name }}</td>
                         <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
@@ -163,7 +163,7 @@ tbody {
     </div>
 
     <div class="row">
-        <div class="col-sm-10"><h4>Capacités de rang 5</h2></div>
+        <div class="col-sm-10"><h4>{% translate "Compétences" }</h2></div>
     </div>
     <div class="row">
         <div class="col-sm-10">
@@ -176,37 +176,10 @@ tbody {
                     </tr>
                 </thead>
                 <tbody >
-                    {% for ability in object.abilities_tier5.all %}
+                    {% for characterskill in object.skills.all %}
                     <tr>
-                        <td>{{ ability.name }}</td>
-                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
-                        <td>{{ ability.description }}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-10"><h4>Capacités de rang 6</h2></div>
-    </div>
-    <div class="row">
-        <div class="col-sm-10">
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>{% translate "Name" %}</th>
-                        <th>{% translate "Stat used" %}</th>
-                        <th>{% translate "Description" %}</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for ability in object.abilities_tier6.all %}
-                    <tr>
-                        <td>{{ ability.name }}</td>
-                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
-                        <td>{{ ability.description }}</td>
+                        <td>{{ characterskill.skill.name }}</td>
+                        <td>{{ characterskill.level }}</td>
                     </tr>
                     {% endfor %}
                 </tbody>

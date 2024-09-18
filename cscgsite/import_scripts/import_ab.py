@@ -45,15 +45,15 @@ def import_ab(filename,country_code):
                 suite = line[len(name)+4:].strip()
                 if ('(' in suite) and (suite.find(':')>suite.find('(')):
                     stat = suite[suite.find('(')+1:suite.find(')')]
-                    stat_cost = stat[0:stat.find(' ')]
-                    stat = stat[len(stat_cost):]
-                    stat = stat.replace('points de','')
-                    stat = stat.replace('point de','')
-                    stat = stat.replace("point d'",'')
-                    stat = stat.replace("points d'",'')
+                    # stat_coststat_cost = stat[0:stat.find(' ')]
+                    # stat = stat[len(stat_cost):]
+                    # stat = stat.replace('points de','')
+                    # stat = stat.replace('point de','')
+                    # stat = stat.replace("point d'",'')
+                    # stat = stat.replace("points d'",'')
                     stat = stat.strip()
                     current_ab.stat = stat
-                    current_ab.stat_cost = stat_cost
+                    current_ab.stat_cost = ''
                 current_ab.name = name
                 description = suite[suite.find(':')+1:].strip()
                 current_ab.description = description

@@ -4,21 +4,26 @@
 {% block content %}
 <div clas="container">
     <div class="row">
-        <div class="col-sm-10">
-            <b>{% translate "Ability: " %}{{ ability.name }}</b>
+        <div class="col-sm-2">
+            <b>{% translate "Ability" %}</b>
         </div>
+        <div class="col-sm-4"><b>{{ ability.name }}</b></div>
+        <div class="col-sm-4" valign="right"><a href="/cscg/ability/{{ ability.id }}">Modifier</a></div>
     </div>
     <div class="row">
-        <div class="col-sm-1">{% translate "Stat cost" %}</div>
-        <div class="col-sm-4">{{ ability.stat_cost }}</div>
-    </div>
-    <div class="row">
-        <div class="col-sm-1">{% translate "Statistic" %}</div>
+        <div class="col-sm-2">Stat</div>
         <div class="col-sm-4">{{ ability.stat }}</div>
     </div>
     <div class="row">
-        <div class="col-sm-1">{% translate "Description" %}</div>
-        <div class="col-sm-4">{{ ability.description }}</div>
+        <div class="col-sm-2">{% translate "Description" %}</div>
+        <div class="col-sm-9">{{ ability.description }}</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2"><strong>Old GUS format</strong></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">&lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}
+            {% if ability.stat %}({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} ({{ ability.cs_page }})&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;</div>
     </div>
 </div>
 {% endblock %}

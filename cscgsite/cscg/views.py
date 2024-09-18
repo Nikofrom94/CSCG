@@ -1,6 +1,6 @@
 from django.utils import timezone
-from django.http import HttpResponseRedirect
-from django.shortcuts import render
+from django.http import HttpResponseRedirect,JsonResponse
+from django.shortcuts import render,get_object_or_404
 from django.views.generic import ListView,DetailView
 from django.views.generic.edit import FormView,CreateView, DeleteView, UpdateView
 from django.views.generic.base import TemplateView
@@ -13,6 +13,11 @@ class HomePageView(TemplateView):
 class AbilityList(ListView):
     template_name = 'ability/ability_list.html'
     model=Ability
+    context_object_name='ability_list'
+
+class AbilityCSPageList(ListView):
+    template_name = 'ability/ability_cs_page_list.html'
+    queryset = Ability.objects.order_by("name_en")
     context_object_name='ability_list'
 
 class AbilityDetail(DetailView):
@@ -75,4 +80,13 @@ class AbilityCreateView(CreateView):
         form.instance.created = now
         form.instance.updated = now
         return super().form_valid(form)
+
+def update_ab_cspage(request, ab_id):
+    ab = get_object_or_404(Ability,pk=ab_id)
+    cs_page = request.POST["cs_page"]
+    ab.cs_page = cs_page
+    ab.save()
+    response = JsonResponse({"ab_id": ab_id, "cs_page": cs_page, "result":"success"})
+    return response
+
 

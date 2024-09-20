@@ -81,7 +81,8 @@ class AbilityCreateView(CreateView):
         form.instance.updated = now
         return super().form_valid(form)
 
-def update_ab_cspage(request, ab_id):
+def update_ab_cspage(request):
+    ab_id = request.POST['ab_id'] 
     ab = get_object_or_404(Ability,pk=ab_id)
     cs_page = request.POST["cs_page"]
     ab.cs_page = cs_page

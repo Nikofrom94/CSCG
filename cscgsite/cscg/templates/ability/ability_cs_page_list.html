@@ -40,23 +40,23 @@
                         xhr.setRequestHeader("X-CSRFToken", csrftoken);
                     }
                 });
-            $.ajax(
+            $.post(
                 "/cscg/abilities_cs_page/update", 
                 {
-                    type : 'POST',
-                    contentType : 'application/json',
-                    data : JSON.stringify({
-                            ab_id: ab_id,
-                            cs_page: current_value
-                        }),
-                    success: function () {
-                        alert("Saved!");
+                    ab_id: ab_id,
+                    cs_page: current_value
+                },
+                function (data) {
+                        
                     }
-
-                });
-
+            );
         }
-        
+        let parent_row = $("#tr_" + ab_id);
+        let next_row = parent_row.next();
+        let next_input = next_row.find("INPUT");
+        let next_input_0 = next_input[0];
+        next_input_0.value = current_value;
+        next_input_0.focus();
         return;
     }
 </script>
@@ -82,9 +82,9 @@
                         <th>{% translate "Description" %}</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="tbody_ab_list">
                     {% for ability in ability_list %}
-                    <tr>
+                    <tr id="tr_{{ ability.id }}">
                         <td><a href="../abilities/{{ ability.id }}/">{{ ability.name }}</a></td>
                         <td><a href="../abilities/{{ ability.id }}/">{{ ability.name_en }}</a></td>
                         <td>{% if ability.stat %}{{ ability.stat }}{% else %}---{% endif %}</td>

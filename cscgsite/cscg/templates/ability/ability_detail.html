@@ -23,7 +23,7 @@
     </div>
     <div class="row">
         <div class="col-sm-10">&lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}
-            {% if ability.stat %}({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} ({{ ability.cs_page }})&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;</div>
+            {% if ability.stat %}({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;</div>
     </div>
 </div>
 {% endblock %}

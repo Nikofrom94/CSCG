@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Foci" %}{% endblock %}
+{% block content %}
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-10">
+            &lt;h5 class="og-h-small" id="focus-list"&gt;Foci&lt;/h5&gt;<br>
+            &lt;ul class="list-unstyled og-qr"&gt;<br>
+            {% for focus in focus_list %}
+            &lt;li&gt;&lt;a href="#{{ focus.get_htmlid }}"&gt;{{ focus.name }}&lt;/a&gt; &lt;span class="og-ref"&gt;(64)&lt;/span&gt;&lt;/li&gt;<br>
+            {% endfor %}
+            &lt;/ul&gt;<br>
+        </div>
+    </div>
+</div>
+{% endblock %}

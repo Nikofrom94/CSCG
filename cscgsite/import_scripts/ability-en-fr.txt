@@ -982,7 +982,7 @@ Greater Enhanced Might/Puissance améliorée supérieure: vous gagnez 6 points d
 ==
 Greater Enhanced Physique/Physique amélioré supérieur: vous gagnez 6 points à répartir entre vos réserves de puissance et de vitesse comme vous le souhaitez. Facilitateur.
 ==
-Greater Enhanced Potential/Potentiel amélioré supérieur: vous gagnez 6 points à répartir entre vos pools de statistiques comme vous le souhaitez. Facilitateur.
+Greater Enhanced Potential/Potentiel amélioré plus important: vous gagnez 6 points à répartir entre vos pools de statistiques comme vous le souhaitez. Facilitateur.
 ==
 Greater Enhanced Speed/Vitesse améliorée supérieure: vous gagnez 6 points dans votre réserve de vitesse. Facilitateur.
 ==

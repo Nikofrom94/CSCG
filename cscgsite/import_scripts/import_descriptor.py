@@ -1,67 +1,19 @@
-from cscg.models import Focus,Ability
+from cscg.models import Descriptor,InitialLink
 import json
 
-ab_tiers = [
-    'abilities_tier1',
-    'abilities_tier2',
-    'abilities_tier3',
-    'abilities_tier4',
-    'abilities_tier5',
-    'abilities_tier6',
-]
+class DescriptorENFR():
+    def __init__(self, name_fr='',name_en='',cs_page=''):
+        self.name_fr = name_fr
+        self.name_en = name_en
+        self.cs_page = cs_page
 
-class Focus_import:
-    def __init__(self):
-        self.name = ""
-        self.name_en = ""
-        self.description = ""
-        self.abilities_tier1 = []
-        self.abilities_tier2 = []
-        self.abilities_tier3 = []
-        self.abilities_tier4 = []
-        self.abilities_tier5 = []
-        self.abilities_tier6 = []
-    
-    def __str__(self):
-        return self.name + '->' + format(self.abilities_tier1)
-
-    def tohash(self):
-        return {
-            'name':self.name,
-            'description':self.description
-        }
-
-    def create_Focus(self):
-        if self.description.endswith('\n'):
-            self.description = self.description.rstrip('\n')
-        focus_object = Focus.objects.create(
-            name = self.name,
-            name_en = self.name_en,
-            description = self.description
-            )
-        focus_object.abilities_tier1.set(self.abilities_tier1)
-        focus_object.abilities_tier2.set(self.abilities_tier2)
-        focus_object.abilities_tier3.set(self.abilities_tier3)
-        focus_object.abilities_tier4.set(self.abilities_tier4)
-        focus_object.abilities_tier5.set(self.abilities_tier5)
-        focus_object.abilities_tier6.set(self.abilities_tier6)
-
-def get_Ability_pk(ability_list):
-    ab_pk_list = []
-    for ab in ability_list:
-        ab_object = Ability.objects.filter(name=ab).first()
-        if ab_object != None:
-            ab_pk_list.append(ab_object.id)
-        else:
-            print("WARNING : ",ab,", not found")
-    return ab_pk_list
-
-def import_focus(focus_en_fr,filename):
-    focus_names = {}
-    with open(focus_en_fr,'r') as focus_file:
+def import_descriptor(descriptor_en_fr,filename):
+    descriptor_names = {}
+    with open(descriptor_en_fr,'r') as focus_file:
         for line in focus_file:
             en_fr = line.split('/')
-            focus_names[en_fr[1].strip()] = en_fr[0]
+            desc_en_fr = DescriptorENFR( name_fr = en_fr[2], name_en = en_fr[0], cs_page = en_fr[1] )
+            descriptor_names[en_fr[1].strip()] = desc_en_fr
     with open(filename,'r') as ability_file:
         current_focus = None
         newfocus = None
@@ -71,8 +23,8 @@ def import_focus(focus_en_fr,filename):
                 current_focus = Focus_import()
                 newfocus = None
                 current_focus.name = line.lstrip(' #').strip()
-                if current_focus.name in focus_names.keys():
-                    current_focus.name_en = focus_names[current_focus.name]
+                if current_focus.name in descriptor_names.keys():
+                    current_focus.name_en = descriptor_names[current_focus.name]
                 else:
                     print("WARNING: focus without en name",current_focus.name)
                 print(current_focus.name)

@@ -6,6 +6,7 @@ from django.views.generic.edit import FormView,CreateView, DeleteView, UpdateVie
 from django.views.generic.base import TemplateView
 from cscg.models import CharacterType,Focus,Skill,Character,Descriptor,Flavor,Ability
 from cscg.forms import AbilityForm
+from django.core import serializers
 
 class HomePageView(TemplateView):
     template_name = 'home.html'
@@ -15,7 +16,17 @@ class AbilityList(ListView):
     model=Ability
     context_object_name='ability_list'
 
+class AbilityOGCSPGList(ListView):
+    template_name = 'ability/ability_list_ogcspg.html'
+    model=Ability
+    context_object_name='ability_list'
+
 class AbilityCSPageList(ListView):
+    template_name = 'ability/ability_cs_page_list.html'
+    queryset = Ability.objects.order_by("name_en")
+    context_object_name='ability_list'
+
+class AbilityJSONList(ListView):
     template_name = 'ability/ability_cs_page_list.html'
     queryset = Ability.objects.order_by("name_en")
     context_object_name='ability_list'
@@ -43,6 +54,15 @@ class FlavorDetail(DetailView):
     model=Flavor
     context_object_name='flavor'
 
+class FocusOGCSPGList(ListView):
+    template_name='focus/focus_list_ogcspg.html'
+    model=Focus
+    context_object_name='focus_list'
+
+class FocusOGCSPGListWithDetails(ListView):
+    template_name='focus/focus_list_ogcspg_details.html'
+    model=Focus
+    context_object_name='focus_list'
 
 class FocusList(ListView):
     template_name='focus/focus_list.html'
@@ -90,4 +110,14 @@ def update_ab_cspage(request):
     response = JsonResponse({"ab_id": ab_id, "cs_page": cs_page, "result":"success"})
     return response
 
+def getallab_json(request):
+    response = JsonResponse(
+        serializers.serialize(
+            "json",
+            Ability.objects.all(),
+
+       ),
+       safe=False
+    )
+    return response
 

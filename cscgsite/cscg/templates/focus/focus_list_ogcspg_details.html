@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Foci" %}{% endblock %}
+{% block content %}
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-10">
+            <b>{% translate "Focus List" %}</b>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+                    {% for focus in focus_list %}
+                    <div class="row">
+                        <div class="col-lg-6">
+                            
+                            &lt;h4 class="og-border" id="focus-{{ focus.get_htmlid }}"&gt;{{ focus.name }}&lt;a class="og-h-anchor" href="#focus-{{ focus.get_htmlid }}" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h4&gt;<br>
+                            &lt;h5&gt;({{ focus.name_en }})&lt;/h5&gt;<br>
+                    &lt;div class="row"&gt;<br>
+                        &lt;div class="col-lg-6"&gt;<br>
+                            {{ focus.get_htmldescription }}<br>
+                            &lt;h5 class="og-h-small"&gt;Rang 1{% if focus.abilities_tier1.abilities_to_choose.count > 0 %}: Choix de Capacité{% endif %}&lt;/h5&gt;<br>
+                            {% if focus.abilities_tier1.abilities_to_choose.count > 0 %}
+                            &lt;p&gt;Choisissez en une:&lt;/p&gt;<br>
+                            {% endif %}
+                            {% for ability in focus.abilities_tier1.abilities.all %}
+                            &lt;ul class="og-ability-details"&gt;<br>
+                                &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}{% if ability.stat %} ({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+                            &lt;/ul&gt;<br>
+                            {% endfor %}
+                            {% for ability in focus.abilities_tier1.abilities_to_choose.all %}
+                            &lt;ul class="og-ability-details"&gt;<br>
+                                &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}{% if ability.stat %} ({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+                            &lt;/ul&gt;<br>
+                            {% endfor %}
+                            &lt;h5 class="og-h-small"&gt;Rang 2{% if focus.abilities_tier2.abilities_to_choose.count > 0 %}: Choix de Capacité{% endif %}&lt;/h5&gt;<br>
+                            {% if focus.abilities_tier2.abilities_to_choose.count > 0 %}
+                            &lt;p&gt;Choisissez en une:&lt;/p&gt;<br>
+                            {% endif %}
+                            {% for ability in focus.abilities_tier2.abilities.all %}
+                            &lt;ul class="og-ability-details"&gt;<br>
+                                &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}{% if ability.stat %} ({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+                            &lt;/ul&gt;<br>
+                            {% endfor %}
+                            {% for ability in focus.abilities_tier2.abilities_to_choose.all %}
+                            &lt;ul class="og-ability-details"&gt;<br>
+                                &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}{% if ability.stat %} ({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+                            &lt;/ul&gt;<br>
+                            {% endfor %}
+                            &lt;h5 class="og-h-small"&gt;Rang 3{% if focus.abilities_tier3.abilities_to_choose.count > 0 %}: Choix de Capacité{% endif %}&lt;/h5&gt;<br>
+                            {% if focus.abilities_tier3.abilities_to_choose.count > 0 %}
+                            &lt;p&gt;Choisissez en une:&lt;/p&gt;<br>
+                            {% endif %}
+                            {% for ability in focus.abilities_tier3.abilities.all %}
+                            &lt;ul class="og-ability-details"&gt;<br>
+                                &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}{% if ability.stat %} ({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+                            &lt;/ul&gt;<br>
+                            {% endfor %}
+                            {% for ability in focus.abilities_tier3.abilities_to_choose.all %}
+                            &lt;ul class="og-ability-details"&gt;<br>
+                                &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}{% if ability.stat %} ({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+                            &lt;/ul&gt;<br>
+                            {% endfor %}
+                        &lt;/div&gt;<br>
+                        &lt;div class="col-lg-6"&gt;<br>
+                            &lt;h5 class="og-h-small"&gt;Rang 4{% if focus.abilities_tier4.abilities_to_choose.count > 0 %}: Choix de Capacité{% endif %}&lt;/h5&gt;<br>
+                            {% if focus.abilities_tier4.abilities_to_choose.count > 0 %}
+                            &lt;p&gt;Choisissez en une:&lt;/p&gt;<br>
+                            {% endif %}
+                            {% for ability in focus.abilities_tier4.abilities.all %}
+                            &lt;ul class="og-ability-details"&gt;<br>
+                                &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}{% if ability.stat %} ({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+                            &lt;/ul&gt;<br>
+                            {% endfor %}
+                            {% for ability in focus.abilities_tier4.abilities_to_choose.all %}
+                            &lt;ul class="og-ability-details"&gt;<br>
+                                &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}{% if ability.stat %} ({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+                            &lt;/ul&gt;<br>
+                            {% endfor %}
+                            &lt;h5 class="og-h-small"&gt;Rang 5{% if focus.abilities_tier5.abilities_to_choose.count > 0 %}: Choix de Capacité{% endif %}&lt;/h5&gt;<br>
+                            {% if focus.abilities_tier5.abilities_to_choose.count > 0 %}
+                            &lt;p&gt;Choisissez en une:&lt;/p&gt;<br>
+                            {% endif %}
+                            {% for ability in focus.abilities_tier5.abilities.all %}
+                            &lt;ul class="og-ability-details"&gt;<br>
+                                &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}{% if ability.stat %} ({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+                            &lt;/ul&gt;<br>
+                            {% endfor %}
+                            {% for ability in focus.abilities_tier5.abilities_to_choose.all %}
+                            &lt;ul class="og-ability-details"&gt;<br>
+                                &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}{% if ability.stat %} ({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+                            &lt;/ul&gt;<br>
+                            {% endfor %}
+                            &lt;h5 class="og-h-small"&gt;Rang 6{% if focus.abilities_tier6.abilities_to_choose.count > 0 %}: Choix de Capacité{% endif %}&lt;/h5&gt;<br>
+                            {% if focus.abilities_tier6.abilities_to_choose.count > 0 %}
+                            &lt;p&gt;Choisissez en une:&lt;/p&gt;<br>
+                            {% endif %}
+                            {% for ability in focus.abilities_tier6.abilities.all %}
+                            &lt;ul class="og-ability-details"&gt;<br>
+                                &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}{% if ability.stat %} ({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+                            &lt;/ul&gt;<br>
+                            {% endfor %}
+                            {% for ability in focus.abilities_tier6.abilities_to_choose.all %}
+                            &lt;ul class="og-ability-details"&gt;<br>
+                                &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}{% if ability.stat %} ({{ ability.stat }}){% endif %}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+                            &lt;/ul&gt;<br>
+                            {% endfor %}
+                        &lt;/div&gt;<br>
+                    &lt;/div&gt;<br>
+                        </div>
+                    </div>
+                    
+                    {% endfor %}
+
+        </div>
+    </div>
+</div>
+{% endblock %}

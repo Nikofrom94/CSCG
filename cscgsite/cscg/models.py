@@ -5,9 +5,9 @@ from django.utils.translation import gettext
 from django.urls import reverse
 
 STAT_CHOICES={
-    0B100:"Might",
-    0b010:"Speed",
-    0b001:"Intellect",
+    "M":"Might",
+    "S":"Speed",
+    "I":"Intellect",
 }
 
 SKILLLEVEL_CHOICES={
@@ -115,40 +115,110 @@ class Flavor(CSModelGeneric):
         related_name="flavor_ab_6s",
         related_query_name="flavor_ab_6")
 
+class FocusAbilities(models.Model):
+    abilities = models.ManyToManyField(
+        "Ability",
+        related_name="focus_abs",
+        related_query_name="focus_ab")
+    abilities_to_choose = models.ManyToManyField(
+        "Ability",
+        related_name="focus_ab_choices",
+        related_query_name="focus_ab_choice")
+
+    def add_ab(self,ab,ab_choices):
+        if ab != None:
+            self.abilities.add(ab)
+        elif ab_choices != None or len(ab_choices) != 0:
+            for a in ab_choices:
+                self.abilities_to_choose.add(a)
+
+class FocusManager(CSModelGenericManager):
+    def create(self,**kwargs):
+        new_focus = super().create(**kwargs)
+        new_focus.abilities_tier1 = FocusAbilities.objects.create()
+        new_focus.abilities_tier2 = FocusAbilities.objects.create()
+        new_focus.abilities_tier3 = FocusAbilities.objects.create()
+        new_focus.abilities_tier4 = FocusAbilities.objects.create()
+        new_focus.abilities_tier5 = FocusAbilities.objects.create()
+        new_focus.abilities_tier6 = FocusAbilities.objects.create()
+        new_focus.save()
+        return new_focus
+
 class Focus(CSModelGeneric):
-    objects=CSModelGenericManager()
+    objects=FocusManager()
     name = models.CharField(max_length=50)
+    name_en = models.CharField(max_length=50)
     description = models.TextField()
-    abilities_tier1 = models.ManyToManyField(
-        "Ability",
+    abilities_tier1 = models.ForeignKey(
+        "FocusAbilities",
         related_name="focus_ab_1s",
-        related_query_name="focus_ab_1")
-    abilities_tier2 = models.ManyToManyField(
-        "Ability",
+        related_query_name="focus_ab_1",
+        null=True,
+        on_delete=models.SET_NULL,
+        )
+    abilities_tier2 = models.ForeignKey(
+        "FocusAbilities",
         related_name="focus_ab_2s",
-        related_query_name="focus_ab_2")
-    abilities_tier3 = models.ManyToManyField(
-        "Ability",
+        related_query_name="focus_ab_2",
+        null=True,
+        on_delete=models.SET_NULL,
+        )
+    abilities_tier3 = models.ForeignKey(
+        "FocusAbilities",
         related_name="focus_ab_3s",
-        related_query_name="focus_ab_3")
-    abilities_tier4 = models.ManyToManyField(
-        "Ability",
+        related_query_name="focus_ab_3",
+        null=True,
+        on_delete=models.SET_NULL,
+        )
+    abilities_tier4 = models.ForeignKey(
+        "FocusAbilities",
         related_name="focus_ab_4s",
-        related_query_name="focus_ab_4")
-    abilities_tier5 = models.ManyToManyField(
-        "Ability",
+        related_query_name="focus_ab_4",
+        null=True,
+        on_delete=models.SET_NULL,
+        )
+    abilities_tier5 = models.ForeignKey(
+        "FocusAbilities",
         related_name="focus_ab_5s",
-        related_query_name="focus_ab_5")
-    abilities_tier6 = models.ManyToManyField(
-        "Ability",
+        related_query_name="focus_ab_5",
+        null=True,
+        on_delete=models.SET_NULL,
+        )
+    abilities_tier6 = models.ForeignKey(
+        "FocusAbilities",
         related_name="focus_ab_6s",
-        related_query_name="focus_ab_6")
+        related_query_name="focus_ab_6",
+        null=True,
+        on_delete=models.SET_NULL,
+        )
+    
+    def get_htmlid(self):
+        return 'focus-'+self.name_en.replace(' ','-').lower().strip()
+    
+    def get_htmldescription(self):
+        d = "<p>" + self.description+ "</p>"
+        if "{{< hint info >}}" in d:
+            d = d.replace("{{< hint info >}}",'<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3"><p> ')
+            d = d.replace("{{< /hint >}}",'</p></div>')
+        return d
+
+class InitialLink(models.Model):
+    description = models.CharField(max_length=150)
+
+class PoolBonus(models.Model):
+    stat = models.CharField(max_length=1,choices=STAT_CHOICES,default="P")
+    bonus = models.IntegerField()
 
 class Descriptor(CSModelGeneric):
     name = models.CharField(max_length=50)
+    name_en = models.CharField(max_length=50,default='')
     description = models.TextField()
+    pool_bonus = models.ManyToManyField("PoolBonus")
     abilities = models.ManyToManyField("Ability")
     skills = models.ManyToManyField("CharacterSkill")
+    initial_links = models.ManyToManyField("InitialLink")
+    cs_page = models.CharField(default='',max_length=20)
+
 
 class Skill(CSModelGeneric):
     name = models.CharField(max_length=50)
@@ -172,7 +242,7 @@ class Character(CSModelGeneric):
 
 class CharacterSkill(models.Model):
     skill = models.ForeignKey("Skill",on_delete=models.SET_NULL,null=True)
-    level = models.CharField(max_length=1,choices=SKILLLEVEL_CHOICES,default="T")
+    level = models.CharField(max_length=1,choices=SKILLLEVEL_CHOICES,default="P")
 
 class I18NCodeManager(models.Manager):
     def get_or_create(self,code):

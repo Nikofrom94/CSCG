@@ -150,7 +150,7 @@ tbody {
                     </tr>
                 </thead>
                 <tbody>
-                    {% for ability in object.abilities.all %}
+                    {% for ability in object.abilities_tier4.all %}
                     <tr>
                         <td>{{ ability.name }}</td>
                         <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
@@ -163,7 +163,59 @@ tbody {
     </div>
 
     <div class="row">
-        <div class="col-sm-10"><h4>{% translate "Compétences" }</h2></div>
+        <div class="col-sm-10"><h4>Capacités de rang 5</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ability in object.abilities_tier5.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>Capacités de rang 6</h2></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ability in object.abilities_tier6.all %}
+                    <tr>
+                        <td>{{ ability.name }}</td>
+                        <td>{% if ability.stat_cost != None %}{{ ability.stat_cost }} {{ ability.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-10"><h4>{% translate "Skills" %}</h4></div>
     </div>
     <div class="row">
         <div class="col-sm-10">
@@ -186,5 +238,129 @@ tbody {
             </table>
         </div>
     </div>
+    ====================================================================================================================<br>
+<div class="row">
+    <div class="col-sm-10">
+        &lt;h5 class="og-h-small" id="{{ object.name |lower }}-abilities"&gt;Type {{ object.name }}&lt;/h5&gt;<br>
+		&lt;ul class="list-unstyled og-qr"&gt;<br>
+			&lt;li&gt;&lt;a href="#type-{{ object.name |lower }}"&gt;{{ object.name }}&lt;/a&gt; &lt;span class="og-ref"&gt;(24)&lt;/span&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-create"&gt;Création d'un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-background-connection"&gt;Relation avec l'histoire personnelle d'un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-t1"&gt;Rang 1 Capacités pour un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-t2"&gt;Rang 2 Capacités pour un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-t3"&gt;Rang 3 Capacités pour un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-t4"&gt;Rang 4 Capacités pour un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-t5"&gt;Rang 5 Capacités pour un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-t6"&gt;Rang 6 Capacités pour un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+		&lt;/ul&gt;<br>
+    </div>
+</div>
+====================================================================================================================<br>
+<div class="row">
+    <div class="col-sm-10">
+        &lt;div class="table-responsive"&gt;&lt;table class="table table-light table-striped table-sm"&gt;<br>
+            &lt;caption&gt;Stats pour un {{ object.name }} de Rang 1&lt;/caption&gt;<br>
+            &lt;thead&gt;<br>
+                &lt;tr&gt;<br>
+                    &lt;th scope="col"&gt;Stat&lt;/th&gt;<br>
+                    &lt;th scope="col" class="text-center"&gt;Puissance&lt;/th&gt;<br>
+                    &lt;th scope="col" class="text-center"&gt;Célérité&lt;/th&gt;<br>
+                    &lt;th scope="col" class="text-center"&gt;Intellect&lt;/th&gt;<br>
+                &lt;/tr&gt;<br>
+            &lt;/thead&gt;<br>
+            &lt;tbody&gt;<br>
+                &lt;tr&gt;<br>
+                    &lt;th scope="row" class="fw-normal"&gt;Réserve&lt;/th&gt;<br>
+                    &lt;td class="text-center"&gt;{{ object.might_start }}&lt;/td&gt;<br>
+                    &lt;td class="text-center"&gt;{{ object.speed_start }}&lt;/td&gt;<br>
+                    &lt;td class="text-center"&gt;{{ object.intellect_start }}&lt;/td&gt;<br>
+                &lt;/tr&gt;<br>
+                &lt;tr&gt;<br>
+                    &lt;th scope="row" class="fw-normal"&gt;Avantage&lt;/th&gt;<br>
+                    &lt;td class="text-center"&gt;{{ object.might_edge_start }}&lt;/td&gt;<br>
+                    &lt;td class="text-center"&gt;{{ object.speed_edge_start }}&lt;/td&gt;<br>
+                    &lt;td class="text-center"&gt;{{ object.intellect_edge_start }}&lt;/td&gt;<br>
+                &lt;/tr&gt;<br>
+            &lt;/tbody&gt;<br>
+        &lt;/table&gt;&lt;/div&gt;<br>
+        &lt;ul class="list-unstyled og-ind"&gt;<br>
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;Stats:&lt;/strong&gt; Vous avez 6 points supplémentaires à répartir parmi vos &lt;a href="#pool-edge"&gt;Réserves&lt;/a&gt; de &lt;a href="#stat"&gt;stat&lt;/a&gt; comme vous le souhaitez. Votre score d'&lt;a href="#effort"&gt;Effort&lt;/a&gt; est 1.&lt;/p&gt;&lt;/li&gt;<br>
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;Utilisation de Cypher:&lt;/strong&gt; Vous pouvez utiliser au maximum deux &lt;a href="#cypher"&gt;cyphers&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;<br>
+        &lt;/ul&gt;<br>
+
+    </div>
+</div>
+====================================================================================================================<br>
+<div class="row">
+    <div class="col-sm-10">
+        &lt;h5 class="og-h-small og-border" id="{{ object.name | lower }}-t1"&gt;Capacités de Rang 1 pour un {{ object.name }}&lt;a class="og-h-anchor" href="#{{ object.name | lower }}-t1" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;p&gt;Choisissez en quatre:&lt;/p&gt;<br><br>
+&lt;div class="row"&gt;<br>
+    &lt;div class="col-lg-6"&gt;<br>
+        &lt;ul class="og-ability-details"&gt;<br>
+        {% for ability in object.abilities_tier1.all %}
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }} {% if ability.stat != None %}({{ ability.stat }}){% endif %}&lt;/strong&gt;: {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+        {% endfor %}
+        &lt;/ul&gt;<br>
+    &lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;h5 class="og-h-small og-border" id="{{ object.name | lower }}-t2"&gt;Capacités de Rang 2 pour un {{ object.name }}&lt;a class="og-h-anchor" href="#{{ object.name | lower }}-t2" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;p&gt;Choisissez en une:&lt;/p&gt;<br>
+&lt;div class="row"&gt;<br>
+    &lt;div class="col-lg-6"&gt;<br>
+        &lt;ul class="og-ability-details"&gt;<br>
+        {% for ability in object.abilities_tier2.all %}
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }} {% if ability.stat != None %}({{ ability.stat }}){% endif %}&lt;/strong&gt;: {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+        {% endfor %}
+        &lt;/ul&gt;<br>
+    &lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;h5 class="og-h-small og-border" id="{{ object.name | lower }}-t3"&gt;Capacités de Rang 3 pour un {{ object.name }}&lt;a class="og-h-anchor" href="#{{ object.name | lower }}-t3" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;p&gt;Choisissez en deux:&lt;/p&gt;<br>
+&lt;div class="row"&gt;<br>
+    &lt;div class="col-lg-6"&gt;<br>
+        &lt;ul class="og-ability-details"&gt;<br>
+        {% for ability in object.abilities_tier3.all %}
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }} {% if ability.stat != None %}({{ ability.stat }}){% endif %}&lt;/strong&gt;: {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+        {% endfor %}
+    &lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;h5 class="og-h-small og-border" id="{{ object.name | lower }}-t4"&gt;Capacités de Rang 4 pour un {{ object.name }}&lt;a class="og-h-anchor" href="#{{ object.name | lower }}-t4" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;p&gt;Choisissez en une:&lt;/p&gt;<br>
+&lt;div class="row"&gt;<br>
+    &lt;div class="col-lg-6"&gt;<br>
+        &lt;ul class="og-ability-details"&gt;<br>
+        {% for ability in object.abilities_tier4.all %}
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }} {% if ability.stat != None %}({{ ability.stat }}){% endif %}&lt;/strong&gt;: {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+        {% endfor %}
+        &lt;/ul&gt;<br>
+    &lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;h5 class="og-h-small og-border" id="{{ object.name | lower }}-t5"&gt;Capacités de Rang 5 pour un {{ object.name }}&lt;a class="og-h-anchor" href="#{{ object.name | lower }}-t5" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;p&gt;Choisissez en deux:&lt;/p&gt;<br>
+&lt;div class="row"&gt;<br>
+    &lt;div class="col-lg-6"&gt;<br>
+        &lt;ul class="og-ability-details"&gt;<br>
+        {% for ability in object.abilities_tier5.all %}
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }} {% if ability.stat != None %}({{ ability.stat }}){% endif %}&lt;/strong&gt;: {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+        {% endfor %}
+        &lt;/ul&gt;<br>
+    &lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;h5 class="og-h-small og-border" id="{{ object.name | lower }}-t6"&gt;Capacités de Rang 6 pour un {{ object.name }}&lt;a class="og-h-anchor" href="#{{ object.name | lower }}-t6" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;p&gt;Choisissez en une:&lt;/p&gt;<br>
+&lt;div class="row"&gt;<br>
+    &lt;div class="col-lg-6"&gt;<br>
+        &lt;ul class="og-ability-details"&gt;<br>
+         {% for ability in object.abilities_tier6.all %}
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }} {% if ability.stat != None %}({{ ability.stat }}){% endif %}&lt;/strong&gt;: {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+        {% endfor %}
+        &lt;/ul&gt;<br>
+    &lt;/div&gt;<br>
+&lt;/div&gt;
+    </div>
+</div>
+
+
 </div>
 {% endblock %}

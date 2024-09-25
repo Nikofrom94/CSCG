@@ -1,6 +1,7 @@
 from django.urls import path
 from cscg.views import AbilityList,AbilityDetail,CharacterTypeDetail,CharacterTypeList,FlavorList,FlavorDetail,FocusList,FocusDetail,AbilityCSPageList
 from cscg.views import AbilityUpdateView,AbilityCreateView,update_ab_cspage,getallab_json,AbilityOGCSPGList,FocusOGCSPGList,FocusOGCSPGListWithDetails
+from cscg.views import DescriptorList,DescriptorDetail
 
 urlpatterns =[
     path('abilities/', AbilityList.as_view()),
@@ -11,6 +12,8 @@ urlpatterns =[
     path('abilities/<pk>/', AbilityDetail.as_view(), name="ability-detail"),
     path('types/',CharacterTypeList.as_view()),
     path('types/<pk>/',CharacterTypeDetail.as_view()),
+    path('descriptors/',DescriptorList.as_view()),
+    path('descriptors/<pk>/',DescriptorDetail.as_view()),
     path('flavors/',FlavorList.as_view()),
     path('flavors/<pk>/',FlavorDetail.as_view()),
     path('focus/',FocusList.as_view()),

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Descriptors" %}{% endblock %}
+{% block content %}
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-10">
+            <b>{% translate "Descriptor List" %}</b>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10"><a href="/cscg/decriptr-create/">Nouveau Descripteur</a></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Name English" %}</th>
+                        <th>{% translate "Stat used" %}</th>
+                        <th>{% translate "CS page" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for descriptor in descriptor_list %}
+                    <tr>
+                        <td><a href="{{ descriptor.id }}/">{{ descriptor.name }}</a></td>
+                        <td><a href="{{ descriptor.id }}/">{{ descriptor.name_en }}</a></td>
+                        <td>{{ descriptor.cs_page }}</a></td>
+                        <td>{{ descriptor.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

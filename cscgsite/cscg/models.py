@@ -205,20 +205,30 @@ class Focus(CSModelGeneric):
 class InitialLink(models.Model):
     description = models.CharField(max_length=150)
 
-class PoolBonus(models.Model):
-    stat = models.CharField(max_length=1,choices=STAT_CHOICES,default="P")
-    bonus = models.IntegerField()
+class DescriptorCharacteristic(models.Model):
+    name = models.CharField(max_length=50)
+    description = models.TextField()
+
+class DescriptorManager(CSModelGenericManager):
+    pass
 
 class Descriptor(CSModelGeneric):
+    objects = DescriptorManager()
     name = models.CharField(max_length=50)
     name_en = models.CharField(max_length=50,default='')
     description = models.TextField()
-    pool_bonus = models.ManyToManyField("PoolBonus")
-    abilities = models.ManyToManyField("Ability")
-    skills = models.ManyToManyField("CharacterSkill")
+    characteristics= models.ManyToManyField("DescriptorCharacteristic") 
     initial_links = models.ManyToManyField("InitialLink")
     cs_page = models.CharField(default='',max_length=20)
 
+    def get_anchor(self):
+        return self.name_en.lower().replace(' ','-')
+    
+    def get_cs_page(self):
+        if self.cs_page.startswith('('):
+            return self.cs_page
+        else:
+            return '('+self.page+')'
 
 class Skill(CSModelGeneric):
     name = models.CharField(max_length=50)

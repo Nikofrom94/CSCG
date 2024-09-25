@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Descriptor: " %}{{ descriptor.name }}{% endblock %}
+{% block content %}
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-2">
+            <b>{% translate "Ability" %}</b>
+        </div>
+        <div class="col-sm-4"><b>{{ descriptor.name }} ({{ descriptor.cs_page }})</b></div>
+        <div class="col-sm-4" valign="right"><a href="/cscg/descriptor/{{ descriptor.id }}">Modifier</a></div>
+    </div>
+    {% if descriptor.name_en != descriptor.name %}
+    <div class="row">
+        <div class="col-sm-2">English Name</div>
+        <div class="col-sm-4">{{ descriptor.name_en }}</div>
+    </div>
+    {% endif %}
+    <div class="row">
+        <div class="col-sm-2">{% translate "Description" %}</div>
+        <div class="col-sm-9">{{ descriptor.description }}</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2"><h4>{% translate "Characteristics" %}</h4></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-9">
+            {% for characteristic in descriptor.characteristics.all %}
+            <div class="row">
+                <div class="col-sm-9"><strong>{{ characteristic.name }}:</strong> {{ characteristic.description }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2"><h4>{% translate "Initial Links" %}</h4></div>
+        <div class="col-sm-9">
+            {% for link in descriptor.initial_links.all %}
+            <div class="row">
+                <div class="col-sm-9">{{ link.description }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2"><strong>Old GUS format</strong></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            &lt;div class="col-lg-6"&gt;<br>
+	&lt;h5 class="og-h-small og-border" id="descriptor-{{ descriptor.get_anchor }}"&gt;{{descriptor.name }}&lt;a class="og-h-anchor" href="#descriptor-{{ descriptor.get_anchor }}" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+	&lt;p&gt;{{ descriptor.description }}&lt;/p&gt;<br>
+	&lt;p class="og-ind"&gt;Vous ajoutez les caractéristiques suivantes:&lt;/p&gt;<br>
+	&lt;ul class="list-unstyled og-ind"&gt;<br>
+    {% for characteristic in descriptor.characteristics.all %}
+		&lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ characteristic.name }}:&lt;/strong&gt; {{ characteristic.description }}&lt;/p&gt;&lt;/li&gt;<br>
+    {% endfor %}
+		&lt;li&gt;&lt;p&gt;&lt;strong&gt;Initial Link to the Starting Adventure:&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;<br>
+	&lt;/ul&gt;<br>
+	&lt;ol&gt;<br>
+    {% for link in descriptor.initial_links.all %}
+		&lt;li&gt;{{ link.description }}&lt;/li&gt;<br>
+    {% endfor %}
+	&lt;/ol&gt;<br>
+&lt;/div&gt;<br>
+        </div>
+    </div>
+</div>
+{% endblock %}

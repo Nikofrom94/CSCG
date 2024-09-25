@@ -4,7 +4,7 @@ from django.shortcuts import render,get_object_or_404
 from django.views.generic import ListView,DetailView
 from django.views.generic.edit import FormView,CreateView, DeleteView, UpdateView
 from django.views.generic.base import TemplateView
-from cscg.models import CharacterType,Focus,Skill,Character,Descriptor,Flavor,Ability
+from cscg.models import CharacterType,Focus,Skill,Character,Descriptor,Flavor,Ability,Descriptor
 from cscg.forms import AbilityForm
 from django.core import serializers
 
@@ -44,6 +44,16 @@ class CharacterTypeDetail(DetailView):
     template_name = 'charactertype/charactertype_detail.html'
     model=CharacterType
     context_object_name='charactertype_list'
+
+class DescriptorList(ListView):
+    template_name='descriptor/descriptor_list.html'
+    model=Descriptor
+    context_object_name='descriptor_list'
+
+class DescriptorDetail(DetailView):
+    template_name = 'descriptor/descriptor_detail.html'
+    model=Descriptor
+    context_object_name='descriptor'
 
 class FlavorList(ListView):
     template_name='flavor/flavor_list.html'

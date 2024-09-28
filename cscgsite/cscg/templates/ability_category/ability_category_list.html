@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Ability Category List " %}{% endblock %}
+{% block content %}
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-10">
+            <b>{% translate "Ability Category List" %}</b>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Name English" %}</th>
+                        <th>{% translate "CS page" %}</th>
+                        <th>{% translate "Description" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for ability_category in ability_category_list %}
+                    <tr>
+                        <td><a href="{{ ability_category.id }}/">{{ ability_category.name }}</a></td>
+                        <td><a href="{{ ability_category.id }}/">{{ ability_category.name_en }}</a></td>
+                        <td>{% if ability_category.stat %}{{ ability_category.stat }}{% else %}---{% endif %}</td>
+                        <td>{{ ability_category.cs_page }}</a></td>
+                        <td>{{ ability_category.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

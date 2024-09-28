@@ -1,3 +1,4 @@
+import json
 from django.db import models
 from django.core.validators import MinValueValidator,MaxValueValidator
 from django.utils import timezone
@@ -30,7 +31,33 @@ class CSModelGeneric(models.Model):
     class Meta:
         abstract = True
 
+class AbilityCategory(models.Model):
+    name = models.CharField(max_length=50,db_index=True)
+    name_en = models.CharField(max_length=50,default='')
+    description = models.TextField()
+    cs_page = models.CharField(default='',max_length=50)
 
+    def get_absolute_url(self):
+        return reverse("ability_category-detail", kwargs={"pk": self.pk})
+    
+    def get_anchor(self):
+        return self.name_en.lower().replace(' ','-')
+            
+    def get_cspage(self):
+        if self.cs_page.startswith('('):
+            return self.cs_page
+        else:
+            return '('+self.cs_page+')'
+        
+    def get_lowtierabsquery(self):
+        return self.ability_set.filter(tier='L').order_by('name')
+
+    def get_midtierabsquery(self):
+        return self.ability_set.filter(tier='M').order_by('name')
+
+    def get_hightierabsquery(self):
+        return self.ability_set.filter(tier='H').order_by('name')
+        
 class Ability(CSModelGeneric):
     objects=CSModelGenericManager()
     name = models.CharField(max_length=50,db_index=True)
@@ -39,6 +66,8 @@ class Ability(CSModelGeneric):
     stat = models.CharField(max_length=50,null=True,blank=True)
     description = models.TextField()
     cs_page = models.CharField(default='',max_length=20)
+    tier = models.CharField(max_length=1,null=True,blank=True)
+    categories = models.ManyToManyField( AbilityCategory )
 
     def get_absolute_url(self):
         return reverse("ability-detail", kwargs={"pk": self.pk})
@@ -49,7 +78,26 @@ class Ability(CSModelGeneric):
         else:
             stat_info = ''
         return self.name+stat_info+':'+self.description
-
+    
+    def get_anchor(self):
+        return self.name_en.lower().replace(' ','-')
+            
+    def get_cspage(self):
+        if self.cs_page.startswith('('):
+            return self.cs_page
+        else:
+            return '('+self.cs_page+')'
+        
+    def get_json(self):
+        ab_json = {
+            "name":self.name,
+            "name_en":self.name_en,
+            "description":self.description,
+            "anchor":self.get_anchor(),
+            "cs_page":self.get_cspage()
+        }
+        return json.dumps(ab_json,indent=2)
+        
 
 class CharacterType(CSModelGeneric):
     objects=CSModelGenericManager()
@@ -229,6 +277,53 @@ class Descriptor(CSModelGeneric):
             return self.cs_page
         else:
             return '('+self.page+')'
+    
+    def get_description(self):
+        pos_hint = self.description.find("{{< hint info >}}")
+        if pos_hint > 0:
+            return self.description[0:pos_hint].strip()
+        else:
+            return self.description
+
+    def has_hint(self):
+        pos_hint = self.description.find("{{< hint info >}}")
+        return pos_hint > 0
+
+    def get_hint(self):
+        hint_prefix = "{{< hint info >}}"
+        hint_suffix = "{{< /hint >}}"
+        pos_hint = self.description.find(hint_prefix)
+        if pos_hint > 0:
+            return self.description[
+                pos_hint+len(hint_prefix):self.description.find(hint_suffix)
+                ].strip()
+        else:
+            return ""
+
+    def get_ogformat(self):
+        ogformat = """
+                    &lt;div class="col-lg-6"&gt;<br>
+                    &lt;h5 class="og-h-small og-border" id="descriptor-{anchor}"&gt;{name}&lt;a class="og-h-anchor" href="#descriptor-{anchor}" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+                    &lt;p&gt;{description}&lt;/p&gt;<br>
+                    &lt;p class="og-ind"&gt;Vous ajoutez les caractéristiques suivantes:&lt;/p&gt;<br>
+                    &lt;ul class="list-unstyled og-ind"&gt;<br>\n""".format(
+            anchor=self.get_anchor(),
+            name=self.name,
+            description=self.description,
+            )
+        for characteristic in self.characteristics.all():
+            ogformat += """
+                    &lt;li&gt;&lt;p&gt;&lt;strong&gt;{name}:&lt;/strong&gt; {description}&lt;/p&gt;&lt;/li&gt;<br>
+                    """.format(name=characteristic.name,description=characteristic.description)
+        ogformat += """&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lien initial à la Première Aventure:&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;<br>
+                    &lt;/ul&gt;<br>
+                    &lt;ol&gt;<br>"""
+        for link in self.initial_links.all():
+            ogformat += "&lt;li&gt;{description}&lt;/li&gt;<br>\n".format(description=link.description)
+        ogformat += """
+                    &lt;/ol&gt;<br>
+                    &lt;/div&gt;<br>\n"""
+        return ogformat
 
 class Skill(CSModelGeneric):
     name = models.CharField(max_length=50)

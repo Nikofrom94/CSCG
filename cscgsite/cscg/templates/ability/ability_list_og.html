@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+const ab_array = [];
+
+
+{% for ability in ability_list %}
+ab_array.push(
+    {{ ability.get_json|safe }}
+);
+{% endfor %}
+</script>
+
+</head>
+<body>
+<div id="list_ab">
+</div>
+<script>
+    let first_letter = "";
+    for (let i = 0; i < ab_array.length; i++) 
+    {
+        let ab = ab_array[i];
+        if(ab.name.charAt(0) != first_letter)
+        {
+            if(first_letter.length > 0){
+                $("#list_ab").append("&lt;/ul&gt;<br>");
+            }
+            first_letter = ab.name.charAt(0) ;
+            $("#list_ab").append("&lt;h4 class=\"og-border\" id=\"abilities-"+first_letter.toLowerCase()+"\"&gt;Capacités&mdash;"+first_letter.toUpperCase()+"&lt;a class=\"og-h-anchor\" href=\"#abilities-"+first_letter.toLowerCase()+"\" title=\"Permalink\" aria-hidden=\"true\"&gt;&lt;/a&gt;&lt;/h4&gt;<br>");
+            $("#list_ab").append("&lt;p class=\"og-cite\"&gt;&lt;span class=\"og-ref\"&gt;(Cypher System Rulebook, page 108)&lt;/span&gt;&lt;/p&gt;<br>");
+            $("#list_ab").append("&lt;ul class=\"og-ability-details\"&gt;<br>");
+        }else
+        {
+            $("#list_ab").append("&lt;li id=\"ability-"+ab.anchor+"\"&gt;<br>");
+            $("#list_ab").append("&lt;p&gt;&lt;strong&gt;"+ab.name+":&lt;/strong&gt; "+ab.description+"&lt;span class=\"og-ref\"&gt;"+ab.cs_page+"&lt;/span&gt;&lt;/p&gt;<br>");
+            $("#list_ab").append("&lt;/li&gt;<br>");
+        }
+    }
+    $("#list_ab").append("&lt;/ul&gt;<br>");
+    
+    </script>
+</body>

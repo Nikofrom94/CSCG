@@ -4,16 +4,49 @@ from django.shortcuts import render,get_object_or_404
 from django.views.generic import ListView,DetailView
 from django.views.generic.edit import FormView,CreateView, DeleteView, UpdateView
 from django.views.generic.base import TemplateView
-from cscg.models import CharacterType,Focus,Skill,Character,Descriptor,Flavor,Ability,Descriptor
+from cscg.models import CharacterType,Focus,Skill,Character,Descriptor,Flavor,Ability,Descriptor,AbilityCategory
 from cscg.forms import AbilityForm
 from django.core import serializers
 
 class HomePageView(TemplateView):
     template_name = 'home.html'
 
+####################################################
+#  AbilityCategory
+####################################################
+class AbilityCategoryUpdateView(UpdateView):
+    model = AbilityCategory
+    template_name = "ability_category/ability_category_form.html"
+    fields = ["name","name_en","description","cs_page"]
+    context_object_name='ability_category'
+
+class AbilityCategoryList(ListView):
+    template_name = 'ability_category/ability_category_list.html'
+    model=AbilityCategory
+    context_object_name='ability_category_list'
+
+class AbilityCategoryOGList(ListView):
+    template_name = 'ability_category/ability_category_list_og.html'
+    #model=AbilityCategory
+    queryset = AbilityCategory.objects.order_by("name")
+    context_object_name='ability_category_list'
+
+class AbilityCategoryDetail(DetailView):
+    template_name = 'ability_category/ability_category_detail.html'
+    model=AbilityCategory
+    context_object_name='ability_category'
+
+####################################################
+#  Ability
+####################################################
 class AbilityList(ListView):
     template_name = 'ability/ability_list.html'
     model=Ability
+    context_object_name='ability_list'
+
+class AbilityListOG(ListView):
+    template_name = 'ability/ability_list_og.html'
+    queryset = Ability.objects.order_by("name")
     context_object_name='ability_list'
 
 class AbilityOGCSPGList(ListView):
@@ -26,6 +59,12 @@ class AbilityCSPageList(ListView):
     queryset = Ability.objects.order_by("name_en")
     context_object_name='ability_list'
 
+class AbilityIndexCompact(ListView):
+    template_name = 'ability/ability_index_list_compact.html'
+    queryset = Ability.objects.order_by("name")
+    context_object_name='ability_list'
+    
+
 class AbilityJSONList(ListView):
     template_name = 'ability/ability_cs_page_list.html'
     queryset = Ability.objects.order_by("name_en")
@@ -35,54 +74,6 @@ class AbilityDetail(DetailView):
     template_name = 'ability/ability_detail.html'
     model=Ability
     context_object_name='ability'
-
-class CharacterTypeList(ListView):
-    template_name='charactertype/charactertype_list.html'
-    model=CharacterType
-
-class CharacterTypeDetail(DetailView):
-    template_name = 'charactertype/charactertype_detail.html'
-    model=CharacterType
-    context_object_name='charactertype_list'
-
-class DescriptorList(ListView):
-    template_name='descriptor/descriptor_list.html'
-    model=Descriptor
-    context_object_name='descriptor_list'
-
-class DescriptorDetail(DetailView):
-    template_name = 'descriptor/descriptor_detail.html'
-    model=Descriptor
-    context_object_name='descriptor'
-
-class FlavorList(ListView):
-    template_name='flavor/flavor_list.html'
-    model=Flavor
-
-class FlavorDetail(DetailView):
-    template_name = 'flavor/flavor_detail.html'
-    model=Flavor
-    context_object_name='flavor'
-
-class FocusOGCSPGList(ListView):
-    template_name='focus/focus_list_ogcspg.html'
-    model=Focus
-    context_object_name='focus_list'
-
-class FocusOGCSPGListWithDetails(ListView):
-    template_name='focus/focus_list_ogcspg_details.html'
-    model=Focus
-    context_object_name='focus_list'
-
-class FocusList(ListView):
-    template_name='focus/focus_list.html'
-    model=Focus
-    context_object_name='focus_list'
-
-class FocusDetail(DetailView):
-    template_name = 'focus/focus_detail.html'
-    model=Focus
-    context_object_name='focus'
 
 class AbilityUpdateView(UpdateView):
     model = Ability
@@ -130,4 +121,78 @@ def getallab_json(request):
        safe=False
     )
     return response
+
+
+
+####################################################
+#  CharacterType
+####################################################
+class CharacterTypeList(ListView):
+    template_name='charactertype/charactertype_list.html'
+    model=CharacterType
+
+class CharacterTypeDetail(DetailView):
+    template_name = 'charactertype/charactertype_detail.html'
+    model=CharacterType
+    context_object_name='charactertype_list'
+
+####################################################
+#  Descriptor
+####################################################
+class DescriptorOGCSPGPageList(ListView):
+    template_name = 'descriptor/descriptor_listogcspg_details.html'
+    model = Descriptor
+    #queryset = Descriptor.objects.order_by("name").all()
+    context_object_name='descriptor_list'
+
+class DescriptorOGCSPGList(ListView):
+    template_name = 'descriptor/descriptor_listogcspg_links.html'
+    model = Descriptor
+    #queryset = Descriptor.objects.order_by("name").all()
+    context_object_name='descriptor_list'
+
+class DescriptorList(ListView):
+    template_name='descriptor/descriptor_list.html'
+    model=Descriptor
+    context_object_name='descriptor_list'
+
+class DescriptorDetail(DetailView):
+    template_name = 'descriptor/descriptor_detail.html'
+    model=Descriptor
+    context_object_name='descriptor'
+
+####################################################
+#  Flavor
+####################################################
+class FlavorList(ListView):
+    template_name='flavor/flavor_list.html'
+    model=Flavor
+
+class FlavorDetail(DetailView):
+    template_name = 'flavor/flavor_detail.html'
+    model=Flavor
+    context_object_name='flavor'
+
+####################################################
+#  Focus
+####################################################
+class FocusOGCSPGList(ListView):
+    template_name='focus/focus_list_ogcspg.html'
+    model=Focus
+    context_object_name='focus_list'
+
+class FocusOGCSPGListWithDetails(ListView):
+    template_name='focus/focus_list_ogcspg_details.html'
+    model=Focus
+    context_object_name='focus_list'
+
+class FocusList(ListView):
+    template_name='focus/focus_list.html'
+    model=Focus
+    context_object_name='focus_list'
+
+class FocusDetail(DetailView):
+    template_name = 'focus/focus_detail.html'
+    model=Focus
+    context_object_name='focus'
 

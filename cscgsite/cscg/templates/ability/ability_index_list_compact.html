@@ -1,0 +1,8 @@
+[<br>
+{% for ability in ability_list %}
+    {<br>
+        "link_fr":"&lt;li&gt;&lt;a href=\"#ability-{{ ability.get_anchor }}\"&gt;{{ ability.name }}&lt;/a&gt; &lt;span class=\"og-ref\"&gt;{{ ability.name_en }} {{ ability.get_cspage }}&lt;/span&gt;&amp;dagger;&lt;/li&gt;",<br>
+        "link_en":"&lt;li&gt;&lt;a href=\"#ability-{{ ability.get_anchor }}\"&gt;{{ ability.name_en }}&lt;/a&gt; &lt;span class=\"og-ref\"&gt;{{ ability.get_cspage }}&lt;/span&gt;&amp;dagger;&lt;/li&gt;"<br>
+    },<br>
+{% endfor %}
+]

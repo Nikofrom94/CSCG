@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Descriptors" %}{% endblock %}
+{% block content %}
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-10">
+            <b>{% translate "Descriptor List" %}</b>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            
+                "characterdescriptor": [
+            {% for descriptor in descriptor_list %}
+            {% if descriptor.name %}
+            "un &lt;li&gt;&lt;a href='#descriptor-{{ descriptor.get_anchor }}'&gt;{{ descriptor.name }}&lt;/a&gt; &lt;span class='og-ref'&gt;({{ descriptor.cs_page }})&lt;/span&gt;&lt;/li&gt;",<br>
+            {% endif %}
+            {% endfor %}
+            ],
+        </div>
+    </div>
+</div>
+{% endblock %}

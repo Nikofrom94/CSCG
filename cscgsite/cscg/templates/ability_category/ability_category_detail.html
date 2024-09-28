@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Ability Category: " %}{{ ability_category.name }}{% endblock %}
+{% block content %}
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-2">
+            <b>{% translate "Ability Category" %}</b>
+        </div>
+        <div class="col-sm-4"><b>{{ ability_category.name }}</b></div>
+        <div class="col-sm-4" valign="right"><a href="/cscg/ability_category/{{ ability_category.id }}">Modifier</a></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">English Name</div>
+        <div class="col-sm-4">{{ ability_category.name_en }}</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">cs_page</div>
+        <div class="col-sm-4">{{ ability_category.cs_page }}</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">{% translate "Description" %}</div>
+        <div class="col-sm-9">{{ ability_category.description }}</div>
+    </div>
+</div>
+{% endblock %}

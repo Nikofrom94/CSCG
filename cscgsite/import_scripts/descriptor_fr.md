@@ -1,7 +1,7 @@
 
 ### Attirant
 
-Vous êtes attirant aux yeux des autres, mais peut-être plus important encore, vous êtes sympathique et charismatique. Vous avez ce « quelque chose de spécial » qui attire les autres vers vous. Vous savez souvent ce qu’il faut dire pour faire rire quelqu’un, le mettre à l’aise ou l’inciter à agir. Les gens comme vous veulent vous aider et veulent être votre ami.
+Vous êtes attirant aux yeux des autres, mais peut-être plus important encore, vous êtes sympathique et charismatique. Vous avez ce « quelque chose de spécial » qui attire les autres vers vous. Vous savez souvent ce qu'il faut dire pour faire rire quelqu'un, le mettre à l'aise ou l'inciter à agir. Les gens comme vous veulent vous aider et veulent être votre ami.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -13,8 +13,8 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Vous avez rencontré un parfait inconnu (l’un des autres PJ) et vous l’avez tellement charmé qu’il vous a invité.
-2. Les PJ cherchaient quelqu’un d’autre, mais vous les avez convaincus que vous étiez parfait.
+1. Vous avez rencontré un parfait inconnu (l'un des autres PJ) et vous l'avez tellement charmé qu'il vous a invité.
+2. Les PJ cherchaient quelqu'un d'autre, mais vous les avez convaincus que vous étiez parfait.
 3. Un pur hasard --- parce que vous suivez le flux des choses et que tout se passe généralement bien.
 4. Votre charisme a permis à l'un des PJ de se sortir d'une situation difficile il y a longtemps, et il vous demande toujours de le rejoindre dans de nouvelles aventures.
 
@@ -36,7 +36,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 1. Vous avez entendu parler de ce qui se passait, avez remarqué une faille dans le plan des autres PJ et vous vous êtes joint à eux pour les aider.
 2. Vous avez remarqué que les PJ ont un ennemi (ou au moins une queue) dont ils n'avaient pas conscience.
-3. Vous avez vu que les autres PJ préparaient quelque chose d’intéressant et vous vous êtes impliqués.
+3. Vous avez vu que les autres PJ préparaient quelque chose d'intéressant et vous vous êtes impliqués.
 4. Vous avez remarqué des choses étranges, et tout cela semble lié.
 
 -----
@@ -68,7 +68,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 ### Borné
 
-Vous êtes un peu borné, volontaire et indépendant. Personne ne peut vous convaincre ou changer d’avis si vous ne souhaitez pas que cela change. Cette qualité ne vous rend pas nécessairement intelligent, mais elle fait de vous un bastion de volonté et de détermination. Vous vous habillez et agissez probablement avec style unique et tendance, sans vous soucier de ce que pensent les autres.
+Vous êtes un peu borné, volontaire et indépendant. Personne ne peut vous convaincre ou changer d'avis si vous ne souhaitez pas que cela change. Cette qualité ne vous rend pas nécessairement intelligent, mais elle fait de vous un bastion de volonté et de détermination. Vous vous habillez et agissez probablement avec style unique et tendance, sans vous soucier de ce que pensent les autres.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -82,16 +82,16 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Contre votre bon jugement, vous avez rejoint les autres PJ parce que vous avez vu qu’ils étaient en danger.
+1. Contre votre bon jugement, vous avez rejoint les autres PJ parce que vous avez vu qu'ils étaient en danger.
 2. L'un des autres PJ vous a convaincu que rejoindre le groupe serait dans votre intérêt.
 3. Vous avez peur de ce qui pourrait arriver si les autres PC tombaient en panne.
-4. Il y a une récompense en jeu et vous avez besoin d’argent.
+4. Il y a une récompense en jeu et vous avez besoin d'argent.
 
 -----
 
 ### Calme
 
-Vous avez passé la majeure partie de votre vie à des activités sédentaires (livres, films, passe-temps, etc.) plutôt qu'à des activités actives. Vous connaissez bien toutes sortes de domaines universitaires ou autres activités intellectuelles, mais rien de physique. Vous n’êtes pas nécessairement faible ou affaibli (bien que ce soit un bon descripteur pour les personnages âgés), mais vous n’avez aucune expérience dans les activités plus physiques.
+Vous avez passé la majeure partie de votre vie à des activités sédentaires (livres, films, passe-temps, etc.) plutôt qu'à des activités actives. Vous connaissez bien toutes sortes de domaines universitaires ou autres activités intellectuelles, mais rien de physique. Vous n'êtes pas nécessairement faible ou affaibli (bien que ce soit un bon descripteur pour les personnages âgés), mais vous n'avez aucune expérience dans les activités plus physiques.
 
 {{< hint info >}}
 Calme est un excellent descripteur pour les personnages qui n'ont jamais eu l'intention de vivre des aventures mais qui y ont été plongés, un trope qui se produit souvent dans les jeux modernes et en particulier dans les jeux d'horreur.
@@ -103,7 +103,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Compétences:** Vous êtes entraîné à quatre compétences non-physiques de votre choix.
 
-**Anecdote:** Vous pouvez trouver un fait aléatoire pertinent à la situation actuelle lorsque vous le souhaitez. Il s’agit toujours d’un fait, et non d’une conjecture ou d’une supposition, et doit être quelque chose que vous auriez pu logiquement lire ou voir dans le passé. Vous pouvez le faire une seule fois, bien que la capacité soit renouvelée à chaque fois que vous effectuez un jet de récupération.
+**Anecdote:** Vous pouvez trouver un fait aléatoire pertinent à la situation actuelle lorsque vous le souhaitez. Il s'agit toujours d'un fait, et non d'une conjecture ou d'une supposition, et doit être quelque chose que vous auriez pu logiquement lire ou voir dans le passé. Vous pouvez le faire une seule fois, bien que la capacité soit renouvelée à chaque fois que vous effectuez un jet de récupération.
 
 **Inaptitude:** Non seulement vous n'êtes pas un Guerrier, mais toutes les attaques physiques sont désavantagées.
 
@@ -120,7 +120,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 ### Casse-cou
 
-Cela fait partie de votre nature de remettre en question ce que les autres pensent ne pas pouvoir ou ne devrait pas être fait. Vous n’êtes pas fou, bien sûr – vous n’essaieriez pas de franchir un gouffre d’un kilomètre de large simplement parce que vous avez le courage de le faire. Il y a l'impossible et puis il y a le tout juste possible. Vous aimez pousser ces derniers plus loin que les autres, car cela vous procure un élan de satisfaction et de plaisir lorsque vous réussissez. Plus vous réussissez, plus vous vous retrouvez à la recherche du prochain défi risqué contre lequel vous essayer.
+Cela fait partie de votre nature de remettre en question ce que les autres pensent ne pas pouvoir ou ne devrait pas être fait. Vous n'êtes pas fou, bien sûr – vous n'essaieriez pas de franchir un gouffre d'un kilomètre de large simplement parce que vous avez le courage de le faire. Il y a l'impossible et puis il y a le tout juste possible. Vous aimez pousser ces derniers plus loin que les autres, car cela vous procure un élan de satisfaction et de plaisir lorsque vous réussissez. Plus vous réussissez, plus vous vous retrouvez à la recherche du prochain défi risqué contre lequel vous essayer.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -136,14 +136,14 @@ Vous bénéficiez des caractéristiques suivantes:
 
 1. Il semblait y avoir des chances égales que les autres PJ ne réussissent pas, ce qui vous semblait bien.
 2. Vous pensez que les tâches qui vous attendent vous présenteront des défis uniques et enrichissants.
-3. L’un de vos plus grands risques n’a pas été réalisé et vous avez besoin d’argent pour vous aider à payer cette dette.
+3. L'un de vos plus grands risques n'a pas été réalisé et vous avez besoin d'argent pour vous aider à payer cette dette.
 4. Vous vous êtes vanté de n'avoir jamais vu de risque que vous n'aimiez pas, c'est ainsi que vous êtes arrivé à votre point actuel.
 
 -----
 
 ### Chanceux
 
-Vous comptez sur le hasard et la chance opportune pour vous sortir de nombreuses situations. Quand les gens disent que quelqu’un est né sous une bonne étoile, ils parlent de vous. Lorsque vous vous essayez à quelque chose de nouveau, aussi peu familier que soit la tâche, vous trouvez le plus souvent une mesure de succès. Même lorsqu’une catastrophe survient, elle est rarement aussi grave qu’elle pourrait l’être. Le plus souvent, les petites choses semblent se dérouler comme vous le souhaitez, vous gagnez des concours et vous êtes souvent au bon endroit au bon moment.
+Vous comptez sur le hasard et la chance opportune pour vous sortir de nombreuses situations. Quand les gens disent que quelqu'un est né sous une bonne étoile, ils parlent de vous. Lorsque vous vous essayez à quelque chose de nouveau, aussi peu familier que soit la tâche, vous trouvez le plus souvent une mesure de succès. Même lorsqu'une catastrophe survient, elle est rarement aussi grave qu'elle pourrait l'être. Le plus souvent, les petites choses semblent se dérouler comme vous le souhaitez, vous gagnez des concours et vous êtes souvent au bon endroit au bon moment.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -177,7 +177,7 @@ Vous bénéficiez des caractéristiques suivantes:
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
 1. Un autre PJ vous a recruté alors que vous aviez un bon comportement, avant de réaliser à quel point vous étiez chaotique.
-2. Vous avez des raisons de croire qu’être avec les autres PJ vous aidera à prendre le contrôle de votre comportement erratique.
+2. Vous avez des raisons de croire qu'être avec les autres PJ vous aidera à prendre le contrôle de votre comportement erratique.
 3. Un autre PJ vous a libéré de captivité, et pour le remercier, vous vous êtes porté volontaire pour l'aider.
 4. Vous n'avez aucune idée de la façon dont vous avez rejoint les PJ. Vous continuez simplement avec cela pour le moment jusqu'à ce que les réponses se présentent.
 
@@ -197,18 +197,18 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Contact:** Vous avez un contact important qui occupe une position influente, comme un noble mineur, le capitaine de la garde/police de la ville ou le chef d'une grande bande de voleurs. Vous et le MJ devriez régler les détails ensemble.
 
-**Inaptitude:** Vous n’avez jamais été doué pour étudier ou retenir les faits. Toute tâche impliquant des connaissances, des connaissances ou une compréhension est désavantagée.
+**Inaptitude:** Vous n'avez jamais été doué pour étudier ou retenir les faits. Toute tâche impliquant des connaissances, des connaissances ou une compréhension est désavantagée.
 
 **Inaptitude:** Votre volonté n'est pas votre point fort. Les actions de défense pour résister à des attaques mentales sont désavantagées.
 
-**Equipement Supplémentaire:** Vous avez réussi à obtenir des réductions et des bonus décents ces dernières semaines. En conséquence, vous disposez de suffisamment d’argent en poche pour acheter un article à prix modéré.
+**Equipement Supplémentaire:** Vous avez réussi à obtenir des réductions et des bonus décents ces dernières semaines. En conséquence, vous disposez de suffisamment d'argent en poche pour acheter un article à prix modéré.
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Vous avez convaincu l’un des autres PJ de vous dire ce qu’il faisait.
+1. Vous avez convaincu l'un des autres PJ de vous dire ce qu'il faisait.
 2. Vous avez tout organisé et convaincu les autres de vous rejoindre.
 3. L'un des autres PJ vous a rendu service, et maintenant vous remboursez cette obligation en l'aidant dans la tâche à accomplir.
-4. Il y a une récompense en jeu et vous avez besoin d’argent.
+4. Il y a une récompense en jeu et vous avez besoin d'argent.
 
 -----
 
@@ -224,7 +224,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Compétence:** Vous êtes naturellement inventif. Vous êtes entraîné à une compétence créative spécifique de votre choix : écriture, codage informatique, composition musicale, peinture, dessin, etc.
 
-**Compétence:** Vous aimez résoudre des énigmes, etc. Vous êtes entraîné aux tâches de résolution d’énigmes.
+**Compétence:** Vous aimez résoudre des énigmes, etc. Vous êtes entraîné aux tâches de résolution d'énigmes.
 
 **Compétence:** Pour être créatif, il faut toujours apprendre. Vous êtes entraîné à toute tâche qui implique la découverte de quelque chose de nouveau, par exemple lorsque vous fouillez dans une bibliothèque, une banque de données, des archives d'actualités ou une collection de connaissances similaire.
 
@@ -241,11 +241,11 @@ Vous bénéficiez des caractéristiques suivantes:
 
 ### Cruel
 
-Le malheur et la souffrance ne vous touchent pas. Lorsqu'une autre personne endure des difficultés, vous avez du mal à vous en soucier, et vous pouvez même apprécier la douleur et les difficultés que cette personne éprouve si elle vous a fait du mal dans le passé. Votre côté cruel peut provenir de l’amertume provoquée par vos propres luttes et déceptions. Vous pourriez être un pragmatique acharné, faisant ce que vous estimez devoir faire même si les autres sont pires à cause de cela. Ou vous pourriez être un sadique, se réjouissant de la douleur que vous infligez.
+Le malheur et la souffrance ne vous touchent pas. Lorsqu'une autre personne endure des difficultés, vous avez du mal à vous en soucier, et vous pouvez même apprécier la douleur et les difficultés que cette personne éprouve si elle vous a fait du mal dans le passé. Votre côté cruel peut provenir de l'amertume provoquée par vos propres luttes et déceptions. Vous pourriez être un pragmatique acharné, faisant ce que vous estimez devoir faire même si les autres sont pires à cause de cela. Ou vous pourriez être un sadique, se réjouissant de la douleur que vous infligez.
 
-Être cruel ne fait pas nécessairement de vous un méchant. Votre cruauté peut être réservée à ceux qui vous contrarient ou à d'autres personnes qui vous sont utiles. Vous êtes peut-être devenu cruel à la suite d’une expérience extrêmement horrible. Les abus et la torture, par exemple, peuvent priver la personne de toute compassion pour les autres êtres vivants.
+Être cruel ne fait pas nécessairement de vous un méchant. Votre cruauté peut être réservée à ceux qui vous contrarient ou à d'autres personnes qui vous sont utiles. Vous êtes peut-être devenu cruel à la suite d'une expérience extrêmement horrible. Les abus et la torture, par exemple, peuvent priver la personne de toute compassion pour les autres êtres vivants.
 
-De plus, vous n’avez pas besoin d’être cruel dans toutes les situations. En fait, les autres pourraient vous considérer comme aimable, amical et même serviable. Mais lorsque vous êtes en colère ou frustré, votre double nature se révèle, et ceux qui ont mérité votre mépris risquent d’en souffrir.
+De plus, vous n'avez pas besoin d'être cruel dans toutes les situations. En fait, les autres pourraient vous considérer comme aimable, amical et même serviable. Mais lorsque vous êtes en colère ou frustré, votre double nature se révèle, et ceux qui ont mérité votre mépris risquent d'en souffrir.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -262,7 +262,7 @@ Vous bénéficiez des caractéristiques suivantes:
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
 1. Vous pensez que vous pourriez obtenir un avantage à long terme en aidant les autres PJ et que vous pourrez peut-être utiliser cet avantage contre vos ennemis.
-2. En rejoignant les PJ, vous voyez une opportunité d’accroître votre pouvoir et votre statut personnels aux dépens des autres.
+2. En rejoignant les PJ, vous voyez une opportunité d'accroître votre pouvoir et votre statut personnels aux dépens des autres.
 3. Vous espérez rendre la vie d'un autre PJ plus difficile en rejoignant le groupe.
 4. Rejoindre les PJ vous donne l'opportunité d'échapper à la justice pour un crime que vous avez commis.
 
@@ -280,20 +280,20 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Compétence:** Vous avez envie d'apprendre. Vous êtes entraîné à toute tâche qui implique d'apprendre quelque chose de nouveau, que vous parliez à un local pour obtenir des informations ou que vous fouilliez dans de vieux livres pour découvrir des traditions.
 
-**Compétence:** Vous avez fait une étude du monde. Vous êtes entraîné à toute tâche impliquant la géographie ou l’histoire.
+**Compétence:** Vous avez fait une étude du monde. Vous êtes entraîné à toute tâche impliquant la géographie ou l'histoire.
 
 **Inaptitude:** Vous avez tendance à vous concentrer sur les détails, ce qui vous rend quelque peu inconscient de ce qui se passe autour de vous. Toute tâche visant à entendre ou à remarquer les dangers autour de vous est entravée.
 
-**Inaptitude:** Lorsque vous voyez quelque chose d’intéressant, vous hésitez en prenant en compte tous les détails. Les actions d'initiative (pour déterminer qui commence le combat en premier) sont désavantagées.
+**Inaptitude:** Lorsque vous voyez quelque chose d'intéressant, vous hésitez en prenant en compte tous les détails. Les actions d'initiative (pour déterminer qui commence le combat en premier) sont désavantagées.
 
 **Equipement Supplémentaire:** Vous disposez de trois livres sur les sujets que vous choisissez.
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
 1. L'un des PJ vous a approché pour obtenir des informations relatives à la mission, après avoir entendu dire que vous étiez un expert.
-2. Vous avez toujours voulu voir l’endroit où vont les autres PJ.
+2. Vous avez toujours voulu voir l'endroit où vont les autres PJ.
 3. Vous étiez intéressé par ce que faisaient les autres PJ et avez décidé de les suivre.
-4. L’un des PJ vous fascine, peut-être en raison d’une capacité spéciale ou étrange dont il dispose.
+4. L'un des PJ vous fascine, peut-être en raison d'une capacité spéciale ou étrange dont il dispose.
 
 -----
 
@@ -305,16 +305,16 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Intelligent:** +2 à votre Réserve d'Intellect.
 
-**Compétence:** Vous êtes entraîné dans toutes les actions impliquant l’identification ou la compréhension des machines.
+**Compétence:** Vous êtes entraîné dans toutes les actions impliquant l'identification ou la compréhension des machines.
 
-**Compétence:** Vous êtes entraîné dans toutes les actions impliquant l’utilisation, la réparation ou la fabrication de machines.
+**Compétence:** Vous êtes entraîné dans toutes les actions impliquant l'utilisation, la réparation ou la fabrication de machines.
 
 **Equipement Supplémentaire:** Vous commencez avec une variété de machines-outils.
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
 1. Alors que vous répariez une machine à proximité, vous avez entendu les autres PJ parler.
-2. Vous avez besoin d’argent pour acheter des outils et des pièces.
+2. Vous avez besoin d'argent pour acheter des outils et des pièces.
 3. Il était clair que la mission ne pourrait pas réussir sans vos compétences et connaissances.
 4. Un autre PJ vous a demandé de les rejoindre.
 
@@ -336,18 +336,18 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Vous agissez comme garde du corps pour l’un des autres PJ.
-2. L’un des PJ est votre frère et sœur, et vous êtes venu pour veiller sur eux.
-3. Vous avez besoin d’argent parce que votre famille est endettée.
+1. Vous agissez comme garde du corps pour l'un des autres PJ.
+2. L'un des PJ est votre frère et sœur, et vous êtes venu pour veiller sur eux.
+3. Vous avez besoin d'argent parce que votre famille est endettée.
 4. Vous êtes intervenu pour défendre l'un des PJ lorsque ce personnage a été menacé. En discutant avec eux par la suite, vous avez entendu parler de la tâche du groupe.
 
 -----
 
 ### Empathique
 
-Les autres sont des livres ouverts pour vous. Vous avez peut-être le don de lire les récits d'une personne, ces mouvements subtils qui traduisent l'humeur et la disposition d'un individu. Ou alors, vous pouvez recevoir des informations de manière plus directe, en ressentant les émotions d'une personne comme s'il s'agissait de choses tangibles, des sensations qui effleurent légèrement votre esprit. Votre don pour l’empathie vous aide à naviguer dans les situations sociales et à les contrôler pour éviter les malentendus et empêcher que des conflits inutiles n’éclatent.
+Les autres sont des livres ouverts pour vous. Vous avez peut-être le don de lire les récits d'une personne, ces mouvements subtils qui traduisent l'humeur et la disposition d'un individu. Ou alors, vous pouvez recevoir des informations de manière plus directe, en ressentant les émotions d'une personne comme s'il s'agissait de choses tangibles, des sensations qui effleurent légèrement votre esprit. Votre don pour l'empathie vous aide à naviguer dans les situations sociales et à les contrôler pour éviter les malentendus et empêcher que des conflits inutiles n'éclatent.
 
-Le bombardement constant d’émotions de la part de votre entourage a probablement des conséquences néfastes. Vous pourriez évoluer selon l’humeur du moment, passant d’un bonheur vertigineux à un chagrin amer sans aucun avertissement. Ou vous pourriez vous fermer et rester impénétrable aux yeux des autres par sentiment d’auto-préservation ou par peur inconsciente que tout le monde puisse apprendre ce que vous ressentez vraiment.
+Le bombardement constant d'émotions de la part de votre entourage a probablement des conséquences néfastes. Vous pourriez évoluer selon l'humeur du moment, passant d'un bonheur vertigineux à un chagrin amer sans aucun avertissement. Ou vous pourriez vous fermer et rester impénétrable aux yeux des autres par sentiment d'auto-préservation ou par peur inconsciente que tout le monde puisse apprendre ce que vous ressentez vraiment.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -361,7 +361,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Vous avez senti l’engagement des autres PJ dans la tâche et vous vous êtes senti poussé à les aider.
+1. Vous avez senti l'engagement des autres PJ dans la tâche et vous vous êtes senti poussé à les aider.
 2. Vous avez établi un lien étroit avec un autre PJ et vous ne supportez pas de vous en séparer.
 3. Vous avez senti quelque chose d'étrange chez l'un des PJ et avez décidé de rejoindre le groupe pour voir si vous pouvez le ressentir à nouveau et découvrir la vérité.
 4. Vous avez rejoint les PJ pour échapper à une relation désagréable ou à un environnement négatif.
@@ -380,7 +380,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Guérit rapidement:** Vous divisez par deux le temps nécessaire pour effectuer un jet de récupération (minimum une action).
 
-**Quasiment Inarrêtable:** Tant que vous êtes diminué sur le suivi des dégâts, vous fonctionnez comme si vous étiez en bonne santé. Pendant que vous êtes handicapé, vous fonctionnez comme si vous étiez diminué. En d’autres termes, vous ne subissez pas les effets d’une déficience jusqu’à ce que vous deveniez handicapé, et vous ne subissez jamais les effets d’une déficience. Vous mourrez quand même si tous vos Réserves de statistiques sont à 0.
+**Quasiment Inarrêtable:** Tant que vous êtes diminué sur le suivi des dégâts, vous fonctionnez comme si vous étiez en bonne santé. Pendant que vous êtes handicapé, vous fonctionnez comme si vous étiez diminué. En d'autres termes, vous ne subissez pas les effets d'une déficience jusqu'à ce que vous deveniez handicapé, et vous ne subissez jamais les effets d'une déficience. Vous mourrez quand même si tous vos Réserves de statistiques sont à 0.
 
 **Compétence:** Vous êtes entraîné auc actions de défense de Puissance.
 
@@ -391,7 +391,7 @@ Vous bénéficiez des caractéristiques suivantes:
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
 1. Les PJ vous ont recruté après avoir pris connaissance de votre réputation de survivant.
-2. Vous avez rejoint les PJ parce que vous voulez ou avez besoin d’argent.
+2. Vous avez rejoint les PJ parce que vous voulez ou avez besoin d'argent.
 3. Les PJ vous ont proposé un défi égal à votre puissance physique.
 4. Vous pensez que la seule façon pour les PJ de réussir est que vous soyez là pour les protéger.
 
@@ -414,7 +414,7 @@ Vous bénéficiez des caractéristiques suivantes:
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
 1. Un des autres PJ vous a demandé de venir grâce à vos connaissances.
-2. Vous avez besoin d’argent pour financer vos études.
+2. Vous avez besoin d'argent pour financer vos études.
 3. Vous pensiez que cette tâche pourrait mener à des découvertes importantes et intéressantes.
 4. Un collègue vous a demandé de participer à la mission en guise de faveur.
 
@@ -422,7 +422,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 ### Etrange
 
-Vous n'êtes pas comme les autres, et ça vous va. Les gens ne semblent pas vous comprendre – ils semblent même découragés par vous – mais peu importe ? Vous comprenez le monde mieux qu’eux parce que vous êtes bizarre, tout comme le monde dans lequel vous vivez. Le concept de « bizarre » vous est bien connu. Des appareils étranges, des lieux anciens, des créatures bizarres, des tempêtes qui peuvent vous transformer, des champs d'énergie vivants, des conspirations, des extraterrestres et des choses que la plupart des gens ne peuvent même pas nommer peuplent le monde, et vous prospérez grâce à eux. Vous avez un attachement particulier à tout cela, et plus vous en découvrez sur l’étrangeté du monde, plus vous pourriez en découvrir sur vous-même.
+Vous n'êtes pas comme les autres, et ça vous va. Les gens ne semblent pas vous comprendre – ils semblent même découragés par vous – mais peu importe ? Vous comprenez le monde mieux qu'eux parce que vous êtes bizarre, tout comme le monde dans lequel vous vivez. Le concept de « bizarre » vous est bien connu. Des appareils étranges, des lieux anciens, des créatures bizarres, des tempêtes qui peuvent vous transformer, des champs d'énergie vivants, des conspirations, des extraterrestres et des choses que la plupart des gens ne peuvent même pas nommer peuplent le monde, et vous prospérez grâce à eux. Vous avez un attachement particulier à tout cela, et plus vous en découvrez sur l'étrangeté du monde, plus vous pourriez en découvrir sur vous-même.
 
 Les personnages étranges peuvent être des mutants ou des personnes nées avec des qualités étranges, mais parfois ils ont commencé « normaux » et ont adopté l'étrange par choix.
 
@@ -430,9 +430,9 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Lumière Intérieure:** +2 à votre Réserve d'Intellect.
 
-**Bizarrerie Physique:** Vous avez un aspect physique unique qui est bizarre. Selon le paramètre, cela peut varier considérablement. Vous pourriez avoir des cheveux violets ou des pointes métalliques sur la tête. Peut-être que vos mains ne se connectent pas à vos bras, même si elles bougent comme si c'était le cas. Peut-être qu’un troisième œil regarde du côté de votre tête, ou que des vrilles superflues poussent dans votre dos. Quoi qu'il en soit, votre bizarrerie peut être une mutation, un trait surnaturel (une bénédiction ou une malédiction), une caractéristique sans explication, ou simplement un tatouage vraiment sauvage qui attire beaucoup d'attention.
+**Bizarrerie Physique:** Vous avez un aspect physique unique qui est bizarre. Selon le paramètre, cela peut varier considérablement. Vous pourriez avoir des cheveux violets ou des pointes métalliques sur la tête. Peut-être que vos mains ne se connectent pas à vos bras, même si elles bougent comme si c'était le cas. Peut-être qu'un troisième œil regarde du côté de votre tête, ou que des vrilles superflues poussent dans votre dos. Quoi qu'il en soit, votre bizarrerie peut être une mutation, un trait surnaturel (une bénédiction ou une malédiction), une caractéristique sans explication, ou simplement un tatouage vraiment sauvage qui attire beaucoup d'attention.
 
-**Un sens pour l'étrange:** Parfois, à la discrétion du MJ, des choses étranges liées au surnaturel ou à ses effets sur le monde semblent vous interpeller. Vous pouvez les sentir de loin, et si vous vous approchez à distance d’une telle chose, vous pouvez sentir si elle est ouvertement dangereuse ou non.
+**Un sens pour l'étrange:** Parfois, à la discrétion du MJ, des choses étranges liées au surnaturel ou à ses effets sur le monde semblent vous interpeller. Vous pouvez les sentir de loin, et si vous vous approchez à distance d'une telle chose, vous pouvez sentir si elle est ouvertement dangereuse ou non.
 
 **Compétence:** Vous êtes entraîné dans les connaissances surnaturelles.
 
@@ -447,7 +447,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 ### Exilé
 
-Vous avez parcouru un chemin long et solitaire, laissant votre maison et votre vie derrière vous. Vous avez peut-être commis un crime odieux, quelque chose de si horrible que votre peuple vous a forcé à partir, et si vous osez revenir, vous risquez la mort. Vous avez peut-être été accusé d'un crime que vous n'avez pas commis et vous devez maintenant payer le prix du mauvais acte de quelqu'un d'autre. Votre exil peut être le résultat d'une gaffe sociale : peut-être avez-vous fait honte à votre famille ou à un ami, ou vous êtes-vous embarrassé devant vos pairs, une autorité ou quelqu'un que vous respectez. Quelle que soit la raison, vous avez laissé votre ancienne vie derrière vous et vous efforcez maintenant d’en refaire une nouvelle.
+Vous avez parcouru un chemin long et solitaire, laissant votre maison et votre vie derrière vous. Vous avez peut-être commis un crime odieux, quelque chose de si horrible que votre peuple vous a forcé à partir, et si vous osez revenir, vous risquez la mort. Vous avez peut-être été accusé d'un crime que vous n'avez pas commis et vous devez maintenant payer le prix du mauvais acte de quelqu'un d'autre. Votre exil peut être le résultat d'une gaffe sociale : peut-être avez-vous fait honte à votre famille ou à un ami, ou vous êtes-vous embarrassé devant vos pairs, une autorité ou quelqu'un que vous respectez. Quelle que soit la raison, vous avez laissé votre ancienne vie derrière vous et vous efforcez maintenant d'en refaire une nouvelle.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -466,9 +466,9 @@ Vous bénéficiez des caractéristiques suivantes:
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
 1. Les autres PJ ont gagné votre confiance en vous aidant lorsque vous en aviez besoin. Vous les accompagnez pour les rembourser.
-2. En explorant par vous-même, vous avez découvert quelque chose d’étrange. Lorsque vous vous êtes rendu dans un lieu particulier, les PJ étaient les seuls à vous croire, et ils vous ont accompagné pour vous aider à résoudre le problème.
-3. L’un des autres PJ vous rappelle quelqu’un que vous avez connu.
-4. Vous êtes fatigué de votre isolement. Rejoindre les autres PJ vous donne une chance d’appartenir.
+2. En explorant par vous-même, vous avez découvert quelque chose d'étrange. Lorsque vous vous êtes rendu dans un lieu particulier, les PJ étaient les seuls à vous croire, et ils vous ont accompagné pour vous aider à résoudre le problème.
+3. L'un des autres PJ vous rappelle quelqu'un que vous avez connu.
+4. Vous êtes fatigué de votre isolement. Rejoindre les autres PJ vous donne une chance d'appartenir.
 
 -----
 
@@ -484,20 +484,20 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Compétence:** Vous êtes entraîné dans toutes les actions de saut.
 
-**Equipement Supplémentaire:** Vous disposez d’une arme moyenne ou lourde supplémentaire.
+**Equipement Supplémentaire:** Vous disposez d'une arme moyenne ou lourde supplémentaire.
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Contre votre bon jugement, vous avez rejoint les autres PJ parce que vous avez vu qu’ils étaient en danger.
+1. Contre votre bon jugement, vous avez rejoint les autres PJ parce que vous avez vu qu'ils étaient en danger.
 2. L'un des autres PJ vous a convaincu que rejoindre le groupe serait dans votre intérêt.
 3. Vous avez peur de ce qui pourrait arriver si les autres PC tombaient en panne.
-4. Il y a une récompense en jeu et vous avez besoin d’argent.
+4. Il y a une récompense en jeu et vous avez besoin d'argent.
 
 -----
 
 ### Fou
 
-Vous avez approfondi des sujets que les gens n’étaient pas censés connaître. Vous possédez des connaissances dans des domaines qui dépassent la portée de la plupart des gens, mais ces connaissances ont un prix terrible. Vous êtes probablement dans une forme physique douteuse et souffrez occasionnellement de tics nerveux. Vous marmonnez parfois sans vous en rendre compte.
+Vous avez approfondi des sujets que les gens n'étaient pas censés connaître. Vous possédez des connaissances dans des domaines qui dépassent la portée de la plupart des gens, mais ces connaissances ont un prix terrible. Vous êtes probablement dans une forme physique douteuse et souffrez occasionnellement de tics nerveux. Vous marmonnez parfois sans vous en rendre compte.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -547,7 +547,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 ### Gentil
 
-Il a toujours été facile pour vous de voir les choses du point de vue des autres. Cette capacité vous a rendu sensible à ce qu’ils veulent ou ont réellement besoin. De votre point de vue, vous appliquez simplement le vieux proverbe selon lequel « il est plus facile d'attraper des mouches avec du miel qu'avec du vinaigre », mais d'autres voient simplement votre comportement comme de la gentillesse. Bien sûr, être gentil prend du temps, et le vôtre est limité. Vous avez appris qu'une petite fraction des gens ne mérite pas votre temps ou votre gentillesse : les vrais sadiques, narcissiques et autres personnes similaires ne feront que gaspiller votre énergie. Vous les traitez donc rapidement, réservant votre gentillesse à ceux qui la méritent et peuvent bénéficier de votre attention.
+Il a toujours été facile pour vous de voir les choses du point de vue des autres. Cette capacité vous a rendu sensible à ce qu'ils veulent ou ont réellement besoin. De votre point de vue, vous appliquez simplement le vieux proverbe selon lequel « il est plus facile d'attraper des mouches avec du miel qu'avec du vinaigre », mais d'autres voient simplement votre comportement comme de la gentillesse. Bien sûr, être gentil prend du temps, et le vôtre est limité. Vous avez appris qu'une petite fraction des gens ne mérite pas votre temps ou votre gentillesse : les vrais sadiques, narcissiques et autres personnes similaires ne feront que gaspiller votre énergie. Vous les traitez donc rapidement, réservant votre gentillesse à ceux qui la méritent et peuvent bénéficier de votre attention.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -570,7 +570,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 ### Grâcieux
 
-Vous avez un parfait sens de l’équilibre, vous bougez et parlez avec grâce et beauté. Vous êtes rapide, souple, flexible et adroit. Votre corps est parfaitement adapté à la danse et vous utilisez cet avantage au combat pour esquiver les coups. Vous pouvez porter des vêtements qui améliorent votre agilité de mouvement et votre sens du style.
+Vous avez un parfait sens de l'équilibre, vous bougez et parlez avec grâce et beauté. Vous êtes rapide, souple, flexible et adroit. Votre corps est parfaitement adapté à la danse et vous utilisez cet avantage au combat pour esquiver les coups. Vous pouvez porter des vêtements qui améliorent votre agilité de mouvement et votre sens du style.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -584,10 +584,10 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Contre votre bon sens, vous avez rejoint les autres PJ parce que vous avez vu qu’ils étaient en danger.
+1. Contre votre bon sens, vous avez rejoint les autres PJ parce que vous avez vu qu'ils étaient en danger.
 2. L'un des autres PJ vous a convaincu que rejoindre le groupe serait dans votre intérêt.
 3. Vous avez peur de ce qui pourrait arriver si les autres PC tombaient en panne.
-4. Il y a une récompense en jeu et vous avez besoin d’argent.
+4. Il y a une récompense en jeu et vous avez besoin d'argent.
 
 -----
 
@@ -618,9 +618,9 @@ Vous bénéficiez des caractéristiques suivantes:
 
 ### Honorable
 
-Vous êtes digne de confiance, juste et franc. Vous essayez de faire ce qui est juste, d’aider les autres et de bien les traiter. Mentir et tricher ne sont pas des moyens d’avancer : ces choses sont réservées aux faibles, aux paresseux ou aux méprisables. Vous passez probablement beaucoup de temps à réfléchir à votre honneur personnel, à la meilleure façon de le préserver et de le défendre en cas de défi. Au combat, vous êtes franc et offrez du quart à n’importe quel ennemi.
+Vous êtes digne de confiance, juste et franc. Vous essayez de faire ce qui est juste, d'aider les autres et de bien les traiter. Mentir et tricher ne sont pas des moyens d'avancer : ces choses sont réservées aux faibles, aux paresseux ou aux méprisables. Vous passez probablement beaucoup de temps à réfléchir à votre honneur personnel, à la meilleure façon de le préserver et de le défendre en cas de défi. Au combat, vous êtes franc et offrez du quart à n'importe quel ennemi.
 
-Ce sentiment d’honneur vous a probablement été inculqué par un parent ou un mentor. Parfois, la distinction entre ce qui est honorable et ce qui ne l'est pas varie selon les écoles de pensée, mais dans l'ensemble, les personnes honorables peuvent s'entendre sur la plupart des aspects de ce que signifie l'honneur.
+Ce sentiment d'honneur vous a probablement été inculqué par un parent ou un mentor. Parfois, la distinction entre ce qui est honorable et ce qui ne l'est pas varie selon les écoles de pensée, mais dans l'ensemble, les personnes honorables peuvent s'entendre sur la plupart des aspects de ce que signifie l'honneur.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -655,19 +655,19 @@ Vous bénéficiez des caractéristiques suivantes:
 
 1. Vous avez remarqué quelque chose de bizarre et, sans trop réfléchir, vous avez sauté à pieds joints.
 2. Vous êtes arrivé là où vous êtes à cause d'un défi parce que, hé, vous ne reculez pas devant les défis.
-3. Quelqu’un vous a appelé, mais au lieu de vous lancer dans une bagarre, vous vous êtes retrouvé dans votre situation actuelle.
-4. Vous avez dit à votre ami que rien ne pouvait vous effrayer et que rien de ce que vous verriez ne vous ferait changer d’avis. Ils vous ont amené à votre point actuel.
+3. Quelqu'un vous a appelé, mais au lieu de vous lancer dans une bagarre, vous vous êtes retrouvé dans votre situation actuelle.
+4. Vous avez dit à votre ami que rien ne pouvait vous effrayer et que rien de ce que vous verriez ne vous ferait changer d'avis. Ils vous ont amené à votre point actuel.
 
 -----
 
 ### Impulsif
 
-Vous avez du mal à contenir votre enthousiasme. Pourquoi attendre quand vous pouvez simplement le faire (quoi que ce soit) et le faire ? Vous traitez les problèmes lorsqu’ils surviennent plutôt que de planifier à l’avance. Éteindre les petits incendies évite désormais qu’ils ne se transforment en un grand incendie plus tard. Vous êtes le premier à prendre des risques, à vous lancer et à donner un coup de main, à vous engager dans des passages sombres et à trouver le danger.
+Vous avez du mal à contenir votre enthousiasme. Pourquoi attendre quand vous pouvez simplement le faire (quoi que ce soit) et le faire ? Vous traitez les problèmes lorsqu'ils surviennent plutôt que de planifier à l'avance. Éteindre les petits incendies évite désormais qu'ils ne se transforment en un grand incendie plus tard. Vous êtes le premier à prendre des risques, à vous lancer et à donner un coup de main, à vous engager dans des passages sombres et à trouver le danger.
 
-Votre impulsivité vous cause probablement des ennuis. Alors que d’autres peuvent prendre le temps d’étudier les objets qu’ils découvrent, vous utilisez ces objets sans hésitation. Après tout, la meilleure façon d’apprendre ce qu’une chose peut faire est de l’utiliser. Lorsqu'un explorateur prudent peut regarder autour de lui et vérifier s'il y a un danger à proximité, vous devez vous empêcher physiquement d'avancer. Pourquoi tourner auour du pot alors que des événements passionnants sont à notre porté ?
+Votre impulsivité vous cause probablement des ennuis. Alors que d'autres peuvent prendre le temps d'étudier les objets qu'ils découvrent, vous utilisez ces objets sans hésitation. Après tout, la meilleure façon d'apprendre ce qu'une chose peut faire est de l'utiliser. Lorsqu'un explorateur prudent peut regarder autour de lui et vérifier s'il y a un danger à proximité, vous devez vous empêcher physiquement d'avancer. Pourquoi tourner auour du pot alors que des événements passionnants sont à notre porté ?
 
 {{< hint info >}}
-Les personnages impulsifs ont des ennuis. C'est leur truc, et c'est très bien. Mais si vous entraînez constamment vos collègues PJ dans des ennuis (ou pire, si vous les faites gravement blesser ou tuer), ce sera pour le moins ennuyeux. Une bonne règle de base est que l’impulsivité ne signifie pas toujours une prédilection à faire la mauvaise chose. Parfois, c'est l'envie de faire la bonne chose.
+Les personnages impulsifs ont des ennuis. C'est leur truc, et c'est très bien. Mais si vous entraînez constamment vos collègues PJ dans des ennuis (ou pire, si vous les faites gravement blesser ou tuer), ce sera pour le moins ennuyeux. Une bonne règle de base est que l'impulsivité ne signifie pas toujours une prédilection à faire la mauvaise chose. Parfois, c'est l'envie de faire la bonne chose.
 {{< /hint >}}
 
 Vous bénéficiez des caractéristiques suivantes:
@@ -684,7 +684,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 1. Vous avez entendu ce que faisaient les autres PJ et avez soudainement décidé de les rejoindre.
 2. Vous avez rassemblé tout le monde après avoir entendu des rumeurs concernant quelque chose d'intéressant que vous vouliez voir ou faire.
-3. Vous avez dépensé tout votre argent et vous vous retrouvez maintenant à court d’argent.
+3. Vous avez dépensé tout votre argent et vous vous retrouvez maintenant à court d'argent.
 4. Vous avez des ennuis pour avoir agi de manière imprudente. Vous rejoignez les autres PC car ils offrent une issue à votre problème.
 
 -----
@@ -712,7 +712,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 ### Intuitif
 
-Vous êtes souvent chatouillé par le sentiment de savoir ce que quelqu’un va dire, comment il va réagir ou comment les événements pourraient se dérouler. Peut-être avez-vous un sens mutant, peut-être pouvez-vous voir quelques instants à venir dans le temps, ou peut-être êtes-vous simplement doué pour lire les gens et extrapoler une situation. Quoi qu’il en soit, beaucoup de ceux qui vous regardent dans les yeux détournent immédiatement le regard, comme s’ils avaient peur de ce que vous pourriez voir dans leur expression.
+Vous êtes souvent chatouillé par le sentiment de savoir ce que quelqu'un va dire, comment il va réagir ou comment les événements pourraient se dérouler. Peut-être avez-vous un sens mutant, peut-être pouvez-vous voir quelques instants à venir dans le temps, ou peut-être êtes-vous simplement doué pour lire les gens et extrapoler une situation. Quoi qu'il en soit, beaucoup de ceux qui vous regardent dans les yeux détournent immédiatement le regard, comme s'ils avaient peur de ce que vous pourriez voir dans leur expression.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -725,7 +725,7 @@ Vous bénéficiez des caractéristiques suivantes:
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
 1. Vous saviez simplement que vous deviez venir.
-2. Vous avez convaincu l’un des autres PJ que votre intuition est inestimable.
+2. Vous avez convaincu l'un des autres PJ que votre intuition est inestimable.
 3. Vous pensiez que quelque chose de terrible allait se produire si vous n'y alliez pas.
 4. Vous êtes convaincu que la raison pour laquelle vous en êtes arrivé à ce point deviendra bientôt claire.
 
@@ -733,7 +733,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 ### Jovial
 
-Vous êtes joyeux, sympathique et extraverti. Vous mettez les autres à l'aise avec un grand sourire et une blague, éventuellement à vos frais, même si taquiner légèrement vos compagnons qui peuvent le supporter est aussi l'un de vos passe-temps favoris. Parfois, les gens disent qu’on ne prend jamais rien au sérieux. Ce n’est pas vrai, bien sûr, mais vous avez appris que s’attarder trop longtemps sur le mal prive rapidement le monde de sa joie. Vous avez toujours une nouvelle blague dans votre poche parce que vous les collectionnez comme certaines personnes collectionnent les bouteilles de vin.
+Vous êtes joyeux, sympathique et extraverti. Vous mettez les autres à l'aise avec un grand sourire et une blague, éventuellement à vos frais, même si taquiner légèrement vos compagnons qui peuvent le supporter est aussi l'un de vos passe-temps favoris. Parfois, les gens disent qu'on ne prend jamais rien au sérieux. Ce n'est pas vrai, bien sûr, mais vous avez appris que s'attarder trop longtemps sur le mal prive rapidement le monde de sa joie. Vous avez toujours une nouvelle blague dans votre poche parce que vous les collectionnez comme certaines personnes collectionnent les bouteilles de vin.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -741,11 +741,11 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Compétence:** Vous êtes convivial et mettez la plupart des gens à l'aise avec votre attitude. Vous êtes entraîné à toutes les tâches liées à une interaction sociale agréable.
 
-**Compétence:** Vous avez un avantage pour comprendre les punchlines des blagues que vous n'avez jamais entendues auparavant. Vous êtes entraîné à toutes les tâches liées à la résolution d’énigmes et d’énigmes.
+**Compétence:** Vous avez un avantage pour comprendre les punchlines des blagues que vous n'avez jamais entendues auparavant. Vous êtes entraîné à toutes les tâches liées à la résolution d'énigmes et d'énigmes.
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Vous avez résolu une énigme avant de réaliser que répondre vous lancerait dans l’aventure.
+1. Vous avez résolu une énigme avant de réaliser que répondre vous lancerait dans l'aventure.
 2. Les autres PJ pensaient que vous apporteriez une légèreté bien nécessaire à l'équipe.
 3. Vous avez décidé que se divertir sans travailler n'était pas le meilleur moyen de vivre la vie, alors vous avez rejoint les PJ.
 4. Il s'agissait soit d'aller avec les PJ, soit d'affronter une situation qui n'était tout sauf joviale.
@@ -756,10 +756,10 @@ Vous bénéficiez des caractéristiques suivantes:
 
 Le courage vous fait défaut à chaque instant. Vous manquez de volonté et de détermination pour tenir bon face au danger. La peur vous ronge le cœur, ronge votre esprit, vous conduit à la distraction jusqu'à ce que vous ne puissiez plus la supporter. La plupart du temps, vous reculez devant les confrontations. Vous fuyez les menaces et hésitez face à des décisions difficiles.
 
-Pourtant, malgré toute la peur qui vous hante et peut-être vous fait honte, votre nature lâche se révèle être un allié utile de temps en temps. Écouter vos peurs vous a aidé à échapper au danger et à éviter de prendre des risques inutiles. D’autres ont peut-être souffert à votre place, et vous êtes peut-être le premier à l’admettre, mais secrètement, vous ressentez un intense soulagement d’avoir évité un destin impensable et terrible.
+Pourtant, malgré toute la peur qui vous hante et peut-être vous fait honte, votre nature lâche se révèle être un allié utile de temps en temps. Écouter vos peurs vous a aidé à échapper au danger et à éviter de prendre des risques inutiles. D'autres ont peut-être souffert à votre place, et vous êtes peut-être le premier à l'admettre, mais secrètement, vous ressentez un intense soulagement d'avoir évité un destin impensable et terrible.
 
 {{< hint info >}}
-Des descripteurs comme Lâche, Cruel et Déshonorant pourraient ne pas convenir à tous les groupes. Ce sont des traits de caractère attribués plutôt pour les opposants des PJs et certaines personnes souhaitent que leurs PJ soient entièrement héroïques. Mais d’autres ne voient pas d’inconvénient à ce qu’un peu de grisaille morale vienne s’ajouter à ce mélange. D'autres encore voient des choses comme Lâche et Cruel comme des traits à surmonter à mesure que leurs personnages se développent (ce qui leur vaut probablement des descripteurs différents).
+Des descripteurs comme Lâche, Cruel et Déshonorant pourraient ne pas convenir à tous les groupes. Ce sont des traits de caractère attribués plutôt pour les opposants des PJs et certaines personnes souhaitent que leurs PJ soient entièrement héroïques. Mais d'autres ne voient pas d'inconvénient à ce qu'un peu de grisaille morale vienne s'ajouter à ce mélange. D'autres encore voient des choses comme Lâche et Cruel comme des traits à surmonter à mesure que leurs personnages se développent (ce qui leur vaut probablement des descripteurs différents).
 {{< /hint >}}
 
 Vous bénéficiez des caractéristiques suivantes:
@@ -772,16 +772,16 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Compétence:** Vous êtes entraîné pour toutes les actions prises pour échapper au danger, fuir devant une situation dangeureuse ou se sortir du pétrin.
 
-**Inaptitude:** Vous n’entrez pas volontairement dans des situations dangereuses. Toute action d'initiative (pour déterminer qui commence le combat en premier) est désavantagée.
+**Inaptitude:** Vous n'entrez pas volontairement dans des situations dangereuses. Toute action d'initiative (pour déterminer qui commence le combat en premier) est désavantagée.
 
 **Inaptitude:** Vous vous décomposez lorsque vous devez entreprendre seul une tâche potentiellement dangereuse. Toute tâche de ce type (comme attaquer une créature par vous-même) est désavantagée.
 
-**Equipement Supplémentaire:** Vous disposez d’un porte-bonheur ou d’un dispositif de protection pour vous protéger du danger.
+**Equipement Supplémentaire:** Vous disposez d'un porte-bonheur ou d'un dispositif de protection pour vous protéger du danger.
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
 1. Vous pensez être pourchassé et vous avez engagé l'un des autres PJ comme votre protecteur.
-2. Vous cherchez à échapper à votre honte et à vous rapprocher de personnes compétentes dans l’espoir de réparer votre réputation.
+2. Vous cherchez à échapper à votre honte et à vous rapprocher de personnes compétentes dans l'espoir de réparer votre réputation.
 3. L'un des autres PJ vous a intimidé pour que vous veniez.
 4. Le groupe a répondu à vos appels à l'aide lorsque vous étiez en difficulté.
 
@@ -801,13 +801,13 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Compétence:** Vous êtes entraîné dans toutes les tâches pour identifier ou évaluer un danger, des mensonges, ou la qualité, l'importance ou la fonction de quelque chose.
 
-**Inaptitude:** YVous n’avez jamais été doué pour étudier ou retenir des connaissances triviales. Toute tâche impliquant des connaissances, des connaissances ou une compréhension est désavantagée.
+**Inaptitude:** YVous n'avez jamais été doué pour étudier ou retenir des connaissances triviales. Toute tâche impliquant des connaissances, des connaissances ou une compréhension est désavantagée.
 
 **Equipement Supplémentaire:** Vous voyez à travers les plans des autres et les convainquez parfois de vous croire, même si, peut-être, ils ne devraient pas le faire. Grâce à votre comportement intelligent, vous disposez d'un article coûteux supplémentaire.
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Vous avez convaincu l’un des autres PJ de vous dire ce qu’il faisait.
+1. Vous avez convaincu l'un des autres PJ de vous dire ce qu'il faisait.
 2. De loin, tu as observé qu'il se passait quelque chose d'intéressant.
 3. Vous avez parlé de cette situation parce que vous pensiez que cela pourrait rapporter de l'argent.
 4. Vous soupçonnez que les autres PJ ne réussiront pas sans vous.
@@ -834,12 +834,12 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Compétence:** Vous êtes un gars costaud. Vous êtes entraîné aux tâches impliquant de casser des objets.
 
-**Inaptitude:** Toute tâche qui implique l’équilibre, la grâce ou la coordination main-oeil est désavantagée.
+**Inaptitude:** Toute tâche qui implique l'équilibre, la grâce ou la coordination main-oeil est désavantagée.
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
 1. Vous étiez au bon endroit au bon moment.
-2. Vous disposiez d’une information dont les autres PJ avaient besoin pour élaborer leurs plans.
+2. Vous disposiez d'une information dont les autres PJ avaient besoin pour élaborer leurs plans.
 3. Un frère ou une sœur vous a recommandé aux autres PC.
 4. Vous êtes tombé sur les PJ alors qu'ils discutaient de leur mission, et ils se sont pris d'affection pour vous.
 
@@ -859,14 +859,14 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Compétence:** Vous êtes cynique et vous attendez au pire. Ainsi, vous résistez aux chocs mentaux. Vous êtes entraîné à des tâches de défense d'Intellect liées à la perte de votre santé mentale ou de votre équanimité.
 
-**Maudit:** Une fois sur deux, le MJ utilise l'intrusion du MJ sur votre personnage, vous ne pouvez pas le refuser et ne recevez pas d'XP pour cela (vous obtenez toujours un XP à attribuer à un autre joueur). C'est parce que vous êtes condamné. L’univers est un endroit froid et indifférent, et vos efforts sont pour le moins vains.
+**Maudit:** Une fois sur deux, le MJ utilise l'intrusion du MJ sur votre personnage, vous ne pouvez pas le refuser et ne recevez pas d'XP pour cela (vous obtenez toujours un XP à attribuer à un autre joueur). C'est parce que vous êtes condamné. L'univers est un endroit froid et indifférent, et vos efforts sont pour le moins vains.
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Vous avez tenté de l’éviter, mais les événements semblent conspirer pour vous attirer là où vous êtes.
+1. Vous avez tenté de l'éviter, mais les événements semblent conspirer pour vous attirer là où vous êtes.
 2. Pourquoi pas ? Cela n'a pas d'importance. Vous êtes maudit, quoi que vous fassiez.
 3. L'un des autres PJ vous a sauvé la vie, et maintenant vous remboursez cette obligation en l'aidant dans la tâche à accomplir.
-4. Vous pensez que votre seul espoir d’éviter votre sort réside peut-être sur cette voie.
+4. Vous pensez que votre seul espoir d'éviter votre sort réside peut-être sur cette voie.
 
 -----
 
@@ -912,7 +912,7 @@ Vous bénéficiez des caractéristiques suivantes:
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
 1. Vous vous présentez soudainement un jour.
-2. Vous avez convaincu l’un des autres PJ que vous aviez des compétences inestimables.
+2. Vous avez convaincu l'un des autres PJ que vous aviez des compétences inestimables.
 3. Un personnage tout aussi mystérieux vous a indiqué où être et quand (mais pas pourquoi) rejoindre le groupe.
 4. Quelque chose --- un sentiment, un rêve --- vous a dit où être et quand rejoindre le groupe.
 
@@ -926,9 +926,9 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Intelligent:** +2 à votre Réserve d'Intellect.
 
-**Compétence:** Vous êtes entraîné dans toutes les actions impliquant l’identification ou la compréhension du surnaturel.
+**Compétence:** Vous êtes entraîné dans toutes les actions impliquant l'identification ou la compréhension du surnaturel.
 
-**Sentir la Magie:** Vous pouvez sentir si le surnaturel est actif dans des situations où sa présence n’est pas évidente. Vous devez étudier attentivement un objet ou un lieu pendant une minute pour savoir si une touche mystique est à l’œuvre.
+**Sentir la Magie:** Vous pouvez sentir si le surnaturel est actif dans des situations où sa présence n'est pas évidente. Vous devez étudier attentivement un objet ou un lieu pendant une minute pour savoir si une touche mystique est à l'œuvre.
 
 **Sort:** Vous pouvez exécuter la capacité Magie Prosaïque comme un sort lorsque vous avez une main libre et que vous pouvez payer le coût en points d'Intellect.
 
@@ -936,9 +936,9 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Un rêve vous a guidé jusqu’à ce point.
-2. Vous avez besoin d’argent pour financer vos études.
-3. Vous pensiez que la mission serait un excellent moyen d’en apprendre davantage sur le surnaturel.
+1. Un rêve vous a guidé jusqu'à ce point.
+2. Vous avez besoin d'argent pour financer vos études.
+3. Vous pensiez que la mission serait un excellent moyen d'en apprendre davantage sur le surnaturel.
 4. Divers signes et présages vous ont conduit ici.
 
 -----
@@ -959,30 +959,30 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Quelqu’un vous a dit que vous devriez vous impliquer.
-2. Vous aviez besoin d’argent, et cela vous semblait être un bon moyen d’en gagner.
+1. Quelqu'un vous a dit que vous devriez vous impliquer.
+2. Vous aviez besoin d'argent, et cela vous semblait être un bon moyen d'en gagner.
 3. Vous pensiez que vous pourriez apprendre beaucoup en rejoignant les autres PJ.
-4. Cela avait l’air amusant.
+4. Cela avait l'air amusant.
 
 -----
 
 ### Pas très brillant
 
-Tout le monde ne peut pas être brillant. Oh, vous ne vous considérez pas comme stupide, et vous ne l'êtes pas. C'est juste que d'autres pourraient avoir un peu plus de...sagesse. Vous préférez avancer tête première dans la vie et laisser les autres s’inquiéter des choses. S'inquiéter ne vous a jamais aidé, alors pourquoi s'embêter ? Vous prenez les choses au pied de la lettre et ne vous inquiétez pas de ce que demain pourrait vous apporter.
+Tout le monde ne peut pas être brillant. Oh, vous ne vous considérez pas comme stupide, et vous ne l'êtes pas. C'est juste que d'autres pourraient avoir un peu plus de...sagesse. Vous préférez avancer tête première dans la vie et laisser les autres s'inquiéter des choses. S'inquiéter ne vous a jamais aidé, alors pourquoi s'embêter ? Vous prenez les choses au pied de la lettre et ne vous inquiétez pas de ce que demain pourrait vous apporter.
 
 Les gens vous traitent d'« idiot » ou de « crétin », mais cela ne vous dérange pas beaucoup.
 
 {{< hint info >}}
-Cela peut être libérateur et vraiment amusant de jouer un personnage un peu idiot. D’une certaine manière, la pression de toujours faire ce qui est juste et intelligent a disparu. D’un autre côté, si vous incarnez un personnage comme un crétin maladroit dans toutes les situations, cela peut devenir ennuyeux pour tout le monde autour de la table. Comme pour tout, la modération est la clé.
+Cela peut être libérateur et vraiment amusant de jouer un personnage un peu idiot. D'une certaine manière, la pression de toujours faire ce qui est juste et intelligent a disparu. D'un autre côté, si vous incarnez un personnage comme un crétin maladroit dans toutes les situations, cela peut devenir ennuyeux pour tout le monde autour de la table. Comme pour tout, la modération est la clé.
 {{< /hint >}}
 
 Vous bénéficiez des caractéristiques suivantes:
 
 **Imprudent:** –4 à votre Réserve d'Intellect.
 
-**Insouciant:** Vous réussissez plus par chance qu’autre chose. Chaque fois que vous lancez un dé pour une tâche, lancez deux fois et obtenez le résultat le plus élevé.
+**Insouciant:** Vous réussissez plus par chance qu'autre chose. Chaque fois que vous lancez un dé pour une tâche, lancez deux fois et obtenez le résultat le plus élevé.
 
-**Faiblesse intellectuelle :** Chaque fois que vous dépensez des points de votre réserve d’Intellect, cela vous coûte 1 point de plus que d’habitude.
+**Faiblesse intellectuelle :** Chaque fois que vous dépensez des points de votre réserve d'Intellect, cela vous coûte 1 point de plus que d'habitude.
 
 **Inaptitude:** Toute tâche de défense intellectuelle est désavantagée.
 
@@ -1001,7 +1001,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 Peu vous échappe. Vous repérez les petits détails du monde qui vous entoure et êtes habile à faire des déductions à partir des informations que vous trouvez. Vos talents font de vous un détective exceptionnel, un scientifique redoutable ou un éclaireur talentueux.
 
-Même si vous êtes habile à trouver des indices, vous n'avez aucune compétence pour détecter les signaux sociaux. Vous négligez une infraction causée par vos déductions ou à quel point votre examen minutieux peut rendre les gens autour de vous inconfortables. Vous avez tendance à considérer les autres comme des nains intellectuels par rapport à vous, ce qui ne vous sert pas à grand-chose lorsque vous avez besoin d’une faveur.
+Même si vous êtes habile à trouver des indices, vous n'avez aucune compétence pour détecter les signaux sociaux. Vous négligez une infraction causée par vos déductions ou à quel point votre examen minutieux peut rendre les gens autour de vous inconfortables. Vous avez tendance à considérer les autres comme des nains intellectuels par rapport à vous, ce qui ne vous sert pas à grand-chose lorsque vous avez besoin d'une faveur.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -1009,9 +1009,9 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Compétence:** Vous avez le sens du détail. Vous êtes entraîné à toute tâche qui implique de trouver ou de remarquer de petits détails.
 
-**Compétence:** Vous savez un peu tout. Vous êtes entraîné à toute tâche qui implique d’identifier des objets ou de rappeler un détail mineur ou une anecdote.
+**Compétence:** Vous savez un peu tout. Vous êtes entraîné à toute tâche qui implique d'identifier des objets ou de rappeler un détail mineur ou une anecdote.
 
-**Compétence:** Votre capacité à faire des déductions peut être imposante. Vous êtes entraîné à toute tâche qui implique d’intimider une autre créature.
+**Compétence:** Votre capacité à faire des déductions peut être imposante. Vous êtes entraîné à toute tâche qui implique d'intimider une autre créature.
 
 **Inaptitude:** Votre confiance en vous apparaît comme de l'arrogance aux yeux des personnes qui ne vous connaissent pas. Toute tâche impliquant des interactions sociales positives est désavantagée.
 
@@ -1038,14 +1038,14 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Compétence:** Vous êtes entraîné dans les actions en course.
 
-**Inaptitude:** Vous êtes rapide mais pas nécessairement gracieux. Toute tâche impliquant l’équilibre est désavantagé.
+**Inaptitude:** Vous êtes rapide mais pas nécessairement gracieux. Toute tâche impliquant l'équilibre est désavantagé.
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Contre votre bon jugement, vous avez rejoint les autres PJ parce que vous avez vu qu’ils étaient en danger.
+1. Contre votre bon jugement, vous avez rejoint les autres PJ parce que vous avez vu qu'ils étaient en danger.
 2. L'un des autres PJ vous a convaincu que rejoindre le groupe serait dans votre intérêt.
 3. Vous avez peur de ce qui pourrait arriver si les autres PC tombaient en panne.
-4. Il y a une récompense en jeu et vous avez besoin d’argent.
+4. Il y a une récompense en jeu et vous avez besoin d'argent.
 
 -----
 
@@ -1065,7 +1065,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Vous êtes intervenu pour sauver l’un des autres PJ qui en avait cruellement besoin.
+1. Vous êtes intervenu pour sauver l'un des autres PJ qui en avait cruellement besoin.
 2. L'un des autres PJ vous a recruté pour vos talents uniques.
 3. Vous êtes impulsif et cela semblait être une bonne idée à l'époque.
 4. Cette mission est liée à un objectif personnel qui vous est propre.
@@ -1074,7 +1074,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 ### Résistant
 
-Vous pouvez subir de nombreuses épreuves, tant physiques que mentales, tout en en redemandant. Il en faut beaucoup pour vous rabaisser. Ni les chocs ni les dommages physiques ou mentaux n’ont d’effet durable. Vous êtes difficile à dissuader. Imperturbable. Inarrêtable.
+Vous pouvez subir de nombreuses épreuves, tant physiques que mentales, tout en en redemandant. Il en faut beaucoup pour vous rabaisser. Ni les chocs ni les dommages physiques ou mentaux n'ont d'effet durable. Vous êtes difficile à dissuader. Imperturbable. Inarrêtable.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -1088,11 +1088,11 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Inaptitude:** Vous êtes robuste mais pas nécessairement fort. Toute tâche impliquant de déplacer, plier ou casser des objets est désavantagée.
 
-**Inaptitude:** Vous avez beaucoup de volonté et de force mentale, mais vous n'êtes pas nécessairement intelligent. Toute tâche impliquant des connaissances ou la résolution de problèmes ou d’énigmes est désavantagée.
+**Inaptitude:** Vous avez beaucoup de volonté et de force mentale, mais vous n'êtes pas nécessairement intelligent. Toute tâche impliquant des connaissances ou la résolution de problèmes ou d'énigmes est désavantagée.
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Vous avez vu que les PJ ont clairement besoin de quelqu’un comme vous pour les aider.
+1. Vous avez vu que les PJ ont clairement besoin de quelqu'un comme vous pour les aider.
 2. Quelqu'un vous a demandé de surveiller un des PJ en particulier, et vous avez accepté.
 3. Vous vous ennuyez et avez désespérément besoin de relever un défi.
 4. Vous avez perdu un pari – injustement, pensez-vous – et avez dû prendre la place de quelqu'un dans cette mission.
@@ -1117,16 +1117,16 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Contre votre bon jugement, vous avez rejoint les autres PJ parce que vous avez vu qu’ils étaient en danger.
+1. Contre votre bon jugement, vous avez rejoint les autres PJ parce que vous avez vu qu'ils étaient en danger.
 2. L'un des autres PJ vous a convaincu que rejoindre le groupe serait dans votre intérêt.
 3. Vous avez peur de ce qui pourrait arriver si les autres PC tombaient en panne.
-4. Il y a une récompense en jeu et vous avez besoin d’argent.
+4. Il y a une récompense en jeu et vous avez besoin d'argent.
 
 -----
 
 ### Sans Honneur
 
-Il n’y a pas d’honneur parmi les voleurs, ni les traîtres, les traîtres, les menteurs ou les tricheurs. Vous êtes toutes ces choses, et soit vous n'en perdez pas le sommeil, soit vous niez la vérité aux autres ou à vous-même. Quoi qu’il en soit, vous êtes prêt à faire tout ce qu’il faut pour parvenir à vos fins. L'honneur, l'éthique et les principes ne sont que des mots. À votre avis, ils n’ont pas leur place dans le monde réel.
+Il n'y a pas d'honneur parmi les voleurs, ni les traîtres, les traîtres, les menteurs ou les tricheurs. Vous êtes toutes ces choses, et soit vous n'en perdez pas le sommeil, soit vous niez la vérité aux autres ou à vous-même. Quoi qu'il en soit, vous êtes prêt à faire tout ce qu'il faut pour parvenir à vos fins. L'honneur, l'éthique et les principes ne sont que des mots. À votre avis, ils n'ont pas leur place dans le monde réel.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -1165,10 +1165,10 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. Vous avez entendu d’autres PJ s’exprimer sur un sujet avec une opinion sur laquelle vous étiez plutôt sceptique, vous avez donc décidé d’approcher le groupe et de demander des preuves.
+1. Vous avez entendu d'autres PJ s'exprimer sur un sujet avec une opinion sur laquelle vous étiez plutôt sceptique, vous avez donc décidé d'approcher le groupe et de demander des preuves.
 2. Vous suiviez l'un des autres PJ parce que vous vous méfiiez de lui, ce qui vous a amené à l'action.
 3. Votre théorie sur la non-existence du surnaturel ne peut être invalidée que par vos propres sens, alors vous êtes arrivés.
-4. Vous avez besoin d’argent pour financer vos recherches.
+4. Vous avez besoin d'argent pour financer vos recherches.
 
 -----
 
@@ -1190,7 +1190,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
-1. L’un des PJ a réussi à surmonter vos défenses et à se lier d’amitié avec vous.
+1. L'un des PJ a réussi à surmonter vos défenses et à se lier d'amitié avec vous.
 2. Vous voulez voir ce que font les PJ, alors vous les accompagnez pour les surprendre en train de commettre des actes répréhensibles.
 3. Vous vous êtes fait quelques ennemis et vous vous associez aux PJ pour vous protéger.
 4. Les PJ sont les seuls à vous supporter.
@@ -1199,7 +1199,7 @@ Vous bénéficiez des caractéristiques suivantes:
 
 ### Vertueux
 
-Faire ce qu'il faut est un mode de vie. Vous vivez selon un code, et ce code est quelque chose auquel vous êtes attentif chaque jour. A chaque fois que vous glissez, vous vous reprochez votre faiblesse et vous vous remettez aussitôt sur les rails. Votre code inclut probablement la modération, le respect des autres, la propreté et d’autres caractéristiques que la plupart des gens considéreraient comme des vertus, tandis que vous évitez leurs contraires : la paresse, l’avidité, la gourmandise, etc.
+Faire ce qu'il faut est un mode de vie. Vous vivez selon un code, et ce code est quelque chose auquel vous êtes attentif chaque jour. A chaque fois que vous glissez, vous vous reprochez votre faiblesse et vous vous remettez aussitôt sur les rails. Votre code inclut probablement la modération, le respect des autres, la propreté et d'autres caractéristiques que la plupart des gens considéreraient comme des vertus, tandis que vous évitez leurs contraires : la paresse, l'avidité, la gourmandise, etc.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -1214,13 +1214,13 @@ Vous bénéficiez des caractéristiques suivantes:
 1. Les PJ font quelque chose de vertueux, et vous êtes tout à fait dans ce sens.
 2. Les PJ sont sur le chemin de la perdition, et vous considérez que votre tâche est de les mettre sur la bonne voie morale.
 3. Un des autres PJ vous a invité, ayant entendu parler de vos voies vertueuses.
-4. Vous faites passer la vertu avant le sens et défendez l'honneur de quelqu'un face à une organisation ou un pouvoir bien plus grand que vous. Vous avez rejoint les PJ parce qu’ils vous offraient aide et amitié alors que, par peur des représailles, personne d’autre ne le faisait.
+4. Vous faites passer la vertu avant le sens et défendez l'honneur de quelqu'un face à une organisation ou un pouvoir bien plus grand que vous. Vous avez rejoint les PJ parce qu'ils vous offraient aide et amitié alors que, par peur des représailles, personne d'autre ne le faisait.
 
 -----
 
 ### Vicieux
 
-Vous essayez de cacher ce qu'il y a à l'intérieur, de le replier sur vous-même quand tout en vous crie de lâcher prise, de les faire payer, de les faire souffrir et de les faire saigner. Parfois, vous réussissez pour vos amis : souriez comme ils sourient, riez quand ils rient et parfois même ressentez vos propres émotions. Mais il est toujours là, ce sentiment de joie frénétique mêlé de haine qui jaillit parfois de vous lorsque vous affrontez un ennemi. La violence que vos amis peuvent tolérer, mais vous craignez parfois qu’ils apprennent également que vous êtes cruel.
+Vous essayez de cacher ce qu'il y a à l'intérieur, de le replier sur vous-même quand tout en vous crie de lâcher prise, de les faire payer, de les faire souffrir et de les faire saigner. Parfois, vous réussissez pour vos amis : souriez comme ils sourient, riez quand ils rient et parfois même ressentez vos propres émotions. Mais il est toujours là, ce sentiment de joie frénétique mêlé de haine qui jaillit parfois de vous lorsque vous affrontez un ennemi. La violence que vos amis peuvent tolérer, mais vous craignez parfois qu'ils apprennent également que vous êtes cruel.
 
 Vous bénéficiez des caractéristiques suivantes:
 
@@ -1230,13 +1230,13 @@ Vous bénéficiez des caractéristiques suivantes:
 
 **Berserk:** Une fois que vous commencez à vous battre, il est difficile pour vous de vous arrêter. En fait, c'est une tâche de difficulté 2 en Intellect de le faire, même si votre ennemi se rend ou si vous n'avez plus d'ennemis. Si ce dernier cas se produit et que vous ne parvenez pas à vous arrêter, vous attaquez l'allié le plus proche à courte portée.
 
-**Equipement Supplémentaire:** Vous disposez d’un carnet que vous utilisez pour répertorier ceux qui vous ont fait du tort.
+**Equipement Supplémentaire:** Vous disposez d'un carnet que vous utilisez pour répertorier ceux qui vous ont fait du tort.
 
 **Lien initial à la Première Aventure:** A partir de la liste d'options suivantes, choisissez comment vous vous êtes engagé dans la première aventure.
 
 1. Un autre PJ vous a vu abattre un méchant ivrogne dans une taverne, sans se rendre compte que c'était vous qui aviez commencé le combat.
-2. Vous vouliez vous éloigner d’une mauvaise situation, alors vous êtes allé avec les autres PJ.
-3. Vous voulez changer et vous espérez qu’être avec les autres PJ vous aidera à vous calmer.
+2. Vous vouliez vous éloigner d'une mauvaise situation, alors vous êtes allé avec les autres PJ.
+3. Vous voulez changer et vous espérez qu'être avec les autres PJ vous aidera à vous calmer.
 4. L'un des autres PJ vous a demandé de venir, pensant que votre méchanceté pourrait être exploitée au profit de la mission.
 
 -----

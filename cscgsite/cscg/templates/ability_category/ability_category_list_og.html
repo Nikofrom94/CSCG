@@ -1,0 +1,33 @@
+
+{% for ability_category in ability_category_list %}
+&lt;h4 class="og-border" id="abilities-category-{{ ability_category.get_anchor }}"&gt;{{ ability_category.name }}&lt;a class="og-h-anchor" href="#abilities-category-{{ ability_category.get_anchor }}" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h4&gt;<br>
+	&lt;p class="og-cite"&gt;&lt;span class="og-ref"&gt;{{ ability_category.get_cspage }}&lt;/span&gt;&lt;/p&gt;<br>
+	&lt;p&gt;{{ ability_category.description }}&lt;/p&gt;<br>
+	&lt;div class="row"&gt;<br>
+		&lt;div class="col-12"&gt;<br>
+			&lt;h5 id="abilities-category-{{ ability_category.get_anchor }}-low-tier" class="og-h-small"&gt;Rang Inférieur:&lt;a class="og-h-anchor" href="#abilities-category-{{ ability_category.get_anchor }}-low-tier" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+			&lt;ul class="og-abilities-list og-abilities-list-compact"&gt;<br>
+            {% for ability in ability_category.get_lowtierabsquery.all %}
+            &lt;li&gt;&lt;a href="#ability-{{ ability.get_anchor }}"&gt;{{ ability.name }}&lt;/a&gt; &lt;span class="og-ref"&gt;{{ ability.name_en }} {{ ability.get_cspage }}&lt;/span&gt;&lt;/li&gt;<br>
+            {% endfor %}
+            &lt;/ul&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;div class="col-12"&gt;<br>
+			&lt;h5 id="abilities-category-{{ ability_category.get_anchor }}-mid-tier" class="og-h-small"&gt;Rang Intermédiaire:&lt;a class="og-h-anchor" href="#abilities-category-{{ ability_category.get_anchor }}-Mid-tier" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+			&lt;ul class="og-abilities-list og-abilities-list-compact"&gt;<br>
+            {% for ability in ability_category.get_midtierabsquery.all %}
+            &lt;li&gt;&lt;a href="#ability-{{ ability.get_anchor }}"&gt;{{ ability.name }}&lt;/a&gt; &lt;span class="og-ref"&gt;{{ ability.name_en }} {{ ability.get_cspage }}&lt;/span&gt;&lt;/li&gt;<br>
+            {% endfor %}
+            &lt;/ul&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;div class="col-12"&gt;<br>
+        &lt;h5 id="abilities-category-{{ ability_category.get_anchor }}-high-tier" class="og-h-small"&gt;Rang Supérieur:&lt;a class="og-h-anchor" href="#abilities-category-{{ ability_category.get_anchor }}-high-tier" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+        &lt;ul class="og-abilities-list og-abilities-list-compact"&gt;<br>
+        {% for ability in ability_category.get_hightierabsquery.all %}
+        &lt;li&gt;&lt;a href="#ability-{{ ability.get_anchor }}"&gt;{{ ability.name }}&lt;/a&gt; &lt;span class="og-ref"&gt;{{ ability.name_en }} {{ ability.get_cspage }}&lt;/span&gt;&lt;/li&gt;<br>
+        {% endfor %}
+        &lt;/ul&gt;<br>
+    &lt;/div&gt;<br>
+
+    &lt;/div&gt;<br>
+{% endfor %}

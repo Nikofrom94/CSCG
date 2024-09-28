@@ -12,6 +12,9 @@ class DescriptorENFR():
         self.name_fr = name_fr
         self.name_en = name_en
         self.cs_page = cs_page
+    
+    def __str__(self):
+        return self.name_fr +"/"+self.name_en+" ("+self.cs_page+")"
 
 class PoolBous():
     def __init__(self):
@@ -43,16 +46,17 @@ def import_descriptor(descriptor_en_fr,filename):
     descriptor_names = {}
     with open(descriptor_en_fr,'r') as focus_file:
         for line in focus_file:
+            line = line.strip()
             en_fr = line.split('/')
             desc_en_fr = DescriptorENFR( name_fr = en_fr[2], name_en = en_fr[0], cs_page = en_fr[1] )
-            descriptor_names[en_fr[1].strip()] = desc_en_fr
+            descriptor_names[en_fr[2].strip()] = desc_en_fr
     with open(filename,'r') as descriptor_file:
         descriptor = None
         description_start = False
         description_end = False
         lien_initial_start = False
-
         for line in descriptor_file:
+            line = line.strip()
             if line.startswith("###"):
                 if descriptor != None:
                     newdescriptor = descriptor.create()
@@ -65,24 +69,36 @@ def import_descriptor(descriptor_en_fr,filename):
                 description_start = True
                 description_end == False
                 lien_initial_start = False
+                continue
             elif 'Vous bénéficiez des caractéristiques suivantes:' in line:
                 description_end == True
-            elif description_start and description_end==False:
-                descriptor.description += line
-            elif line.startswith('**Lien initial à la Première Aventure'):
-                lien_initial_start = True
-            elif lien_initial_start and len(line.strip()) != 0:
-                lien = line[3:]
-                descriptor.initial_links.append(InitialLink.objects.create(description=lien))
-            elif line.startswith('**'):
+                continue
+            elif line.startswith('**') and '**Lien initial' not in line:
+                description_end == True
                 charac_name = line[2:line.find('**',2)].strip().strip(':')
                 charac_desc = line[line.find('**',2)+2:].strip()
                 descriptor.characteristics.append(DescriptorCharacteristic.objects.create(
                     name=charac_name,
                     description=charac_desc
                 ))
+                continue
+            elif '**Lien initial' in line:
+                description_end == True
+                lien_initial_start = True
+                continue
+            elif lien_initial_start and len(line.strip()) != 0 and not line.startswith('---'):
+                lien = line[3:]
+                descriptor.initial_links.append(InitialLink.objects.create(description=lien))
+                continue
             elif line.startswith('---'):
+                description_end == True
                 newdescriptor = descriptor.create()
                 descriptor = DescriptorImport()
+                description_start = True
+                description_end == False
+                lien_initial_start = False
+                continue
+            elif description_start and description_end==False and lien_initial_start == False:
+                descriptor.description += line
         if descriptor != None:
             newdescriptor = descriptor.create()

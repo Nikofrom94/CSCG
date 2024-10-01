@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+
+
+
+
+</head>
+<body>
+    {% for cypher in cypher_list %}
+    &lt;h5 class="og-h-h5-icon" id="cypher-{{ cypher.get_anchor }}"&gt;{{ cypher.name }}{% if cypher.is_subtle %}&lt;span data-toggle="tooltip" title="Subtle Cypher" class="og-icon og-cypher-subtle ms-1"&gt;&lt;/span&gt;{% endif %}{% if cypher.is_manifeste %}&lt;span data-toggle="tooltip" title="Manifest Cypher" class="og-icon og-cypher-manifest ms-1"&gt;&lt;/span&gt;{% endif %}{% if cypher.is_fantastic %}&lt;span data-toggle="tooltip" title="Fantastic Cypher" class="og-icon og-cypher-fantastic ms-1"&gt;&lt;/span&gt;{% endif %}&lt;a class="og-h-anchor" href="#cypher-{{ cypher.get_anchor }}" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+    &lt;p class="og-cite"&gt;&lt;span class="og-ref"&gt;{{ cypher.name_en }} {%if '(' in cypher.cs_page %}{{ cypher.cs_page }}{% else %}({{ cypher.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;<br>
+    &lt;ul class="list-unstyled og-ind-hang"&gt;<br>
+        &lt;li&gt;&lt;p&gt;&lt;strong&gt;Niveau:&lt;/strong&gt; {{ cypher.level }}&lt;/p&gt;&lt;/li&gt;<br>
+        &lt;li&gt;<br>
+            &lt;p&gt;&lt;strong&gt;Effet:&lt;/strong&gt; {{ cypher.get_effect|safe }}&lt;/p&gt;<br>
+        &lt;/li&gt;<br>
+    &lt;/ul&gt;<br>
+    {% if cypher.table|length > 0 %}&lt;div class="table-responsive"&gt;{{ cypher.get_table|safe }}&lt;/div&gt;<br>{%endif%}
+    {% if cypher.hint|length > 0 %}&lt;div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3"&gt;<br>
+    &lt;p&gt;{{ cypher.hint }}&lt;/p&gt;<br>
+&lt;/div&gt;<br>{% endif %}
+    {% endfor %}
+</body>

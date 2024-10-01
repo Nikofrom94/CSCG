@@ -4,7 +4,7 @@ from django.shortcuts import render,get_object_or_404
 from django.views.generic import ListView,DetailView
 from django.views.generic.edit import FormView,CreateView, DeleteView, UpdateView
 from django.views.generic.base import TemplateView
-from cscg.models import CharacterType,Focus,Skill,Character,Descriptor,Flavor,Ability,Descriptor,AbilityCategory
+from cscg.models import CharacterType,Focus,Skill,Character,Descriptor,Flavor,Ability,Descriptor,AbilityCategory,Cypher
 from cscg.forms import AbilityForm
 from django.core import serializers
 
@@ -35,6 +35,68 @@ class AbilityCategoryDetail(DetailView):
     template_name = 'ability_category/ability_category_detail.html'
     model=AbilityCategory
     context_object_name='ability_category'
+
+####################################################
+#  Cypher
+####################################################
+class CypherList(ListView):
+    template_name = 'cypher/cypher_list.html'
+    model=Cypher
+    context_object_name='cypher_list'
+
+class CypherListOG(ListView):
+    template_name = 'cypher/cypher_list_og.html'
+    queryset = Cypher.objects.order_by("name")
+    context_object_name='cypher_list'
+
+class CypherDetail(DetailView):
+    template_name = 'cypher/cypher_detail.html'
+    model=Cypher
+    context_object_name='cypher'
+
+class CypherUpdateView(UpdateView):
+    model = Cypher
+    template_name = "cypher/cypher_form.html"
+    fields = ["name","name_en","level","effect","cs_page","is_subtle","is_manifeste","is_fantastic", "hint"]
+
+class CypherCSPageList(ListView):
+    template_name = 'cypher/cypher_list_cs_page.html'
+    queryset = Cypher.objects.order_by("name_en")
+    context_object_name='cypher_list'
+
+class CypherIndexCompact(ListView):
+    template_name = 'cypher/cypher_index_list_compact.html'
+    queryset = Cypher.objects.order_by("name")
+    context_object_name='cypher_list'
+
+def update_cypher_type(request):
+    cypher_id = request.GET['id']
+    cypher = Cypher.objects.get(pk=cypher_id)
+    if cypher==None:
+        response = JsonResponse({"id": cypher_id, "result":"not found in db"})
+    else:
+        is_subtle = request.GET["is_subtle"] == 'true'
+        is_manifeste = request.GET["is_manifeste"] == 'true'
+        is_fantastic = request.GET["is_fantastic"] == 'true'
+        cypher.is_subtle = is_subtle
+        cypher.is_manifeste = is_manifeste
+        cypher.is_fantastic = is_fantastic
+        cypher.save()
+        response = JsonResponse({"id": cypher_id, "result":"success"})
+    return response
+
+def update_cypher_cs_page(request):
+    cypher_id = request.GET['id']
+    cypher = Cypher.objects.get(pk=cypher_id)
+    if cypher==None:
+        response = JsonResponse({"id": cypher_id, "result":"not found in db"})
+    else:
+        cs_page = request.GET["cs_page"]
+        cypher.cs_page = cs_page
+        cypher.save()
+        response = JsonResponse({"id": cypher_id, "result":"success"})
+    return response
+
 
 ####################################################
 #  Ability

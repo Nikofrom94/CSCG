@@ -260,6 +260,50 @@ class DescriptorCharacteristic(models.Model):
 class DescriptorManager(CSModelGenericManager):
     pass
 
+class CypherManager(CSModelGenericManager):
+    pass
+
+class Cypher(CSModelGeneric):
+    objects = CypherManager()
+    name = models.CharField(max_length=50)
+    name_en = models.CharField(max_length=50,default='')
+    effect = models.TextField(default='')
+    hint = models.TextField(default='',null=True)
+    table = models.TextField(default='',null=True)
+    level = models.CharField(max_length=10,default='')
+    cs_page = models.CharField(default='',max_length=50,null=True)
+    is_manifeste = models.BooleanField(default=True)
+    is_fantastic = models.BooleanField(default=False)
+    is_subtle = models.BooleanField(default=False)
+
+    def get_absolute_url(self):
+        return reverse("cypher-detail", kwargs={"pk": self.pk})
+    
+    def __str__(self):
+        return self.name + "/" + self.name_en
+    
+    def get_anchor(self):
+        return self.name_en.lower().replace(' ','-')
+            
+    def get_cspage(self):
+        if self.cs_page.startswith('('):
+            return self.cs_page
+        else:
+            return '('+self.cs_page+')'
+        
+    def get_effect(self):
+        effect = self.effect
+        if '{{< hint info >}}' in effect:
+            effect.replace('{{< /hint >}}','</p>')
+            effect.replace('{{< hint info >}}',"""</div>
+	<div class="og-sidebar pt-3 pb-1 ps-3 pe-3 mt-3 mb-3">
+		<p>""")
+        return effect
+    
+    def get_table(self):
+        table = self.table
+        return table.replace("<","&lt;").replace(">","&gt;")
+        
 class Descriptor(CSModelGeneric):
     objects = DescriptorManager()
     name = models.CharField(max_length=50)

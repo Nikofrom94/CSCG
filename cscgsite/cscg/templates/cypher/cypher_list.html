@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Cypher: " %}{{ cypher.name }}{% endblock %}
+{% block content %}
+
+<script>
+    function post_cypher_type(cypher_id, input_id)
+    {
+        let id = Number(cypher_id);
+        let input = $('#'+input_id);
+        if(input.length ==1){
+            let all_inputs = $('#'+input_id).parent().parent().find('input');
+            for(let i=0;i<all_inputs.length;i++)
+            {
+                if(all_inputs[i].name == 'is_subtle'){
+                    subtle_value = all_inputs[i].checked;
+                }
+                if(all_inputs[i].name == 'is_manifeste'){
+                    manifeste_value = all_inputs[i].checked;
+                }
+                if(all_inputs[i].name == 'is_fantastic'){
+                    fantastic_value = all_inputs[i].checked;
+                }
+            }
+            $.get("/cscg/cypher_update_cypher/",
+                {
+                    id: id,
+                    is_subtle: subtle_value,
+                    is_manifeste:manifeste_value,
+                    is_fantastic:fantastic_value
+                },
+                function(data, status){
+                  
+                });
+        }
+
+    }
+    
+</script>
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-10">
+            <b>{% translate "Cypher List" %}</b>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10"><a href="/cscg/cypher-create/">Nouveau Cypher</a></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>{% translate "Name" %}</th>
+                        <th>{% translate "Name English" %}</th>
+                        <th>S</th>
+                        <th>M</th>
+                        <th>F</th>
+                        <th>{% translate "Level" %}</th>
+                        <th>{% translate "CS page" %}</th>
+                        <th>{% translate "Effect" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for cypher in cypher_list %}
+                    <tr>
+                        <td><a href="{{ cypher.id }}/">{{ cypher.name }}</a></td>
+                        <td><a href="{{ cypher.id }}/">{{ cypher.name_en }}</a></td>
+                        <td><input type="checkbox" name="is_subtle" id="id_is_subtle_{{ cypher.id }}" {% if cypher.is_subtle %}checked=""{% endif %} onchange="post_cypher_type('{{ cypher.id }}','id_is_subtle_{{ cypher.id }}')"></td>
+                        <td><input type="checkbox" name="is_manifeste" id="id_is_manifeste_{{ cypher.id }}" {% if cypher.is_manifeste %}checked=""{% endif %} onchange="post_cypher_type('{{ cypher.id }}','id_is_manifeste_{{ cypher.id }}')"></td>
+                        <td><input type="checkbox" name="is_fantastic" id="id_is_fantastic_{{ cypher.id }}" {% if cypher.is_fantastic %}checked=""{% endif %} onchange="post_cypher_type('{{ cypher.id }}','id_is_fantastic_{{ cypher.id }}')"></td>
+                        <td>{{ cypher.level }}</td>
+                        <td>{# {{ cypher.cs_page }} #}</a></td>
+                        <td>{# {{ cypher.hint }} #}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

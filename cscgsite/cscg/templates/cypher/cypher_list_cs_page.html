@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Cypher: " %}{{ cypher.name }}{% endblock %}
+{% block content %}
+
+<script>
+    function post_cypher_cs_page(cypher_id, input_id)
+    {
+        let id = Number(cypher_id);
+        let input = $('#'+input_id);
+        if(input.length ==1){
+            input_cs_page = input[0]
+            $.get("/cscg/cypher_update_cs_page/",
+                {
+                    id: id,
+                    cs_page:input_cs_page.value
+                },
+                function(data, status){
+                  
+                });
+        }
+
+    }
+    
+</script>
+<div clas="container">
+    <div class="row">
+        <div class="col-sm-10">
+            <b>{% translate "Cypher List" %}</b>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10"><a href="/cscg/cypher-create/">Nouveau Cypher</a></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-20">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th width="10">{% translate "Name" %}</th>
+                        <th width="10">{% translate "Name English" %}</th>
+                        <th style="width:50%;">{% translate "CS page" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for cypher in cypher_list %}
+                    <tr>
+                        <td><a href="{{ cypher.id }}/">{{ cypher.name }}</a></td>
+                        <td><a href="{{ cypher.id }}/">{{ cypher.name_en }}</a></td>
+                        <td style="width:50%;"><input style="width:100%;" type="text" name="cs_page" id="id_cs_page_{{ cypher.id }}" onchange="post_cypher_cs_page('{{ cypher.id }}','id_cs_page_{{ cypher.id }}')" value="{{ cypher.cs_page }}"></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

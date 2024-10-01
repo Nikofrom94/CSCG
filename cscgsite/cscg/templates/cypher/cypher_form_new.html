@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "New Ability" %}{% endblock %}
+{% block content %}
+<div clas="container">
+    <form action="/cscg/ability-create/" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Submit"><a href="/cscg/abilities/">Annuler</a>
+
+    </form>
+</div>
+{% endblock %}

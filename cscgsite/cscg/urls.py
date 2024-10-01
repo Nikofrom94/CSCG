@@ -3,6 +3,8 @@ from cscg.views import AbilityList,AbilityDetail,CharacterTypeDetail,CharacterTy
 from cscg.views import AbilityUpdateView,AbilityCreateView,update_ab_cspage,getallab_json,AbilityOGCSPGList,FocusOGCSPGList,FocusOGCSPGListWithDetails
 from cscg.views import DescriptorList,DescriptorDetail,DescriptorOGCSPGPageList,DescriptorOGCSPGList,AbilityIndexCompact
 from cscg.views import AbilityCategoryUpdateView,AbilityCategoryList,AbilityCategoryDetail,AbilityCategoryOGList,AbilityListOG
+from cscg.views import CypherList,CypherListOG,CypherDetail,CypherUpdateView,CypherCSPageList
+from cscg.views import update_cypher_type,update_cypher_cs_page
 
 urlpatterns =[
     #############################
@@ -49,4 +51,18 @@ urlpatterns =[
     path('focus/<pk>/',FocusDetail.as_view()),
     path('focus_ogcspg/', FocusOGCSPGList.as_view()),
     path('focus_ogcspg_details/', FocusOGCSPGListWithDetails.as_view()),
+    #############################
+    # Cypher
+    #############################
+    path('cyphers/', CypherList.as_view()),
+    path('cyphers_og/', CypherListOG.as_view()),
+    path('cyphers_cs_page/', CypherCSPageList.as_view()),
+    path('cyphers_cs_page/update', update_ab_cspage),
+    path('cypher_update_cypher/',update_cypher_type),
+    path('cypher_update_cs_page/',update_cypher_cs_page),
+    #path('cyphers_ogcspg_/', CypherOGCSPGList.as_view()),
+    #path('cyphers_indexcompact/', CypherIndexCompact.as_view()),
+    path('cyphers_json/', getallab_json),
+    path('cyphers/<pk>/', CypherDetail.as_view(), name="cypher-detail"),
+    path("cypher/<int:pk>/", CypherUpdateView.as_view(), name="cypher-update"),
 ]

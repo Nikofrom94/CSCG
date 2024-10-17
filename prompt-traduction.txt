@@ -1,0 +1,5 @@
+traduis le texte qui suivent en français, sans traduire le mot "cypher", en traduisant "Speed" par "Célérité", "Might" par "Puissance", "Intellect" par "Intellect", "Edge" par "Avantage", "Pool" par "Réserve, "round" par round", "ability" par "capacité", "Cypher System" par "Cypher System" et en utilisant le format markdown
+
+## A Listing Of Various Cyphers
+
+All cyphers in this section may be manifest cyphers. It is the GM's discretion whether a particular cypher can be a subtle cypher, and that decision usually depends on the setting. (The tables indicating subtle, manifest, and fantastic cyphers are just suggestions for a typical campaign setting.)

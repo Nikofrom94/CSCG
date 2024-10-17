@@ -11,13 +11,41 @@
         <div class="col-sm-4" valign="right"><a href="/cscg/ability/{{ ability.id }}">Modifier</a></div>
     </div>
     <div class="row">
+        <div class="col-sm-2">Nom (en)</div>
+        <div class="col-sm-4">{{ ability.name_en }}</div>
+    </div>
+    <div class="row">
         <div class="col-sm-2">Stat</div>
         <div class="col-sm-4">{{ ability.stat }}</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">Tier</div>
+        <div class="col-sm-4">{{ ability.tier }}</div>
     </div>
     <div class="row">
         <div class="col-sm-2">{% translate "Description" %}</div>
         <div class="col-sm-9">{{ ability.description }}</div>
     </div>
+    <div class="row"></div>
+        <div class="col-sm-2">{% translate "Type" %}</div>
+        <div class="col-sm-9">{{ charactertype_ab_1 }}</div>
+    </div>
+    <table class="table table-light table-striped ">
+        <thead>
+            <tr>
+                <th>Types associés</th>
+                <th>Foci associés</th>
+                <th>Préférences associées</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><ul>{% for charactertype in ability.get_relatedtypes %}<li>{{ charactertype.name }}{% endfor %}</li></td>
+                <td><ul>{% for focus in ability.get_relatedfoci %}{{ focus.name }}{% endfor %}</li></td>
+                <td><ul>{% for flavor in ability.get_relatedflavor %}{{ flavor.name }}{% endfor %}</li></td>
+                </tr> 
+        </tbody>
+    </table>
     <div class="row">
         <div class="col-sm-2"><strong>Old GUS format</strong></div>
     </div>

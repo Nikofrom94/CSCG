@@ -7,6 +7,7 @@ from django.views.generic.base import TemplateView
 from cscg.models import CharacterType,Focus,Skill,Character,Descriptor,Flavor,Ability,Descriptor,AbilityCategory,Cypher
 from cscg.forms import AbilityForm
 from django.core import serializers
+from django.db.models import Q
 
 class HomePageView(TemplateView):
     template_name = 'home.html'
@@ -101,6 +102,54 @@ def update_cypher_cs_page(request):
 ####################################################
 #  Ability
 ####################################################
+class AbilityByTierNotInCharacterOptions(ListView):
+    template_name = 'ability/ability_list_bytier.html'
+    model=Ability
+
+    def get_ab(self):
+        return Ability.objects.filter(
+            charactertype_ab_1=None,
+            charactertype_ab_2=None,
+            charactertype_ab_3=None,
+            charactertype_ab_4=None,
+            charactertype_ab_5=None,
+            charactertype_ab_6=None,
+            focus_ab_choice__focus_ab_1=None,
+            focus_ab_choice__focus_ab_2=None,
+            focus_ab_choice__focus_ab_3=None,
+            focus_ab_choice__focus_ab_4=None,
+            focus_ab_choice__focus_ab_5=None,
+            focus_ab_choice__focus_ab_6=None,
+            focus_ab=None,
+            flavor_ab_1=None,
+            flavor_ab_2=None,
+            flavor_ab_3=None,
+            flavor_ab_4=None,
+            flavor_ab_5=None,
+            flavor_ab_6=None,
+            )
+
+    def get_context_data(self, **kwargs):
+        # Call the base implementation first to get a context
+        context = super().get_context_data(**kwargs)
+        query_orpheanab = self.get_ab()
+        low_tier_list = query_orpheanab.filter(tier="L").all()
+        low_tier_list_half = int(low_tier_list.count() / 2)
+        context["low_tier_list"] = low_tier_list
+        context["low_tier_list_half"] = low_tier_list_half
+        
+        mid_tier_list = query_orpheanab.filter(tier="M").all()
+        mid_tier_list_half = int(mid_tier_list.count() / 2)
+        context["mid_tier_list"] = mid_tier_list
+        context["mid_tier_list_half"] = mid_tier_list_half
+
+        high_tier_list = query_orpheanab.filter(tier="H").all()
+        high_tier_list_half = int(high_tier_list.count() / 2)
+        context["high_tier_list"] = high_tier_list
+        context["high_tier_list_half"] = high_tier_list_half
+        return context
+
+
 class AbilityList(ListView):
     template_name = 'ability/ability_list.html'
     model=Ability
@@ -141,7 +190,7 @@ class AbilityUpdateView(UpdateView):
     model = Ability
     template_name = "ability/ability_form.html"
     #form_class = AbilityForm
-    fields = ["name","name_en","stat","description","cs_page"]
+    fields = ["name","name_en","stat","description","cs_page","tier"]
 
     def form_valid(self, form):
         now = timezone.now()
@@ -153,7 +202,7 @@ class AbilityUpdateView(UpdateView):
 class AbilityCreateView(CreateView):
     model = Ability
     template_name = "ability/ability_form_new.html"
-    fields = ["name","name_en","stat","description","cs_page"]
+    fields = ["name","name_en","stat","description","cs_page","tier"]
 
     def form_valid(self, form):
         now = timezone.now()

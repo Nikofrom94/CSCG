@@ -15,7 +15,9 @@
                     <tr>
                         <th>{% translate "Name" %}</th>
                         <th>{% translate "Name English" %}</th>
+                        <th>{% translate "Stat" %}</th>
                         <th>{% translate "CS page" %}</th>
+                        <th>{% translate "Tier" %}</th>
                         <th>{% translate "Description" %}</th>
                     </tr>
                 </thead>
@@ -26,6 +28,7 @@
                         <td><a href="{{ ability_category.id }}/">{{ ability_category.name_en }}</a></td>
                         <td>{% if ability_category.stat %}{{ ability_category.stat }}{% else %}---{% endif %}</td>
                         <td>{{ ability_category.cs_page }}</a></td>
+                        <td>{{ ability_category.tier }}</a></td>
                         <td>{{ ability_category.description }}</td>
                     </tr>
                     {% endfor %}

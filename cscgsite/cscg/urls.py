@@ -4,7 +4,7 @@ from cscg.views import AbilityUpdateView,AbilityCreateView,update_ab_cspage,geta
 from cscg.views import DescriptorList,DescriptorDetail,DescriptorOGCSPGPageList,DescriptorOGCSPGList,AbilityIndexCompact
 from cscg.views import AbilityCategoryUpdateView,AbilityCategoryList,AbilityCategoryDetail,AbilityCategoryOGList,AbilityListOG
 from cscg.views import CypherList,CypherListOG,CypherDetail,CypherUpdateView,CypherCSPageList
-from cscg.views import update_cypher_type,update_cypher_cs_page
+from cscg.views import update_cypher_type,update_cypher_cs_page,AbilityByTierNotInCharacterOptions
 
 urlpatterns =[
     #############################
@@ -17,9 +17,11 @@ urlpatterns =[
     #############################
     # Ability
     #############################
+#     path('abilities/', AbilityList.as_view()),
     path('abilities/', AbilityList.as_view()),
     path('abilities_og/', AbilityListOG.as_view()),
     path('abilities_cs_page/', AbilityCSPageList.as_view()),
+    path('abilitiesbytier/',AbilityByTierNotInCharacterOptions.as_view()),
     path('abilities_cs_page/update', update_ab_cspage),
     path('abilities_ogcspg_/', AbilityOGCSPGList.as_view()),
     path('abilities_indexcompact/', AbilityIndexCompact.as_view()),

@@ -1,0 +1,34 @@
+
+&lt;h5 class="og-h-small og-border" id="abilities-low"&gt;Capacités de Rang Inférieur&lt;a class="og-h-anchor" href="#abilities-low" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;div class="row"&gt;<br>
+&lt;div class="col-lg-6"&gt;&lt;ul class="og-ability-details"&gt;<br>
+{% for ability in low_tier_list %}
+{% if forloop.counter == low_tier_list_half %}&lt;/ul&gt;&lt;/div&gt;&lt;div class="col-lg-6"&gt;&lt;ul class="og-ability-details"&gt;{% endif %}
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt; {{ ability.name_en }} {{ ability.get_cspage }}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+{% endfor %}
+&lt;/ul&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+
+&lt;h5 class="og-h-small og-border" id="abilities-mid"&gt;Capacités de Rang Intermédaire&lt;a class="og-h-anchor" href="#abilities-mid" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;div class="row"&gt;<br>
+    &lt;div class="col-lg-6"&gt;&lt;ul class="og-ability-details"&gt;<br>
+{% for ability in mid_tier_list %}
+{% if forloop.counter == mid_tier_list_half %}&lt;/ul&gt;&lt;/div&gt;&lt;div class="col-lg-6"&gt;&lt;ul class="og-ability-details"&gt;{% endif %}
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt; {{ ability.name_en }} {{ ability.get_cspage }}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+{% endfor %}
+&lt;/ul&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+
+&lt;h5 class="og-h-small og-border" id="abilities-high"&gt;Capacités de Rang Supérieur&lt;a class="og-h-anchor" href="#abilities-high" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;div class="row"&gt;<br>
+&lt;div class="col-lg-6"&gt;&lt;ul class="og-ability-details"&gt;<br>
+    {% for ability in high_tier_list %}
+    {% if forloop.counter == high_tier_list_half %}&lt;/ul&gt;&lt;/div&gt;&lt;div class="col-lg-6"&gt;&lt;ul class="og-ability-details"&gt;{% endif %}
+    &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }}:&lt;/strong&gt; {{ ability.description }}&lt;span class="og-ref"&gt; {{ ability.name_en }} {{ ability.get_cspage }}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+    {% endfor %}
+    &lt;/ul&gt;<br>
+    &lt;/div&gt;<br>
+&lt;/div&gt;<br>
+

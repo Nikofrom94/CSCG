@@ -4,6 +4,7 @@ from django.core.validators import MinValueValidator,MaxValueValidator
 from django.utils import timezone
 from django.utils.translation import gettext
 from django.urls import reverse
+from django.db.models import Q
 
 STAT_CHOICES={
     "M":"Might",
@@ -98,6 +99,41 @@ class Ability(CSModelGeneric):
         }
         return json.dumps(ab_json,indent=2)
         
+    def get_relatedtypes(self):
+        return CharacterType.objects.filter(
+            Q(abilities_tier1__id=self.id)
+            | Q(abilities_tier2__id=self.id)
+            | Q(abilities_tier3__id=self.id)
+            | Q(abilities_tier4__id=self.id)
+            | Q(abilities_tier5__id=self.id)
+            | Q(abilities_tier6__id=self.id)
+            ).distinct().all()
+
+    def get_relatedfoci(self):
+        return Focus.objects.filter(
+            Q(abilities_tier1__abilities__id=self.id)
+            | Q(abilities_tier2__abilities__id=self.id)
+            | Q(abilities_tier3__abilities__id=self.id)
+            | Q(abilities_tier4__abilities__id=self.id)
+            | Q(abilities_tier5__abilities__id=self.id)
+            | Q(abilities_tier6__abilities__id=self.id)
+            | Q(abilities_tier1__abilities_to_choose__id=self.id)
+            | Q(abilities_tier2__abilities_to_choose__id=self.id)
+            | Q(abilities_tier3__abilities_to_choose__id=self.id)
+            | Q(abilities_tier4__abilities_to_choose__id=self.id)
+            | Q(abilities_tier5__abilities_to_choose__id=self.id)
+            | Q(abilities_tier6__abilities_to_choose__id=self.id)
+            ).distinct().all()
+
+    def get_relatedflavor(self):
+        return Flavor.objects.filter(
+            Q(abilities_tier1__id=self.id)
+            | Q(abilities_tier2__id=self.id)
+            | Q(abilities_tier3__id=self.id)
+            | Q(abilities_tier4__id=self.id)
+            | Q(abilities_tier5__id=self.id)
+            | Q(abilities_tier6__id=self.id)
+            ).distinct().all()
 
 class CharacterType(CSModelGeneric):
     objects=CSModelGenericManager()

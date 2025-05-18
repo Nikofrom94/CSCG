@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% translate "Descriptors" %}{% endblock %}
+{% block content %}
+
+<div id="list_ab"></div>
+</div>
+<script>
+let indexlink = 0;
+let name = "";
+{% for descriptor in descriptor_list %}
+    name = "{{ descriptor.name }}";
+    if(name.length > 0)
+    {
+    $("#list_ab").append("%--------------------------<br>");
+    $("#list_ab").append("\\label{sec:desc"+"{{ descriptor.get_anchor_latex }}"+"}\\section*{"+"{{ descriptor.name }}"+"}<br><br>");
+    $("#list_ab").append("\\textcolor{gray}{\\emph{"+"{{ descriptor.name_en }}"+"}}<br><br>");
+    $("#list_ab").append("{{ descriptor.description }}<br><br>");
+    {% for characteristic in descriptor.characteristics.all %}
+        $("#list_ab").append("\\textbf{"+"{{ characteristic.name }}"+":} "+"{{ characteristic.description }}"+"<br><br>");
+    {% endfor %}
+    indexlink = 0;
+    $("#list_ab").append("\\textbf{Lien initial à la Première Aventure:} Choisissez parmi la liste des options ci-dessous comment vous vous êtes retrouvé impliqué dans la première aventure:<br><br>");
+    {% for link in descriptor.initial_links.all %}
+        indexlink++;
+        $("#list_ab").append(indexlink.toString()+". "+"{{ link.description }}"+"<br><br>");
+    {% endfor %}
+    $("#list_ab").append("<br>");
+    }
+{% endfor %}
+</script>
+{% endblock %}

@@ -1,10 +1,10 @@
 from django.urls import path
-from cscg.views import AbilityList,AbilityDetail,CharacterTypeDetail,CharacterTypeList,FlavorList,FlavorDetail,FocusList,FocusDetail,AbilityCSPageList
-from cscg.views import AbilityUpdateView,AbilityCreateView,update_ab_cspage,getallab_json,AbilityOGCSPGList,FocusOGCSPGList,FocusOGCSPGListWithDetails
-from cscg.views import DescriptorList,DescriptorDetail,DescriptorOGCSPGPageList,DescriptorOGCSPGList,AbilityIndexCompact
-from cscg.views import AbilityCategoryUpdateView,AbilityCategoryList,AbilityCategoryDetail,AbilityCategoryOGList,AbilityListOG
-from cscg.views import CypherList,CypherListOG,CypherDetail,CypherUpdateView,CypherCSPageList
-from cscg.views import update_cypher_type,update_cypher_cs_page,AbilityByTierNotInCharacterOptions
+from cscg.views import AbilityList,AbilityDetail,CharacterTypeDetail,CharacterTypeDetailLatex,CharacterTypeList,FlavorList,FlavorDetail,FocusList,FocusDetail,AbilityCSPageList
+from cscg.views import AbilityUpdateView,AbilityCreateView,AbilityOGCSPGList,FocusOGCSPGList,FocusOGCSPGListWithDetails
+from cscg.views import DescriptorList,DescriptorDetail,DescriptorOGCSPGPageList,DescriptorOGCSPGList,AbilityIndexCompact,DescriptorLatexList
+from cscg.views import AbilityCategoryUpdateView,AbilityCategoryList,AbilityCategoryDetail,AbilityCategoryOGList,AbilityListOG,AbilityListLatex
+from cscg.views import CypherList,CypherListOG,CypherDetail,CypherUpdateView,CypherCSPageList,FocusListLatex
+from cscg.views import AbilityByTierNotInCharacterOptions,getallab_json,update_ab_cspage,update_cypher_type,update_cypher_cs_page
 
 urlpatterns =[
     #############################
@@ -20,6 +20,7 @@ urlpatterns =[
 #     path('abilities/', AbilityList.as_view()),
     path('abilities/', AbilityList.as_view()),
     path('abilities_og/', AbilityListOG.as_view()),
+    path('abilities_latex/', AbilityListLatex.as_view()),
     path('abilities_cs_page/', AbilityCSPageList.as_view()),
     path('abilitiesbytier/',AbilityByTierNotInCharacterOptions.as_view()),
     path('abilities_cs_page/update', update_ab_cspage),
@@ -34,13 +35,15 @@ urlpatterns =[
     #############################    
     path('types/',CharacterTypeList.as_view()),
     path('types/<pk>/',CharacterTypeDetail.as_view()),
+    path('types_latex/<pk>/',CharacterTypeDetailLatex.as_view()),
     #############################
     # Descriptor
-    #############################
+    ############################# 
     path('descriptors/',DescriptorList.as_view()),
     path('descriptors/<pk>/',DescriptorDetail.as_view()),
     path('descriptors_ogcspg/', DescriptorOGCSPGPageList.as_view()),
     path('descriptors_ogcspg_links/', DescriptorOGCSPGList.as_view()),
+    path('descriptors_latex/', DescriptorLatexList.as_view()),
     #############################
     # Flavor
     #############################
@@ -52,6 +55,7 @@ urlpatterns =[
     path('focus/',FocusList.as_view()),
     path('focus/<pk>/',FocusDetail.as_view()),
     path('focus_ogcspg/', FocusOGCSPGList.as_view()),
+    path('focus_latex/', FocusListLatex.as_view()),
     path('focus_ogcspg_details/', FocusOGCSPGListWithDetails.as_view()),
     #############################
     # Cypher

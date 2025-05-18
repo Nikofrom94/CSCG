@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+const ab_array = [];
+
+
+{% for ability in ability_list %}
+ab_array.push(
+    {{ ability.get_json|safe }}
+);
+{% endfor %}
+</script>
+
+</head>
+<body>
+<div id="list_ab">
+</div>
+<script>
+    let first_letter = "";
+    for (let i = 0; i < ab_array.length; i++) 
+    {
+        let ab = ab_array[i];
+        if(ab.name.charAt(0) != first_letter)
+        {
+            if(first_letter.length > 0){
+
+                $("#list_ab").append("<br>");
+            }
+            first_letter = ab.name.charAt(0) ;
+            $("#list_ab").append("%--------------------------<br>");
+            $("#list_ab").append("\\section*{"+first_letter.toUpperCase()+"}<br>");
+            $("#list_ab").append("<br>");
+            $("#list_ab").append("\\subsection{"+ab.name+"}\\label{subsec:ab_"+ab.anchor+"}<br>");
+            $("#list_ab").append("<br>");
+            $("#list_ab").append(ab.description+" ("+ab.name_en+"-"+ab.cs_page+")<br>");
+            $("#list_ab").append("<br>");
+        }else
+        {
+            $("#list_ab").append("\\subsection{"+ab.name+"}\\label{subsec:ab_"+ab.anchor+"}<br>");
+            $("#list_ab").append("<br>");
+            $("#list_ab").append(ab.description+" ("+ab.name_en+"-"+ab.cs_page+")<br>");
+            $("#list_ab").append("\\\\<br>");
+        }
+    }
+    $("#list_ab").append("\\end{abnamelist}<br>");
+    
+    </script>
+</body>

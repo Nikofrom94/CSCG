@@ -1,0 +1,236 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}Type: {{ type.name }}{% endblock %}
+{% block content %}
+
+\section{ {{ object.name }} }<br>
+\begin{description}<br>
+    \item[Fantasy/Contes:] <br>
+    \item[Moderne/Horreur/Romance:] <br>
+    \item[Science fiction:] <br>
+    \item[Superhéro/Post-Apocalyptique:] <br>
+\end{description}<br>
+<br>
+<br>
+\begin{description}<br>
+    \item[Rôle Individuel:] <br>
+    \item[Rôle dans un Groupe:]<br>
+    \item[Rôle en société:]<br>
+    \item[{{ object.name }} Expérimenté:]<br>
+\end{description}<br>
+<br>
+<br>
+\section*{Intrusions de Joueur pour un {{ object.name }} }<br>
+<br>
+Vous pouvez dépenser 1 XP pour utiliser un des intrusions de joueur suivantes, à condition que la situation est appropriée et que la Meneuse soit d'accord.<br>
+\begin{description}<br>
+    \item[Intrusion1:] <br>
+    \item[Intrusion2:] <br>
+    \item[Intrusion3:] <br>
+\end{description}<br>
+<br>
+\section*{Réserves de Stat pour un {{ object.name }} }<br>
+\begin{table}[h]<br>
+    \begin{tabular}{ l c }<br>
+        \textbf{stat} & \textbf{Valeurs de Réserve au Démarrage} \\<br>
+        \rowcolor{SkyBlue!50}<br>
+        Puissance & {{ object.might_start }} \\<br>
+        \rowcolor{SkyBlue!50}<br>
+        Célérité & {{ object.speed_start }} \\<br>
+        \rowcolor{SkyBlue!50}<br>
+        Intellect & {{ object.intellect_start }} \\<br>
+    \end{tabular}<br>
+\end{table}<br>
+<br>
+Vous avez 6 points supplémentaires à répartir parmi vos Réserves de stat comme vous le souhaitez.<br>
+<br>
+\section*{ {{ object.name }} de Premier Rang}<br>
+<br>
+Les {{ object.name }}s de Premier Rang ont les Capacités suivantes:<br>
+\begin{description}<br>
+    \item[Effort:] Votre Effort est de 1.<br>
+    \item[Avantage:] {% if object.might_edge_start == 1 and object.speed_edge_start == 1 %}Puissance=1 ou Célérité=1{% elif object.might_edge_start == 1 %}Puissance=1{% elif object.speed_edge_start == 1 %}Célérité=1{% elif object.intellect_edge_start == 1 %}Intellect=1{% endif %}<br>
+    \item[Utilisation de Cypher:] Vous pouvez porter {{ object.cyphers_start }} cuphers en même temps.<br>
+    \item[Equpement au départ:] <br>
+    \item[Capacités spéciales:] <br>
+\end{description}<br>
+<br>
+\begin{abnamelist}<br>
+{% for ability in object.abilities_tier1.all %}
+    \item {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }} })<br>
+{% endfor %}
+\end{abnamelist}<br>
+<br>
+\section*{ {{ object.name }} de Second Rang}<br>
+<br>
+Choisissez NNN des capacités ci-dessous (ou du rang inférieur) pour l'ajouter à votre répertoire. Vous pouvez en plus remplacer l'une de vos capacités de rang inférieur par une différente d'un rang inférieur.<br>
+\begin{abnamelist}<br>
+{% for ability in object.abilities_tier2.all %}
+    \item {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }} })<br>
+{% endfor %}
+\end{abnamelist}<br>
+<br>
+\section*{ {{ object.name }} de Troisième Rang}<br>
+<br>
+Choisissez NNN des capacités ci-dessous (ou du rang inférieur) pour l'ajouter à votre répertoire. Vous pouvez en plus remplacer l'une de vos capacités de rang inférieur par une différente d'un rang inférieur.<br>
+\begin{abnamelist}<br>
+{% for ability in object.abilities_tier3.all %}
+    \item {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }} })<br>
+{% endfor %}
+\end{abnamelist}<br>
+<br>
+\section*{ {{ object.name }} de Quatrième Rang}<br>
+<br>
+Choisissez NNN des capacités ci-dessous (ou du rang inférieur) pour l'ajouter à votre répertoire. Vous pouvez en plus remplacer l'une de vos capacités de rang inférieur par une différente d'un rang inférieur.<br>
+\begin{abnamelist}<br>
+{% for ability in object.abilities_tier4.all %}
+    \item {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }} })<br>
+{% endfor %}
+\end{abnamelist}<br>
+<br>
+\section*{ {{ object.name }} de Cinquième Rang}<br>
+<br>
+Choisissez NNN des capacités ci-dessous (ou du rang inférieur) pour l'ajouter à votre répertoire. Vous pouvez en plus remplacer l'une de vos capacités de rang inférieur par une différente d'un rang inférieur.<br>
+\begin{abnamelist}<br>
+{% for ability in object.abilities_tier5.all %}
+    \item {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }} })<br>
+{% endfor %}
+\end{abnamelist}<br>
+<br>
+\section*{ {{ object.name }} de Sixième Rang}<br>
+<br>
+Choisissez NNN des capacités ci-dessous (ou du rang inférieur) pour l'ajouter à votre répertoire. Vous pouvez en plus remplacer l'une de vos capacités de rang inférieur par une différente d'un rang inférieur.<br>
+\begin{abnamelist}<br>
+{% for ability in object.abilities_tier6.all %}
+    \item {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }} })<br>
+{% endfor %}
+\end{abnamelist}<br>
+<br>
+
+
+    ====================================================================================================================<br>
+<div class="row">
+    <div class="col-sm-10">
+        &lt;h5 class="og-h-small" id="{{ object.name |lower }}-abilities"&gt;Type {{ object.name }}&lt;/h5&gt;<br>
+		&lt;ul class="list-unstyled og-qr"&gt;<br>
+			&lt;li&gt;&lt;a href="#type-{{ object.name |lower }}"&gt;{{ object.name }}&lt;/a&gt; &lt;span class="og-ref"&gt;(24)&lt;/span&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-create"&gt;Création d'un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-background-connection"&gt;Relation avec l'histoire personnelle d'un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-t1"&gt;Rang 1 Capacités pour un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-t2"&gt;Rang 2 Capacités pour un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-t3"&gt;Rang 3 Capacités pour un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-t4"&gt;Rang 4 Capacités pour un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-t5"&gt;Rang 5 Capacités pour un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+			&lt;li&gt;&lt;a href="#{{ object.name |lower }}-t6"&gt;Rang 6 Capacités pour un {{ object.name }}&lt;/a&gt;&lt;/li&gt;<br>
+		&lt;/ul&gt;<br>
+    </div>
+</div>
+====================================================================================================================<br>
+<div class="row">
+    <div class="col-sm-10">
+        &lt;div class="table-responsive"&gt;&lt;table class="table table-light table-striped table-sm"&gt;<br>
+            &lt;caption&gt;Stats pour un {{ object.name }} de Rang 1&lt;/caption&gt;<br>
+            &lt;thead&gt;<br>
+                &lt;tr&gt;<br>
+                    &lt;th scope="col"&gt;Stat&lt;/th&gt;<br>
+                    &lt;th scope="col" class="text-center"&gt;Puissance&lt;/th&gt;<br>
+                    &lt;th scope="col" class="text-center"&gt;Célérité&lt;/th&gt;<br>
+                    &lt;th scope="col" class="text-center"&gt;Intellect&lt;/th&gt;<br>
+                &lt;/tr&gt;<br>
+            &lt;/thead&gt;<br>
+            &lt;tbody&gt;<br>
+                &lt;tr&gt;<br>
+                    &lt;th scope="row" class="fw-normal"&gt;Réserve&lt;/th&gt;<br>
+                    &lt;td class="text-center"&gt;{{ object.might_start }}&lt;/td&gt;<br>
+                    &lt;td class="text-center"&gt;{{ object.speed_start }}&lt;/td&gt;<br>
+                    &lt;td class="text-center"&gt;{{ object.intellect_start }}&lt;/td&gt;<br>
+                &lt;/tr&gt;<br>
+                &lt;tr&gt;<br>
+                    &lt;th scope="row" class="fw-normal"&gt;Avantage&lt;/th&gt;<br>
+                    &lt;td class="text-center"&gt;{{ object.might_edge_start }}&lt;/td&gt;<br>
+                    &lt;td class="text-center"&gt;{{ object.speed_edge_start }}&lt;/td&gt;<br>
+                    &lt;td class="text-center"&gt;{{ object.intellect_edge_start }}&lt;/td&gt;<br>
+                &lt;/tr&gt;<br>
+            &lt;/tbody&gt;<br>
+        &lt;/table&gt;&lt;/div&gt;<br>
+        &lt;ul class="list-unstyled og-ind"&gt;<br>
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;Stats:&lt;/strong&gt; Vous avez 6 points supplémentaires à répartir parmi vos &lt;a href="#pool-edge"&gt;Réserves&lt;/a&gt; de &lt;a href="#stat"&gt;stat&lt;/a&gt; comme vous le souhaitez. Votre score d'&lt;a href="#effort"&gt;Effort&lt;/a&gt; est 1.&lt;/p&gt;&lt;/li&gt;<br>
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;Utilisation de Cypher:&lt;/strong&gt; Vous pouvez utiliser au maximum deux &lt;a href="#cypher"&gt;cyphers&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;<br>
+        &lt;/ul&gt;<br>
+
+    </div>
+</div>
+====================================================================================================================<br>
+<div class="row">
+    <div class="col-sm-10">
+        &lt;h5 class="og-h-small og-border" id="{{ object.name | lower }}-t1"&gt;Capacités de Rang 1 pour un {{ object.name }}&lt;a class="og-h-anchorlatex" href="#{{ object.name | lower }}-t1" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;p&gt;Choisissez en quatre:&lt;/p&gt;<br><br>
+&lt;div class="row"&gt;<br>
+    &lt;div class="col-lg-6"&gt;<br>
+        &lt;ul class="og-ability-details"&gt;<br>
+        {% for ability in object.abilities_tier1.all %}
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }} {% if ability.stat != None %}({{ ability.stat }}){% endif %}&lt;/strong&gt;: {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+        {% endfor %}
+        &lt;/ul&gt;<br>
+    &lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;h5 class="og-h-small og-border" id="{{ object.name | lower }}-t2"&gt;Capacités de Rang 2 pour un {{ object.name }}&lt;a class="og-h-anchorlatex" href="#{{ object.name | lower }}-t2" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;p&gt;Choisissez en une:&lt;/p&gt;<br>
+&lt;div class="row"&gt;<br>
+    &lt;div class="col-lg-6"&gt;<br>
+        &lt;ul class="og-ability-details"&gt;<br>
+        {% for ability in object.abilities_tier2.all %}
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }} {% if ability.stat != None %}({{ ability.stat }}){% endif %}&lt;/strong&gt;: {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+        {% endfor %}
+        &lt;/ul&gt;<br>
+    &lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;h5 class="og-h-small og-border" id="{{ object.name | lower }}-t3"&gt;Capacités de Rang 3 pour un {{ object.name }}&lt;a class="og-h-anchorlatex" href="#{{ object.name | lower }}-t3" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;p&gt;Choisissez en deux:&lt;/p&gt;<br>
+&lt;div class="row"&gt;<br>
+    &lt;div class="col-lg-6"&gt;<br>
+        &lt;ul class="og-ability-details"&gt;<br>
+        {% for ability in object.abilities_tier3.all %}
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }} {% if ability.stat != None %}({{ ability.stat }}){% endif %}&lt;/strong&gt;: {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+        {% endfor %}
+    &lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;h5 class="og-h-small og-border" id="{{ object.name | lower }}-t4"&gt;Capacités de Rang 4 pour un {{ object.name }}&lt;a class="og-h-anchorlatex" href="#{{ object.name | lower }}-t4" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;p&gt;Choisissez en une:&lt;/p&gt;<br>
+&lt;div class="row"&gt;<br>
+    &lt;div class="col-lg-6"&gt;<br>
+        &lt;ul class="og-ability-details"&gt;<br>
+        {% for ability in object.abilities_tier4.all %}
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }} {% if ability.stat != None %}({{ ability.stat }}){% endif %}&lt;/strong&gt;: {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+        {% endfor %}
+        &lt;/ul&gt;<br>
+    &lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;h5 class="og-h-small og-border" id="{{ object.name | lower }}-t5"&gt;Capacités de Rang 5 pour un {{ object.name }}&lt;a class="og-h-anchorlatex" href="#{{ object.name | lower }}-t5" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;p&gt;Choisissez en deux:&lt;/p&gt;<br>
+&lt;div class="row"&gt;<br>
+    &lt;div class="col-lg-6"&gt;<br>
+        &lt;ul class="og-ability-details"&gt;<br>
+        {% for ability in object.abilities_tier5.all %}
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }} {% if ability.stat != None %}({{ ability.stat }}){% endif %}&lt;/strong&gt;: {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+        {% endfor %}
+        &lt;/ul&gt;<br>
+    &lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;h5 class="og-h-small og-border" id="{{ object.name | lower }}-t6"&gt;Capacités de Rang 6 pour un {{ object.name }}&lt;a class="og-h-anchorlatex" href="#{{ object.name | lower }}-t6" title="Permalink" aria-hidden="true"&gt;&lt;/a&gt;&lt;/h5&gt;<br>
+&lt;p&gt;Choisissez en une:&lt;/p&gt;<br>
+&lt;div class="row"&gt;<br>
+    &lt;div class="col-lg-6"&gt;<br>
+        &lt;ul class="og-ability-details"&gt;<br>
+         {% for ability in object.abilities_tier6.all %}
+            &lt;li&gt;&lt;p&gt;&lt;strong&gt;{{ ability.name }} {% if ability.stat != None %}({{ ability.stat }}){% endif %}&lt;/strong&gt;: {{ ability.description }}&lt;span class="og-ref"&gt;{{ ability.name_en }} {%if '(' in ability.cs_page %}{{ ability.cs_page }}{% else %}({{ ability.cs_page }}){% endif %}&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;<br>
+        {% endfor %}
+        &lt;/ul&gt;<br>
+    &lt;/div&gt;<br>
+&lt;/div&gt;
+    </div>
+</div>
+
+
+</div>
+{% endblock %}

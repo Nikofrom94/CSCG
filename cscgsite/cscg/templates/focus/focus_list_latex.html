@@ -1,0 +1,88 @@
+
+{% for focus in focus_list %}
+
+{#  Format for latex #}
+%_____________________________________________________%<br>
+\phantomsection\label{sec:{{ focus.get_anchor_latex }}}\section*{
+{{ focus.name }}}<br><br>
+\textcolor{gray}{\emph{
+{{ focus.name_en }}}}<br><br>
+{{ focus.get_latexdescription }}<br><br>
+\begin{abnamelist}<br>
+\item Rang 1: 
+        {% if focus.abilities_tier1.abilities_to_choose.count > 0 %}
+        Choisissez en une:
+        {% endif %}
+        {% for ability in focus.abilities_tier1.abilities.all %}
+            {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }}})
+        {% endfor %}
+        {% for ability in focus.abilities_tier1.abilities_to_choose.all %}      
+            {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }}})
+            {% if not forloop.last %} ou {% endif %}
+        {% endfor %}
+        <br>
+\item Rang 2: <br>
+    {% if focus.abilities_tier2.abilities_to_choose.count > 0 %}
+    Choisissez en une:
+    {% endif %}
+    {% for ability in focus.abilities_tier2.abilities.all %}
+        {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }}})
+    {% endfor %}
+    {% for ability in focus.abilities_tier2.abilities_to_choose.all %}      
+        {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }}})
+        {% if not forloop.last %} ou {% endif %}
+    {% endfor %}
+    <br>
+\item Rang 3: <br>
+{% if focus.abilities_tier3.abilities_to_choose.count > 0 %}
+Choisissez en une:
+{% endif %}
+{% for ability in focus.abilities_tier3.abilities.all %}
+    {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }}})
+{% endfor %}
+{% for ability in focus.abilities_tier3.abilities_to_choose.all %}      
+    {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }}})
+    {% if not forloop.last %} ou {% endif %}
+{% endfor %}
+<br>
+\item Rang 4: <br>
+{% if focus.abilities_tier4.abilities_to_choose.count > 0 %}
+Choisissez en une:
+{% endif %}
+{% for ability in focus.abilities_tier4.abilities.all %}
+    {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }}})
+{% endfor %}
+{% for ability in focus.abilities_tier4.abilities_to_choose.all %}      
+    {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }}})
+    {% if not forloop.last %} ou {% endif %}
+{% endfor %}
+<br>
+\item Rang 5: <br>
+{% if focus.abilities_tier5.abilities_to_choose.count > 0 %}
+Choisissez en une:
+{% endif %}
+{% for ability in focus.abilities_tier5.abilities.all %}
+    {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }}})
+{% endfor %}
+{% for ability in focus.abilities_tier5.abilities_to_choose.all %}      
+    {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }}})
+    {% if not forloop.last %} ou {% endif %}
+{% endfor %}
+<br>
+\item Rang 6: <br>
+{% if focus.abilities_tier6.abilities_to_choose.count > 0 %}
+Choisissez en une:
+{% endif %}
+{% for ability in focus.abilities_tier6.abilities.all %}
+    {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }}})
+{% endfor %}
+{% for ability in focus.abilities_tier6.abilities_to_choose.all %}      
+    {{ ability.name }} (\pageref{subsec:ab_{{ ability.get_anchorlatex }}})
+    {% if not forloop.last %} ou {% endif %}
+{% endfor %}
+<br>
+\end{abnamelist}<br>
+\textbf{Intrusion de la Meneuse:}<br>
+{% endfor %}
+
+ 

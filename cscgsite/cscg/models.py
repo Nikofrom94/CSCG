@@ -83,11 +83,20 @@ class Ability(CSModelGeneric):
     def get_anchor(self):
         return self.name_en.lower().replace(' ','-')
             
+    def get_anchorlatex(self):
+        return self.name_en.lower().replace(' ','_').replace('-','_').replace("'",'')
+    
     def get_cspage(self):
         if self.cs_page.startswith('('):
             return self.cs_page
         else:
             return '('+self.cs_page+')'
+        
+    def get_cspagelatex(self):
+        if self.cs_page.startswith('('):
+            return self.cs_page
+        else:
+            return 'CS p'+self.cs_page
         
     def get_json(self):
         ab_json = {
@@ -278,7 +287,17 @@ class Focus(CSModelGeneric):
     
     def get_htmlid(self):
         return 'focus-'+self.name_en.replace(' ','-').lower().strip()
+
+    def get_anchor_latex(self):
+        return 'focus'+self.name_en.replace(' ','').replace('-','').replace('_','').lower().strip()
     
+    def get_latexdescription(self):
+        if(self.description.find("Option d'échange de type:")>0):
+            return self.description.replace("Option d'échange de type:","\\newline\\textbf{Option d'échange de type:}")
+        else:
+            return self.description
+
+
     def get_htmldescription(self):
         d = "<p>" + self.description+ "</p>"
         if "{{< hint info >}}" in d:
@@ -351,7 +370,10 @@ class Descriptor(CSModelGeneric):
 
     def get_anchor(self):
         return self.name_en.lower().replace(' ','-')
-    
+
+    def get_anchor_latex(self):
+        return self.name_en.lower().replace(' ','').replace('-','')
+        
     def get_cs_page(self):
         if self.cs_page.startswith('('):
             return self.cs_page

@@ -160,6 +160,11 @@ class AbilityListOG(ListView):
     queryset = Ability.objects.order_by("name")
     context_object_name='ability_list'
 
+class AbilityListLatex(ListView):
+    template_name = 'ability/ability_list_forcsfr.html'
+    queryset = Ability.objects.order_by("name")
+    context_object_name='ability_list'
+
 class AbilityOGCSPGList(ListView):
     template_name = 'ability/ability_list_ogcspg.html'
     model=Ability
@@ -247,6 +252,10 @@ class CharacterTypeDetail(DetailView):
     model=CharacterType
     context_object_name='charactertype_list'
 
+class CharacterTypeDetailLatex(DetailView):
+    template_name = 'charactertype/charactertype_detail_latex.html'
+    model=CharacterType
+    #context_object_name='charactertype_list'
 ####################################################
 #  Descriptor
 ####################################################
@@ -255,6 +264,13 @@ class DescriptorOGCSPGPageList(ListView):
     model = Descriptor
     #queryset = Descriptor.objects.order_by("name").all()
     context_object_name='descriptor_list'
+
+class DescriptorLatexList(ListView):
+    template_name = 'descriptor/descriptor_list_latex.html'
+    model = Descriptor
+    queryset = Descriptor.objects.order_by("name")
+    context_object_name='descriptor_list'
+
 
 class DescriptorOGCSPGList(ListView):
     template_name = 'descriptor/descriptor_listogcspg_links.html'
@@ -307,3 +323,8 @@ class FocusDetail(DetailView):
     model=Focus
     context_object_name='focus'
 
+class FocusListLatex(ListView):
+    template_name='focus/focus_list_latex.html'
+    model=Focus
+    queryset = Focus.objects.order_by("name")
+    context_object_name='focus_list'
